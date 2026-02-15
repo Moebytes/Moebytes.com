@@ -5,7 +5,8 @@
   "main": "dist/server.js",
   "scripts": {
     "start": "rsbuild dev",
-    "build": "rsbuild build"
+    "build": "rsbuild build && npm run cname",
+    "cname": "echo \"moebytes.com\" > dist/CNAME"
   },
   "homepage": "https://moebytes.com/",
   "keywords": [
