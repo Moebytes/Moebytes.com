@@ -47,7 +47,6 @@
     align-items: flex-start;
     width: 100%;
     gap: 50px;
-    flex-shrink: 0;
     > img {
         align-self: center;
     }
@@ -71,6 +70,7 @@
     font-family: "Honoka Shin Antique-Kaku";
     font-size: 25px;
     line-height: 45px;
+    word-break: break-word;
 }
 
 .softwarecontent-text-alt {
@@ -79,7 +79,7 @@
 
 @media screen and (max-width: 500px) {
     .softwarecontent {
-        padding: 20px 40px;
+        padding: 20px 20px;
         gap: 15px;
     }
 
@@ -100,17 +100,17 @@
     }
 
     .softwarecontent-container {
-        padding: 20px 0px;
+        padding: 0px;
     }
 
     .softwarecontent-image {
         width: auto;
-        height: 70px;
+        height: 65px;
     }
 
     .softwarecontent-text {
         font-size: 15px;
-        line-height: 30px;
+        line-height: 25px;
     }
 
 }

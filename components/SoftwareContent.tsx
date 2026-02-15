@@ -55,7 +55,7 @@ const SoftwareContent: React.FunctionComponent = () => {
         } else if (activeTab === "kisaragi") {
             return (
                 <>
-                <img className="softwarecontent-image" src={kisaragiLogo} draggable={false} style={{height: mobile ? "270px" : "550px"}}/>
+                <img className="softwarecontent-image" src={kisaragiLogo} draggable={false} style={{height: mobile ? "250px" : "550px"}}/>
                 <div className="softwarecontent-text-container">
                     <span className="softwarecontent-text">
                         Kisaragi is a discord bot with a lot of commands. 

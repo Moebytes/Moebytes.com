@@ -46,11 +46,15 @@
     scrollbar-color: #5a5a5a #000000;
 }
 
-
 html, body {
     width: 100%;
+    min-height: 100%;
     background-color: var(--background);
     position: relative;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 ::selection {
@@ -87,5 +91,11 @@ img {
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html {
+        overflow-x: hidden;
     }
 }
