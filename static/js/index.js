@@ -732,7 +732,7 @@ const SoftwareContent = ()=>{
                         src: moepictures_logo_namespaceObject,
                         draggable: false,
                         style: {
-                            height: tablet ? "180px" : "220px"
+                            height: tablet ? "180px" : ""
                         }
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
