@@ -17,7 +17,7 @@ import vocalChopperLogo from "../assets/images/vocalchopper-logo.png"
 import "./styles/softwarecontent.less"
 
 const SoftwareContent: React.FunctionComponent = () => {
-    const {mobile} = useLayoutSelector()
+    const {mobile, tablet} = useLayoutSelector()
     const [activeTab, setActiveTab] = useState("moepictures")
 
     useEffect(() => {
@@ -33,7 +33,7 @@ const SoftwareContent: React.FunctionComponent = () => {
         if (activeTab === "moepictures") {
             return (
                 <>
-                <img className="softwarecontent-image" src={moepicturesLogo} draggable={false}/>
+                <img className="softwarecontent-image" src={moepicturesLogo} draggable={false} style={{height: tablet ? "180px" : "220px"}}/>
                 <div className="softwarecontent-text-container">
                     <span className="softwarecontent-text">
                         Moepictures is a website for posting cute anime artworks. 

@@ -13,7 +13,7 @@ import $404Page from "./pages/404Page"
 import "./index.less"
 
 const App: React.FunctionComponent = () => {
-    const {setMobile} = useLayoutActions()
+    const {setMobile, setTablet} = useLayoutActions()
 
     useEffect(() => {
       AudioEngine.initialize()
@@ -22,7 +22,18 @@ const App: React.FunctionComponent = () => {
     useEffect(() => {
         const resize = () => {
             const isMobile = window.matchMedia("(max-width: 500px)").matches
-            setMobile(isMobile)
+            const isTablet = window.matchMedia("(min-width: 501px) and (max-width: 1200px)").matches
+    
+            if (isMobile) {
+                setMobile(true)
+                setTablet(false)
+            } else if (isTablet) {
+                setTablet(true)
+                setMobile(false)
+            } else {
+                setMobile(false)
+                setTablet(false)
+            }
         }
         resize()
         window.addEventListener("resize", resize)
