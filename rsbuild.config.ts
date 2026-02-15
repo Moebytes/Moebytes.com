@@ -1,6 +1,7 @@
 import {defineConfig} from "@rsbuild/core"
 import {pluginReact} from "@rsbuild/plugin-react"
 import {pluginLess} from "@rsbuild/plugin-less"
+import {pluginNodePolyfill} from "@rsbuild/plugin-node-polyfill"
 import {pluginTypeCheck} from "@rsbuild/plugin-type-check"
 import dotenv from "dotenv"
 
@@ -29,6 +30,7 @@ export default defineConfig({
     plugins: [
         pluginReact(),
         pluginLess(),
+        pluginNodePolyfill(),
         pluginTypeCheck({enable: typecheck})
     ],
     source: {

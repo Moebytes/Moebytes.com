@@ -21,21 +21,10 @@ export default class Functions {
         const picture = tagInfo.common.picture
         if (picture) {
             let buffer = new Uint8Array()
-
             for (let i = 0; i < picture.length; i++) {
-                const combined = new Uint8Array(buffer.length + picture[i].data.length)
-                combined.set(buffer)
-                combined.set(picture[i].data, buffer.length)
-                buffer = combined
+                buffer = new Uint8Array(Buffer.concat([buffer, new Uint8Array(picture[i].data)]))
             }
-
-            let binary = ""
-            for (let i = 0; i < buffer.length; i++) {
-                binary += String.fromCharCode(buffer[i])
-            }
-            const base64 = btoa(binary)
-            
-            return `data:${picture[0].format};base64,${base64}`
+            return `data:${picture[0].format};base64,${Buffer.from(buffer).toString("base64")}`
         } else {
             return ""
         }
