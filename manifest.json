@@ -4,9 +4,9 @@
     "description": "Moebytes is a kawaii programmer and aspiring artist!",
     "icons": [
       {
-        "src": "assets/icons/favicon.gif",
+        "src": "/favicon.png",
         "sizes": "128x128",
-        "type": "image/gif"
+        "type": "image/png"
       }
     ],
     "start_url": ".",
