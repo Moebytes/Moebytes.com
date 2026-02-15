@@ -1,5 +1,6 @@
 import React, {useEffect} from "react"
 import {Routes, Route} from "react-router-dom"
+import {useLayoutActions} from "./store"
 import LocalStorage from "./LocalStorage"
 import AudioEngine from "./structures/AudioEngine"
 import HomePage from "./pages/HomePage"
@@ -12,8 +13,23 @@ import $404Page from "./pages/404Page"
 import "./index.less"
 
 const App: React.FunctionComponent = () => {
+    const {setMobile} = useLayoutActions()
+
     useEffect(() => {
       AudioEngine.initialize()
+    }, [])
+
+    useEffect(() => {
+        const resize = () => {
+            const isMobile = window.matchMedia("(max-width: 500px)").matches
+            setMobile(isMobile)
+        }
+        resize()
+        window.addEventListener("resize", resize)
+        document.documentElement.style.visibility = "visible"
+        return () => {
+            window.removeEventListener("resize", resize)
+        }
     }, [])
 
     return (

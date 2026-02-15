@@ -9,6 +9,7 @@
 .navbar-container {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 35px;
 }
 
@@ -37,16 +38,20 @@
 }
 
 @media screen and (max-width: 500px) {
+    .navbar {
+        padding: 19px 50px;
+    }
+    
     .navbar-container {
-        gap: 5px;
+        gap: 15px;
     }
 
     .navbar-button {
-        font-size: 15px;
+        font-size: 25px;
         border: 2px solid var(--navButtonBorder);
     }
 
     .navbar-icon {
-        height: 20px;
+        height: 25px;
     }
 }

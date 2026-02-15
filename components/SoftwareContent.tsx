@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react"
+import {useLayoutSelector} from "../store"
 import moepicturesIcon from "../assets/icons/moepictures-icon.png"
 import kisaragiIcon from "../assets/icons/kisaragi-icon.png"
 import appsIcon from "../assets/svg/apps.svg"
@@ -16,6 +17,7 @@ import vocalChopperLogo from "../assets/images/vocalchopper-logo.png"
 import "./styles/softwarecontent.less"
 
 const SoftwareContent: React.FunctionComponent = () => {
+    const {mobile} = useLayoutSelector()
     const [activeTab, setActiveTab] = useState("moepictures")
 
     useEffect(() => {
@@ -53,7 +55,7 @@ const SoftwareContent: React.FunctionComponent = () => {
         } else if (activeTab === "kisaragi") {
             return (
                 <>
-                <img className="softwarecontent-image" src={kisaragiLogo} draggable={false} style={{height: "550px"}}/>
+                <img className="softwarecontent-image" src={kisaragiLogo} draggable={false} style={{height: mobile ? "270px" : "550px"}}/>
                 <div className="softwarecontent-text-container">
                     <span className="softwarecontent-text">
                         Kisaragi is a discord bot with a lot of commands. 
