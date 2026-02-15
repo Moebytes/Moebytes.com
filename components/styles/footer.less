@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    padding: 0px 38px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--navColor);
+}
+
+.footer-img {
+    height: 100px;
+    width: auto;
+}
+
+.footer-text-container {
+    display: flex;
+    padding-bottom: 13px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footer-text {
+    color: var(--headingColor);
+    font-family: "Tsunagi Gothic Black";
+    font-size: 20px;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        padding: 0px 20px;
+    }
+
+    .footer-img {
+        height: 50px;
+    }
+
+    .footer-text {
+        font-size: 15px;
+    }
+}

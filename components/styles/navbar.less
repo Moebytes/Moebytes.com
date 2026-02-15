@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    padding: 19px 158px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navColor);
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.navbar-button {
+    display: flex;
+    padding: 4px 9px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 5px solid var(--navButtonBorder);
+    background: var(--navButton);
+    color: var(--background);
+    font-family: "Tsunagi Gothic Black";
+    font-size: 35px;
+    cursor: pointer;
+    &:hover {
+        color: var(--textColor);
+    }
+}
+
+.navbar-icon {
+    width: auto;
+    height: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar-container {
+        gap: 5px;
+    }
+
+    .navbar-button {
+        font-size: 15px;
+        border: 2px solid var(--navButtonBorder);
+    }
+
+    .navbar-icon {
+        height: 20px;
+    }
+}

@@ -1,0 +1,20 @@
+.artgrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--headingColor);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.artgrid-img {
+    width: auto;
+    height: 500px;
+}
+
+@media screen and (max-width: 500px) {
+    .artgrid-img {
+        height: 300px;
+    }
+}

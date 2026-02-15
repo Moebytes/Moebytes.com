@@ -1,0 +1,98 @@
+.musicgrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--headingColor);
+}
+
+.musicgrid-img {
+    width: auto;
+    height: 300px;
+}
+
+.miniplayer {
+    display: flex;
+    align-items: center;
+    background-color: var(--navColor);
+    width: 100%;
+}
+
+.miniplayer-play-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    z-index: 100;
+    border: 3px solid var(--headingColor);
+}
+
+.miniplayer-play-button {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.miniplayer-progress-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: -1px;
+}
+
+.miniplayer-time-container {
+    display: flex;
+    padding: 0px 7px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    background: var(--musicPlayerColor);
+}
+
+.miniplayer-time-text {
+    color: var(--background);
+    font-family: "Honoka Shin Antique-Kaku";
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.miniplayer-slider {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.miniplayer-slider-track-0 {
+    height: 15px;
+    background-color: var(--headingColor);
+}
+
+.miniplayer-slider-track-1 {
+    height: 15px;
+    background-color: var(--background);
+}
+
+.miniplayer-slider-thumb {
+    content: "";
+    background-color: transparent;
+    border: none;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .musicgrid-img {
+        width: auto;
+        height: 300px;
+    }
+}

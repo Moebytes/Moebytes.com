@@ -1,0 +1,69 @@
+.homecontent {
+    display: flex;
+    padding: 46px 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    min-height: 100vh;
+}
+
+.homecontent-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.homecontent-header-icon {
+    width: auto;
+    height: 30px;
+    object-fit: contain;
+    transform-origin: center;
+    animation: rotateIcon 8s linear infinite;
+}
+
+.homecontent-header-text {
+    color: var(--headingColor);
+    font-family: "Tsunagi Gothic Black";
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.homecontent-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.homecontent-text {
+    color: var(--textColor);
+    font-family: "Honoka Shin Antique-Kaku";
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.homecontent-text-alt {
+    color: var(--headingColor);
+}
+
+@media screen and (max-width: 500px) {
+    .homecontent {
+        padding: 20px 40px;
+        gap: 15px;
+    }
+
+    .homecontent-header-text {
+        font-size: 20px;
+    }
+
+    .homecontent-header-icon {
+        height: 20px;
+    }
+
+    .homecontent-text {
+        font-size: 15px;
+    }
+}

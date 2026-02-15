@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "GenEi M Gothic v2";
+    src: url("assets/fonts/GenEiMGothic2-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Honoka Shin Antique-Kaku";
+    src: url("assets/fonts/Honoka-Shin-Antique-Kaku_M.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "irohamaru mikami";
+    src: url("assets/fonts/irohamaru-mikami-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Tsunagi Gothic Black";
+    src: url("assets/fonts/TsunagiGothic.ttf") format("truetype");
+}
+
+:root {
+	--background: #ffffff;
+	--textColor: #000000;
+	--headingColor: #ff3b9d;
+	--navColor: #ffe6f0;
+	--musicPlayerColor: #ff5faa;
+    --navButtonBorder: #ff33A3;
+    --navButton: #ff6bb5;
+}
+
+.dark-theme {
+	--background: #000000;
+	--textColor: #ffffff;
+	--headingColor: #ff3bba;
+	--navColor: #230d29;
+	--musicPlayerColor: #f93dab;
+    --navButtonBorder: #ff33A3;
+    --navButton: #ff6bb5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #5a5a5a #000000;
+}
+
+
+html, body {
+    width: 100%;
+    background-color: var(--background);
+    position: relative;
+}
+
+::selection {
+    background-color: #ffbfe1;
+}
+
+::-webkit-scrollbar {
+    width: 1vw;
+}
+  
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5a5a5a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #303030;
+}
+
+a {
+    color: var(--headingColor);
+}
+
+img {
+    user-select: none;
+}
+
+@keyframes rotateIcon {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

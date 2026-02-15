@@ -1,0 +1,116 @@
+.softwarecontent {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 120px;
+    align-items: flex-start;
+    gap: 35px;
+    min-height: 100vh;
+}
+
+.softwarecontent-icon-container {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.softwarecontent-icon-box {
+    display: flex;
+    padding: 15px 20px;
+    align-items: center;
+    gap: 11px;
+    border-radius: 27px;
+    background-color: var(--navColor);
+    cursor: pointer;
+}
+
+.softwarecontent-icon-text {
+    color: var(--headingColor);
+    font-family: "Tsunagi Gothic Black";
+    font-size: 40px;
+    line-height: 40px;
+    &:hover {
+        color: var(--textColor);
+    }
+}
+
+.softwarecontent-icon {
+    width: auto;
+    height: 50px;
+}
+
+.softwarecontent-container {
+    display: flex;
+    padding: 20px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 50px;
+    flex-shrink: 0;
+    > img {
+        align-self: center;
+    }
+}
+
+.softwarecontent-image {
+    width: auto;
+    height: 220px;
+}
+
+.softwarecontent-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.softwarecontent-text {
+    color: var(--textColor);
+    font-family: "Honoka Shin Antique-Kaku";
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.softwarecontent-text-alt {
+    color: var(--headingColor);
+}
+
+@media screen and (max-width: 500px) {
+    .softwarecontent {
+        padding: 20px 40px;
+        gap: 15px;
+    }
+
+    .softwarecontent-icon-container {
+        gap: 20px;
+    }
+
+    .softwarecontent-icon-box {
+        padding: 5px 10px;
+    }
+    
+    .softwarecontent-icon-text {
+        font-size: 25px;
+    }
+
+    .softwarecontent-icon {
+        height: 25px;
+    }
+
+    .softwarecontent-container {
+        padding: 20px 0px;
+    }
+
+    .softwarecontent-image {
+        width: auto;
+        height: 70px;
+    }
+
+    .softwarecontent-text {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+}

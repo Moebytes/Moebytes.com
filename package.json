@@ -1,0 +1,46 @@
+{
+  "name": "moebytes-site",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "rsbuild dev",
+    "build": "rsbuild build"
+  },
+  "homepage": "https://moebytes.com/",
+  "keywords": [
+    "moebytes",
+    "anime",
+    "moe",
+    "kawaii",
+    "cute"
+  ],
+  "author": "Moebytes",
+  "license": "All Rights Reserved",
+  "overrides": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "dotenv": "^17.3.1",
+    "music-metadata": "^11.12.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.13.0",
+    "react-slider": "^2.0.6",
+    "tone": "^14.7.39"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.7.3",
+    "@rsbuild/plugin-less": "^1.6.0",
+    "@rsbuild/plugin-react": "^1.4.5",
+    "@rsbuild/plugin-type-check": "^1.3.3",
+    "@types/node": "^25.2.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-router-dom": "^5.3.3",
+    "typescript": "^5.9.3"
+  }
+}

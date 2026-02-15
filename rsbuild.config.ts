@@ -1,0 +1,49 @@
+import {defineConfig} from "@rsbuild/core"
+import {pluginReact} from "@rsbuild/plugin-react"
+import {pluginLess} from "@rsbuild/plugin-less"
+import {pluginTypeCheck} from "@rsbuild/plugin-type-check"
+import dotenv from "dotenv"
+
+const env = dotenv.config().parsed!
+
+let minimize = env.TESTING === "no"
+let typecheck = env.TYPECHECK === "yes"
+
+export default defineConfig({
+    server: {
+        port: 8086
+    },
+    tools: {
+        rspack(config) {
+            config.module = config.module || {}
+            config.module.rules = config.module.rules || []
+
+            config.module.rules.push({
+                test: /\.svg$/i,
+                type: "asset/inline",
+            })
+
+            return config
+        }
+    },
+    plugins: [
+        pluginReact(),
+        pluginLess(),
+        pluginTypeCheck({enable: typecheck})
+    ],
+    source: {
+        entry: {index: "./index.tsx"}
+    },
+    html: {
+        template: "./index.html",
+        favicon: "./assets/icons/favicon.png"
+    },
+    output: {
+        target: "web",
+        minify: minimize,
+        dataUriLimit: 0,
+        filenameHash: false,
+        sourceMap: false,
+        legalComments: "none"
+    }
+})
