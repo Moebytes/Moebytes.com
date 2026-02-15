@@ -2,6 +2,7 @@
 (self["webpackChunkmoebytes_site"] = self["webpackChunkmoebytes_site"] || []).push([["783"], {
 1247(__unused_rspack_module, exports, __webpack_require__) {
 var __webpack_unused_export__;
+/* provided dependency */ var process = __webpack_require__(5606);
 /**
  * @license React
  * react-dom-client.production.js
@@ -16368,7 +16369,8 @@ exports.jsxs = jsxProd;
 
 
 },
-9869(__unused_rspack_module, exports) {
+9869(__unused_rspack_module, exports, __webpack_require__) {
+/* provided dependency */ var process = __webpack_require__(5606);
 /**
  * @license React
  * react.production.js

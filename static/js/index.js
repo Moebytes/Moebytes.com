@@ -1420,6 +1420,7 @@ const pause_namespaceObject = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDciIGh
 // EXTERNAL MODULE: ./node_modules/music-metadata/lib/core.js + 38 modules
 var core = __webpack_require__(8031);
 ;// CONCATENATED MODULE: ./structures/Functions.ts
+/* provided dependency */ var Buffer = __webpack_require__(8287)["Buffer"];
 
 
 class Functions {
@@ -1443,17 +1444,12 @@ class Functions {
     if (picture) {
         let buffer = new Uint8Array();
         for(let i = 0; i < picture.length; i++){
-            const combined = new Uint8Array(buffer.length + picture[i].data.length);
-            combined.set(buffer);
-            combined.set(picture[i].data, buffer.length);
-            buffer = combined;
+            buffer = new Uint8Array(Buffer.concat([
+                buffer,
+                new Uint8Array(picture[i].data)
+            ]));
         }
-        let binary = "";
-        for(let i = 0; i < buffer.length; i++){
-            binary += String.fromCharCode(buffer[i]);
-        }
-        const base64 = btoa(binary);
-        return `data:${picture[0].format};base64,${base64}`;
+        return `data:${picture[0].format};base64,${Buffer.from(buffer).toString("base64")}`;
     } else {
         return "";
     }
@@ -2263,7 +2259,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "739"], () => __webpack_require__(742));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(742));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
