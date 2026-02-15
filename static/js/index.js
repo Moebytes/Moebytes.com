@@ -786,7 +786,7 @@ const SoftwareContent = ()=>{
                         src: kisaragi_logo_namespaceObject,
                         draggable: false,
                         style: {
-                            height: mobile ? "270px" : "550px"
+                            height: mobile ? "250px" : "550px"
                         }
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
