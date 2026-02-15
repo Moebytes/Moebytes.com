@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-5081(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+742(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -41,6 +41,35 @@ const useThemeActions = ()=>{
     };
 };
 /* export default */ const themeReducer = (themeSlice.reducer);
+
+;// CONCATENATED MODULE: ./reducers/layoutReducer.ts
+
+
+const layoutSlice = (0,redux_toolkit_modern/* .createSlice */.Z0)({
+    name: "layout",
+    initialState: {
+        mobile: false
+    },
+    reducers: {
+        setMobile: (state, action)=>{
+            state.mobile = action.payload;
+        }
+    }
+});
+const { setMobile: layoutReducer_setMobile } = layoutSlice.actions;
+const useLayoutSelector = ()=>{
+    const selector = react_redux/* .useSelector.withTypes */.d4.withTypes();
+    return {
+        mobile: selector((state)=>state.layout.mobile)
+    };
+};
+const useLayoutActions = ()=>{
+    const dispatch = react_redux/* .useDispatch.withTypes */.wA.withTypes()();
+    return {
+        setMobile: (state)=>dispatch(layoutReducer_setMobile(state))
+    };
+};
+/* export default */ const layoutReducer = (layoutSlice.reducer);
 
 ;// CONCATENATED MODULE: ./reducers/artReducer.ts
 
@@ -105,9 +134,11 @@ const useMusicActions = ()=>{
 
 
 
+
 const store = (0,redux_toolkit_modern/* .configureStore */.U1)({
     reducer: {
         theme: themeReducer,
+        layout: layoutReducer,
         art: artReducer,
         music: musicReducer
     }
@@ -673,7 +704,9 @@ const vocalchopper_logo_namespaceObject = __webpack_require__.p + "static/image/
 
 
 
+
 const SoftwareContent = ()=>{
+    const { mobile } = useLayoutSelector();
     const [activeTab, setActiveTab] = (0,react.useState)("moepictures");
     (0,react.useEffect)(()=>{
         const savedTab = localStorage.getItem("softwareTab");
@@ -753,7 +786,7 @@ const SoftwareContent = ()=>{
                         src: kisaragi_logo_namespaceObject,
                         draggable: false,
                         style: {
-                            height: "550px"
+                            height: mobile ? "270px" : "550px"
                         }
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
@@ -1114,7 +1147,9 @@ const kisaragi_namespaceObject = __webpack_require__.p + "static/image/kisaragi.
 
 
 
+
 const DesignContent = ()=>{
+    const { mobile } = useLayoutSelector();
     const openMoepictures = ()=>{
         window.open("https://www.figma.com/design/f7fQmrcMwfKOGYUnHnXZ0B/Moepictures-Website", "_blank");
     };
@@ -1139,7 +1174,7 @@ const DesignContent = ()=>{
                 draggable: false,
                 style: {
                     cursor: "pointer",
-                    height: "1000px"
+                    height: mobile ? "700px" : "1000px"
                 },
                 onClick: openMoepicturesApp
             }),
@@ -1833,9 +1868,23 @@ const $404Page = ()=>{
 
 
 
+
 const App = ()=>{
+    const { setMobile } = useLayoutActions();
     (0,react.useEffect)(()=>{
         AudioEngine.initialize();
+    }, []);
+    (0,react.useEffect)(()=>{
+        const resize = ()=>{
+            const isMobile = window.matchMedia("(max-width: 500px)").matches;
+            setMobile(isMobile);
+        };
+        resize();
+        window.addEventListener("resize", resize);
+        document.documentElement.style.visibility = "visible";
+        return ()=>{
+            window.removeEventListener("resize", resize);
+        };
     }, []);
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
         className: "app",
@@ -2214,7 +2263,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "739"], () => __webpack_require__(5081));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "739"], () => __webpack_require__(742));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;

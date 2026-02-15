@@ -24,6 +24,7 @@
 }
 
 .navbar-container {
+  flex-wrap: wrap;
   align-items: center;
   gap: 35px;
   display: flex;
@@ -55,17 +56,21 @@
 }
 
 @media screen and (max-width: 500px) {
+  .navbar {
+    padding: 19px 50px;
+  }
+
   .navbar-container {
-    gap: 5px;
+    gap: 15px;
   }
 
   .navbar-button {
     border: 2px solid var(--navButtonBorder);
-    font-size: 15px;
+    font-size: 25px;
   }
 
   .navbar-icon {
-    height: 20px;
+    height: 25px;
   }
 }
 
@@ -387,6 +392,13 @@
     gap: 25px;
     padding: 50px 30px;
   }
+
+  .artcontent-items-container {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }
 
 .artpreview {
@@ -578,6 +590,13 @@
   .musiccontent {
     gap: 25px;
     padding: 50px 30px;
+  }
+
+  .musiccontent-items-container {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
 
