@@ -1,0 +1,689 @@
+.logobar {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  width: auto;
+  height: 250px;
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    height: 125px;
+  }
+}
+
+.navbar {
+  background-color: var(--navColor);
+  justify-content: center;
+  align-items: center;
+  padding: 19px 158px;
+  display: flex;
+}
+
+.navbar-container {
+  align-items: center;
+  gap: 35px;
+  display: flex;
+}
+
+.navbar-button {
+  border: 5px solid var(--navButtonBorder);
+  background: var(--navButton);
+  color: var(--background);
+  cursor: pointer;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 9px;
+  font-family: Tsunagi Gothic Black;
+  font-size: 35px;
+  display: flex;
+}
+
+.navbar-button:hover {
+  color: var(--textColor);
+}
+
+.navbar-icon {
+  cursor: pointer;
+  width: auto;
+  height: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-container {
+    gap: 5px;
+  }
+
+  .navbar-button {
+    border: 2px solid var(--navButtonBorder);
+    font-size: 15px;
+  }
+
+  .navbar-icon {
+    height: 20px;
+  }
+}
+
+.homecontent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  min-height: 100vh;
+  padding: 46px 200px;
+  display: flex;
+}
+
+.homecontent-header-container {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.homecontent-header-icon {
+  object-fit: contain;
+  transform-origin: center;
+  width: auto;
+  height: 30px;
+  animation: 8s linear infinite rotateIcon;
+}
+
+.homecontent-header-text {
+  color: var(--headingColor);
+  font-family: Tsunagi Gothic Black;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.homecontent-text-container {
+  flex-wrap: wrap;
+  place-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.homecontent-text {
+  color: var(--textColor);
+  font-family: Honoka Shin Antique-Kaku;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.homecontent-text-alt {
+  color: var(--headingColor);
+}
+
+@media screen and (max-width: 500px) {
+  .homecontent {
+    gap: 15px;
+    padding: 20px 40px;
+  }
+
+  .homecontent-header-text {
+    font-size: 20px;
+  }
+
+  .homecontent-header-icon {
+    height: 20px;
+  }
+
+  .homecontent-text {
+    font-size: 15px;
+  }
+}
+
+.footer {
+  background-color: var(--navColor);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 38px;
+  display: flex;
+}
+
+.footer-img {
+  width: auto;
+  height: 100px;
+}
+
+.footer-text-container {
+  flex-wrap: wrap;
+  place-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 13px;
+  display: flex;
+}
+
+.footer-text {
+  color: var(--headingColor);
+  font-family: Tsunagi Gothic Black;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    padding: 0 20px;
+  }
+
+  .footer-img {
+    height: 50px;
+  }
+
+  .footer-text {
+    font-size: 15px;
+  }
+}
+
+.softwarecontent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  min-height: 100vh;
+  padding: 50px 120px;
+  display: flex;
+}
+
+.softwarecontent-icon-container {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  display: flex;
+}
+
+.softwarecontent-icon-box {
+  background-color: var(--navColor);
+  cursor: pointer;
+  border-radius: 27px;
+  align-items: center;
+  gap: 11px;
+  padding: 15px 20px;
+  display: flex;
+}
+
+.softwarecontent-icon-text {
+  color: var(--headingColor);
+  font-family: Tsunagi Gothic Black;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.softwarecontent-icon-text:hover {
+  color: var(--textColor);
+}
+
+.softwarecontent-icon {
+  width: auto;
+  height: 50px;
+}
+
+.softwarecontent-container {
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 50px;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.softwarecontent-container > img {
+  align-self: center;
+}
+
+.softwarecontent-image {
+  width: auto;
+  height: 220px;
+}
+
+.softwarecontent-text-container {
+  flex-wrap: wrap;
+  place-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.softwarecontent-text {
+  color: var(--textColor);
+  font-family: Honoka Shin Antique-Kaku;
+  font-size: 25px;
+  line-height: 45px;
+}
+
+.softwarecontent-text-alt {
+  color: var(--headingColor);
+}
+
+@media screen and (max-width: 500px) {
+  .softwarecontent {
+    gap: 15px;
+    padding: 20px 40px;
+  }
+
+  .softwarecontent-icon-container {
+    gap: 20px;
+  }
+
+  .softwarecontent-icon-box {
+    padding: 5px 10px;
+  }
+
+  .softwarecontent-icon-text {
+    font-size: 25px;
+  }
+
+  .softwarecontent-icon {
+    height: 25px;
+  }
+
+  .softwarecontent-container {
+    padding: 20px 0;
+  }
+
+  .softwarecontent-image {
+    width: auto;
+    height: 70px;
+  }
+
+  .softwarecontent-text {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
+
+.design-content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 50px 150px;
+  display: flex;
+}
+
+.design-content-img {
+  width: auto;
+  height: 700px;
+}
+
+@media screen and (max-width: 500px) {
+  .design-content {
+    gap: 20px;
+    padding: 50px 20px;
+  }
+
+  .design-content-img {
+    height: 300px;
+  }
+}
+
+.artgrid {
+  border: 1px solid var(--headingColor);
+  cursor: pointer;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.artgrid-img {
+  width: auto;
+  height: 500px;
+}
+
+@media screen and (max-width: 500px) {
+  .artgrid-img {
+    height: 300px;
+  }
+}
+
+.artcontent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  padding: 50px 60px;
+  display: flex;
+}
+
+.artcontent-notice-container {
+  border: 2px solid var(--headingColor);
+  border-radius: 5px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 16px;
+  display: flex;
+}
+
+.artcontent-notice-text {
+  color: var(--headingColor);
+  font-family: Tsunagi Gothic Black;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.artcontent-items-container {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 33px;
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .artcontent-notice-text {
+    font-size: 20px;
+  }
+
+  .artcontent {
+    gap: 25px;
+    padding: 50px 30px;
+  }
+}
+
+.artpreview {
+  z-index: 3000;
+  background: #000c;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.artpreview-img {
+  object-fit: contain;
+  -webkit-user-select: none;
+  user-select: none;
+  max-width: 90vw;
+  max-height: 90vh;
+  box-shadow: 0 10px 40px #0009;
+}
+
+.artpreview-close {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  transition: transform .15s, opacity .2s;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+.artpreview-close path {
+  stroke: #fff;
+  stroke-width: 18px;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.artpreview-close:hover {
+  opacity: .8;
+  transform: scale(1.15);
+}
+
+.musicgrid {
+  border: 1px solid var(--headingColor);
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.musicgrid-img {
+  width: auto;
+  height: 300px;
+}
+
+.miniplayer {
+  background-color: var(--navColor);
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.miniplayer-play-container {
+  z-index: 100;
+  border: 3px solid var(--headingColor);
+  border-radius: 50%;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+}
+
+.miniplayer-play-button {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.miniplayer-progress-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-left: -1px;
+  display: flex;
+}
+
+.miniplayer-time-container {
+  background: var(--musicPlayerColor);
+  border-radius: 13px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7px;
+  display: flex;
+}
+
+.miniplayer-time-text {
+  color: var(--background);
+  font-family: Honoka Shin Antique-Kaku;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.miniplayer-slider {
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.miniplayer-slider-track-0 {
+  background-color: var(--headingColor);
+  height: 15px;
+}
+
+.miniplayer-slider-track-1 {
+  background-color: var(--background);
+  height: 15px;
+}
+
+.miniplayer-slider-thumb {
+  content: "";
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  width: 15px;
+  height: 15px;
+}
+
+.miniplayer-slider-thumb:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 500px) {
+  .musicgrid-img {
+    width: auto;
+    height: 300px;
+  }
+}
+
+.musiccontent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  padding: 50px 60px;
+  display: flex;
+}
+
+.musiccontent-notice-container {
+  border: 2px solid var(--headingColor);
+  border-radius: 5px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 16px;
+  display: flex;
+}
+
+.musiccontent-notice-text {
+  color: var(--headingColor);
+  font-family: Tsunagi Gothic Black;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.musiccontent-items-container {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: 33px;
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .musiccontent-notice-text {
+    font-size: 20px;
+  }
+
+  .musiccontent {
+    gap: 25px;
+    padding: 50px 30px;
+  }
+}
+
+.f404-img-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  display: flex;
+}
+
+.f404-img {
+  width: auto;
+  height: 500px;
+}
+
+@font-face {
+  font-family: GenEi M Gothic v2;
+  src: url(/static/font/GenEiMGothic2-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Honoka Shin Antique-Kaku;
+  src: url(/static/font/Honoka-Shin-Antique-Kaku_M.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: irohamaru mikami;
+  src: url(/static/font/irohamaru-mikami-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Tsunagi Gothic Black;
+  src: url(/static/font/TsunagiGothic.ttf) format("truetype");
+}
+
+:root {
+  --background: #fff;
+  --textColor: #000;
+  --headingColor: #ff3b9d;
+  --navColor: #ffe6f0;
+  --musicPlayerColor: #ff5faa;
+  --navButtonBorder: #ff33a3;
+  --navButton: #ff6bb5;
+}
+
+.dark-theme {
+  --background: #000;
+  --textColor: #fff;
+  --headingColor: #ff3bba;
+  --navColor: #230d29;
+  --musicPlayerColor: #f93dab;
+  --navButtonBorder: #ff33a3;
+  --navButton: #ff6bb5;
+}
+
+* {
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #5a5a5a #000;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: var(--background);
+  width: 100%;
+  position: relative;
+}
+
+::selection {
+  background-color: #ffbfe1;
+}
+
+::-webkit-scrollbar {
+  width: 1vw;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5a5a5a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #303030;
+}
+
+a {
+  color: var(--headingColor);
+}
+
+img {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@keyframes rotateIcon {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+

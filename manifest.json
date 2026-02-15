@@ -1,0 +1,16 @@
+{
+    "short_name": "Moebytes",
+    "name": "Moebytes",
+    "description": "Moebytes is a kawaii programmer and aspiring artist!",
+    "icons": [
+      {
+        "src": "assets/icons/favicon.gif",
+        "sizes": "128x128",
+        "type": "image/gif"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ff63d0",
+    "background_color": "#000000"
+  }
