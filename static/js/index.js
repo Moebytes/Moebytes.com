@@ -48,25 +48,31 @@ const useThemeActions = ()=>{
 const layoutSlice = (0,redux_toolkit_modern/* .createSlice */.Z0)({
     name: "layout",
     initialState: {
-        mobile: false
+        mobile: false,
+        tablet: false
     },
     reducers: {
         setMobile: (state, action)=>{
             state.mobile = action.payload;
+        },
+        setTablet: (state, action)=>{
+            state.tablet = action.payload;
         }
     }
 });
-const { setMobile: layoutReducer_setMobile } = layoutSlice.actions;
+const { setMobile: layoutReducer_setMobile, setTablet: layoutReducer_setTablet } = layoutSlice.actions;
 const useLayoutSelector = ()=>{
     const selector = react_redux/* .useSelector.withTypes */.d4.withTypes();
     return {
-        mobile: selector((state)=>state.layout.mobile)
+        mobile: selector((state)=>state.layout.mobile),
+        tablet: selector((state)=>state.layout.tablet)
     };
 };
 const useLayoutActions = ()=>{
     const dispatch = react_redux/* .useDispatch.withTypes */.wA.withTypes()();
     return {
-        setMobile: (state)=>dispatch(layoutReducer_setMobile(state))
+        setMobile: (state)=>dispatch(layoutReducer_setMobile(state)),
+        setTablet: (state)=>dispatch(layoutReducer_setTablet(state))
     };
 };
 /* export default */ const layoutReducer = (layoutSlice.reducer);
@@ -706,7 +712,7 @@ const vocalchopper_logo_namespaceObject = __webpack_require__.p + "static/image/
 
 
 const SoftwareContent = ()=>{
-    const { mobile } = useLayoutSelector();
+    const { mobile, tablet } = useLayoutSelector();
     const [activeTab, setActiveTab] = (0,react.useState)("moepictures");
     (0,react.useEffect)(()=>{
         const savedTab = localStorage.getItem("softwareTab");
@@ -724,7 +730,10 @@ const SoftwareContent = ()=>{
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "softwarecontent-image",
                         src: moepictures_logo_namespaceObject,
-                        draggable: false
+                        draggable: false,
+                        style: {
+                            height: tablet ? "180px" : "220px"
+                        }
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
                         className: "softwarecontent-text-container",
@@ -1866,14 +1875,24 @@ const $404Page = ()=>{
 
 
 const App = ()=>{
-    const { setMobile } = useLayoutActions();
+    const { setMobile, setTablet } = useLayoutActions();
     (0,react.useEffect)(()=>{
         AudioEngine.initialize();
     }, []);
     (0,react.useEffect)(()=>{
         const resize = ()=>{
             const isMobile = window.matchMedia("(max-width: 500px)").matches;
-            setMobile(isMobile);
+            const isTablet = window.matchMedia("(min-width: 501px) and (max-width: 1200px)").matches;
+            if (isMobile) {
+                setMobile(true);
+                setTablet(false);
+            } else if (isTablet) {
+                setTablet(true);
+                setMobile(false);
+            } else {
+                setMobile(false);
+                setTablet(false);
+            }
         };
         resize();
         window.addEventListener("resize", resize);

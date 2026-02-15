@@ -55,6 +55,12 @@
   height: 50px;
 }
 
+@media screen and (max-width: 1200px) {
+  .navbar {
+    padding: 20px 40px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .navbar {
     padding: 19px 20px;
@@ -315,6 +321,12 @@
 .design-content-img {
   width: auto;
   height: 700px;
+}
+
+@media screen and (max-width: 1200px) {
+  .design-content {
+    padding: 40px;
+  }
 }
 
 @media screen and (max-width: 500px) {
