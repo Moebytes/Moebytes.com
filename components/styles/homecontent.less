@@ -49,6 +49,25 @@
     color: var(--headingColor);
 }
 
+.homecontent-icon-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.homecontent-icon {
+    width: auto;
+    height: 120px;
+}
+
+@media screen and (max-width: 1200px) {
+    .homecontent {
+        padding: 50px 100px;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .homecontent {
         padding: 20px 40px;
@@ -65,5 +84,9 @@
 
     .homecontent-text {
         font-size: 15px;
+    }
+
+    .homecontent-icon {
+        height: 70px;
     }
 }
