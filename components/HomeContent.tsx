@@ -12,8 +12,8 @@ const HomeContent: React.FunctionComponent = () => {
             <div className="homecontent-text-container">
                 <span className="homecontent-text">
                     I am a programmer from the United States with a B.S. degree in Computer Science and 
-                    1 year of experience. In my free time, I make software and tools to enhance my life, 
-                    as well as create things in relation to my passions and interests. 
+                    1 year of experience. In my free time I make software and tools to enhance my life, 
+                    as well as create things related to my passions and interests. 
                     <br/><br/>
                     What is "moe"? Basically it means that I love cute things. As a word of caution, 
                     you are going to see a lot of moe things here. Why would you come to my website 
