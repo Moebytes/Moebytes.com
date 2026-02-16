@@ -382,7 +382,7 @@ const HomeContent = ()=>{
                 children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                     className: "homecontent-text",
                     children: [
-                        "I am a programmer from the United States with a B.S. degree in Computer Science and 1 year of experience. In my free time, I make software and tools to enhance my life, as well as create things in relation to my passions and interests.",
+                        "I am a programmer from the United States with a B.S. degree in Computer Science and 1 year of experience. In my free time I make software and tools to enhance my life, as well as create things related to my passions and interests.",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         'What is "moe"? Basically it means that I love cute things. As a word of caution, you are going to see a lot of moe things here. Why would you come to my website not expecting moe!?',
