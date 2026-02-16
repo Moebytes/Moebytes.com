@@ -10,6 +10,7 @@ import "./styles/musicgrid.less"
 
 interface Props {
     audio: string
+    cover: string
 }
 
 const MusicGrid: React.FunctionComponent<Props> = (props) => {
@@ -31,20 +32,21 @@ const MusicGrid: React.FunctionComponent<Props> = (props) => {
         if (sliderRef.current) sliderRef.current.resize()
     })
 
+    /*
     const updateSongCover = async () => {
         const songCover = await functions.songCover(props.audio)
         setImg(songCover)
     }
+
+    useEffect(() => {
+        updateSongCover()
+    }, [props.audio])*/
 
     const loadAudio = async () => {
         await AudioEngine.initialize()
         await AudioEngine.load(props.audio)
         setDuration(AudioEngine.duration)
     }
-
-    useEffect(() => {
-        updateSongCover()
-    }, [props.audio])
 
     useEffect(() => {
         if (currentAudio !== props.audio) {
@@ -119,11 +121,9 @@ const MusicGrid: React.FunctionComponent<Props> = (props) => {
         setDragProgress(secondsProgress)
     }
 
-    if (!img) return null
-
     return (
         <div className="musicgrid">
-            <img className="musicgrid-img" src={img} draggable={false}/>
+            <img className="musicgrid-img" src={props.cover} draggable={false}/>
             <div className="miniplayer">
                 <div className="miniplayer-play-container">
                     <img className="miniplayer-play-button" src={paused ? play : pause} draggable="false" 
