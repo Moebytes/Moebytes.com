@@ -130,6 +130,25 @@
   color: var(--headingColor);
 }
 
+.homecontent-icon-container {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.homecontent-icon {
+  width: auto;
+  height: 120px;
+}
+
+@media screen and (max-width: 1200px) {
+  .homecontent {
+    padding: 50px 100px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .homecontent {
     gap: 15px;
@@ -146,6 +165,10 @@
 
   .homecontent-text {
     font-size: 15px;
+  }
+
+  .homecontent-icon {
+    height: 70px;
   }
 }
 

@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-742(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+5241(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -351,10 +351,181 @@ const NavBar = ()=>{
 
 ;// CONCATENATED MODULE: ./assets/svg/star.svg
 const star_namespaceObject = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDYiIGhlaWdodD0iNDQiIHZpZXdCb3g9IjAgMCA0NiA0NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIyLjg5OCAwTDI5Ljk3MzggMTQuMzM3M0w0NS43OTYgMTYuNjM2NEwzNC4zNDcgMjcuNzk2NEwzNy4wNDk3IDQzLjU1NDZMMjIuODk4IDM2LjExNDVMOC43NDYyNSA0My41NTQ2TDExLjQ0OSAyNy43OTY0TC0xLjQzODk0ZS0wNiAxNi42MzY0TDE1LjgyMjEgMTQuMzM3M0wyMi44OTggMFoiIGZpbGw9IiNmZjNiOWQiLz4KPC9zdmc+Cg==";
+;// CONCATENATED MODULE: ./assets/icons/ae.png
+const ae_namespaceObject = __webpack_require__.p + "static/image/ae.png";
+;// CONCATENATED MODULE: ./assets/icons/ai.png
+const ai_namespaceObject = __webpack_require__.p + "static/image/ai.png";
+;// CONCATENATED MODULE: ./assets/icons/androidstudio.png
+const androidstudio_namespaceObject = __webpack_require__.p + "static/image/androidstudio.png";
+;// CONCATENATED MODULE: ./assets/icons/angular.png
+const angular_namespaceObject = __webpack_require__.p + "static/image/angular.png";
+;// CONCATENATED MODULE: ./assets/icons/anki.png
+const anki_namespaceObject = __webpack_require__.p + "static/image/anki.png";
+;// CONCATENATED MODULE: ./assets/icons/c.png
+const c_namespaceObject = __webpack_require__.p + "static/image/c.png";
+;// CONCATENATED MODULE: ./assets/icons/clipstudio.png
+const clipstudio_namespaceObject = __webpack_require__.p + "static/image/clipstudio.png";
+;// CONCATENATED MODULE: ./assets/icons/cpp.png
+const cpp_namespaceObject = __webpack_require__.p + "static/image/cpp.png";
+;// CONCATENATED MODULE: ./assets/icons/csharp.png
+const csharp_namespaceObject = __webpack_require__.p + "static/image/csharp.png";
+;// CONCATENATED MODULE: ./assets/icons/css.png
+const css_namespaceObject = __webpack_require__.p + "static/image/css.png";
+;// CONCATENATED MODULE: ./assets/icons/djs.png
+const djs_namespaceObject = __webpack_require__.p + "static/image/djs.png";
+;// CONCATENATED MODULE: ./assets/icons/effectrix.png
+const effectrix_namespaceObject = __webpack_require__.p + "static/image/effectrix.png";
+;// CONCATENATED MODULE: ./assets/icons/electron.png
+const electron_namespaceObject = __webpack_require__.p + "static/image/electron.png";
+;// CONCATENATED MODULE: ./assets/icons/expo.png
+const expo_namespaceObject = __webpack_require__.p + "static/image/expo.png";
+;// CONCATENATED MODULE: ./assets/icons/figma.png
+const figma_namespaceObject = __webpack_require__.p + "static/image/figma.png";
+;// CONCATENATED MODULE: ./assets/icons/fl.png
+const fl_namespaceObject = __webpack_require__.p + "static/image/fl.png";
+;// CONCATENATED MODULE: ./assets/icons/go.png
+const go_namespaceObject = __webpack_require__.p + "static/image/go.png";
+;// CONCATENATED MODULE: ./assets/icons/html.png
+const html_namespaceObject = __webpack_require__.p + "static/image/html.png";
+;// CONCATENATED MODULE: ./assets/icons/java.png
+const java_namespaceObject = __webpack_require__.p + "static/image/java.png";
+;// CONCATENATED MODULE: ./assets/icons/js.png
+const js_namespaceObject = __webpack_require__.p + "static/image/js.png";
+;// CONCATENATED MODULE: ./assets/icons/juce.png
+const juce_namespaceObject = __webpack_require__.p + "static/image/juce.png";
+;// CONCATENATED MODULE: ./assets/icons/kotlin.png
+const kotlin_namespaceObject = __webpack_require__.p + "static/image/kotlin.png";
+;// CONCATENATED MODULE: ./assets/icons/less.png
+const less_namespaceObject = __webpack_require__.p + "static/image/less.png";
+;// CONCATENATED MODULE: ./assets/icons/live2d.png
+const live2d_namespaceObject = __webpack_require__.p + "static/image/live2d.png";
+;// CONCATENATED MODULE: ./assets/icons/massive.png
+const massive_namespaceObject = __webpack_require__.p + "static/image/massive.png";
+;// CONCATENATED MODULE: ./assets/icons/net.png
+const net_namespaceObject = __webpack_require__.p + "static/image/net.png";
+;// CONCATENATED MODULE: ./assets/icons/next.png
+const next_namespaceObject = __webpack_require__.p + "static/image/next.png";
+;// CONCATENATED MODULE: ./assets/icons/nodejs.png
+const nodejs_namespaceObject = __webpack_require__.p + "static/image/nodejs.png";
+;// CONCATENATED MODULE: ./assets/icons/npm.png
+const npm_namespaceObject = __webpack_require__.p + "static/image/npm.png";
+;// CONCATENATED MODULE: ./assets/icons/objc.png
+const objc_namespaceObject = __webpack_require__.p + "static/image/objc.png";
+;// CONCATENATED MODULE: ./assets/icons/omni.png
+const omni_namespaceObject = __webpack_require__.p + "static/image/omni.png";
+;// CONCATENATED MODULE: ./assets/icons/pg.png
+const pg_namespaceObject = __webpack_require__.p + "static/image/pg.png";
+;// CONCATENATED MODULE: ./assets/icons/phaseplant.png
+const phaseplant_namespaceObject = __webpack_require__.p + "static/image/phaseplant.png";
+;// CONCATENATED MODULE: ./assets/icons/php.png
+const php_namespaceObject = __webpack_require__.p + "static/image/php.png";
+;// CONCATENATED MODULE: ./assets/icons/pr.png
+const pr_namespaceObject = __webpack_require__.p + "static/image/pr.png";
+;// CONCATENATED MODULE: ./assets/icons/ps.png
+const ps_namespaceObject = __webpack_require__.p + "static/image/ps.png";
+;// CONCATENATED MODULE: ./assets/icons/python.png
+const python_namespaceObject = __webpack_require__.p + "static/image/python.png";
+;// CONCATENATED MODULE: ./assets/icons/react.png
+const icons_react_namespaceObject = __webpack_require__.p + "static/image/react.png";
+;// CONCATENATED MODULE: ./assets/icons/redis.png
+const redis_namespaceObject = __webpack_require__.p + "static/image/redis.png";
+;// CONCATENATED MODULE: ./assets/icons/redux.png
+const redux_namespaceObject = __webpack_require__.p + "static/image/redux.png";
+;// CONCATENATED MODULE: ./assets/icons/rsbuild.png
+const rsbuild_namespaceObject = __webpack_require__.p + "static/image/rsbuild.png";
+;// CONCATENATED MODULE: ./assets/icons/ruby.png
+const ruby_namespaceObject = __webpack_require__.p + "static/image/ruby.png";
+;// CONCATENATED MODULE: ./assets/icons/rust.png
+const rust_namespaceObject = __webpack_require__.p + "static/image/rust.png";
+;// CONCATENATED MODULE: ./assets/icons/scss.png
+const scss_namespaceObject = __webpack_require__.p + "static/image/scss.png";
+;// CONCATENATED MODULE: ./assets/icons/serum.png
+const serum_namespaceObject = __webpack_require__.p + "static/image/serum.png";
+;// CONCATENATED MODULE: ./assets/icons/sql.png
+const sql_namespaceObject = __webpack_require__.p + "static/image/sql.png";
+;// CONCATENATED MODULE: ./assets/icons/svelte.png
+const svelte_namespaceObject = __webpack_require__.p + "static/image/svelte.png";
+;// CONCATENATED MODULE: ./assets/icons/swift.png
+const swift_namespaceObject = __webpack_require__.p + "static/image/swift.png";
+;// CONCATENATED MODULE: ./assets/icons/tableplus.png
+const tableplus_namespaceObject = __webpack_require__.p + "static/image/tableplus.png";
+;// CONCATENATED MODULE: ./assets/icons/tailwind.png
+const tailwind_namespaceObject = __webpack_require__.p + "static/image/tailwind.png";
+;// CONCATENATED MODULE: ./assets/icons/ts.png
+const ts_namespaceObject = __webpack_require__.p + "static/image/ts.png";
+;// CONCATENATED MODULE: ./assets/icons/vintageverb.png
+const vintageverb_namespaceObject = __webpack_require__.p + "static/image/vintageverb.png";
+;// CONCATENATED MODULE: ./assets/icons/vscode.png
+const vscode_namespaceObject = __webpack_require__.p + "static/image/vscode.png";
+;// CONCATENATED MODULE: ./assets/icons/vue.png
+const vue_namespaceObject = __webpack_require__.p + "static/image/vue.png";
+;// CONCATENATED MODULE: ./assets/icons/wasm.png
+const wasm_namespaceObject = __webpack_require__.p + "static/image/wasm.png";
+;// CONCATENATED MODULE: ./assets/icons/webpack.png
+const webpack_namespaceObject = __webpack_require__.p + "static/image/webpack.png";
+;// CONCATENATED MODULE: ./assets/icons/xcode.png
+const xcode_namespaceObject = __webpack_require__.p + "static/image/xcode.png";
 ;// CONCATENATED MODULE: ./components/styles/homecontent.less
 // extracted by css-extract-rspack-plugin
 
 ;// CONCATENATED MODULE: ./components/HomeContent.tsx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -382,13 +553,13 @@ const HomeContent = ()=>{
                 children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                     className: "homecontent-text",
                     children: [
-                        "I am a programmer from the United States with a B.S. degree in Computer Science and 1 year of experience. In my free time I make software and tools to enhance my life, as well as create things related to my passions and interests.",
+                        "I’m a programmer from the United States. In my free time I create software to enhance my daily life, as well as create things that I am passionate about. I have a B.S. degree in Computer Science and 1 year of experience.",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         'What is "moe"? Basically it means that I love cute things. As a word of caution, you are going to see a lot of moe things here. Why would you come to my website not expecting moe!?',
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "Below is a list of tools I am familiar with, but it is not an exhaustive list of everything I have ever used."
+                        "Below is a list of tools I am familiar with, but it is not an exhaustive list of everything I have used."
                     ]
                 })
             }),
@@ -402,16 +573,214 @@ const HomeContent = ()=>{
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
                         className: "homecontent-header-text",
-                        children: "Design"
+                        children: "Software & Tools"
                     })
                 ]
             }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "homecontent-text-container",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                    className: "homecontent-text",
-                    children: "Figma, Adobe Illustrator, Adobe Photoshop"
-                })
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                className: "homecontent-icon-container",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: ts_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: js_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: html_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: css_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: scss_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: less_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: wasm_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: sql_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: python_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: cpp_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: icons_react_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: redux_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: electron_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: djs_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: juce_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: nodejs_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: npm_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: pg_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: redis_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: webpack_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: rsbuild_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: vscode_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: tableplus_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: androidstudio_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: xcode_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: figma_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: ps_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: ai_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: pr_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: ae_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: clipstudio_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: live2d_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: fl_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: serum_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: omni_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: massive_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: phaseplant_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: effectrix_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: vintageverb_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: anki_namespaceObject,
+                        draggable: false
+                    })
+                ]
             }),
             /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                 className: "homecontent-header-container",
@@ -423,142 +792,99 @@ const HomeContent = ()=>{
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
                         className: "homecontent-header-text",
-                        children: "Web Frontend"
+                        children: "I Might Survive If Forced To Use"
                     })
                 ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "homecontent-text-container",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                    className: "homecontent-text",
-                    children: "TypeScript, React, Redux, HTML/CSS, SCSS/LESS"
-                })
             }),
             /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "homecontent-header-container",
+                className: "homecontent-icon-container",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-header-icon",
-                        src: star_namespaceObject,
+                        className: "homecontent-icon",
+                        src: angular_namespaceObject,
                         draggable: false
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                        className: "homecontent-header-text",
-                        children: "Web Backend"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "homecontent-text-container",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                    className: "homecontent-text",
-                    children: "Node.js, Express, PostgreSQL, Redis, Python, Next.js"
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "homecontent-header-container",
-                children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-header-icon",
-                        src: star_namespaceObject,
+                        className: "homecontent-icon",
+                        src: vue_namespaceObject,
                         draggable: false
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                        className: "homecontent-header-text",
-                        children: "Desktop"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "homecontent-text-container",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                    className: "homecontent-text",
-                    children: "TypeScript, Electron, React"
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "homecontent-header-container",
-                children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-header-icon",
-                        src: star_namespaceObject,
+                        className: "homecontent-icon",
+                        src: svelte_namespaceObject,
                         draggable: false
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                        className: "homecontent-header-text",
-                        children: "Mobile"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "homecontent-text-container",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                    className: "homecontent-text",
-                    children: "TypeScript, React Native, Kotlin, Swift"
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "homecontent-header-container",
-                children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-header-icon",
-                        src: star_namespaceObject,
+                        className: "homecontent-icon",
+                        src: next_namespaceObject,
                         draggable: false
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                        className: "homecontent-header-text",
-                        children: "Discord Bots"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "homecontent-text-container",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                    className: "homecontent-text",
-                    children: "TypeScript, Node.js, Discord.js"
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "homecontent-header-container",
-                children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-header-icon",
-                        src: star_namespaceObject,
+                        className: "homecontent-icon",
+                        src: expo_namespaceObject,
                         draggable: false
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                        className: "homecontent-header-text",
-                        children: "Audio Plugins"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "homecontent-text-container",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                    className: "homecontent-text",
-                    children: "JUCE, C++, TypeScript, React"
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "homecontent-header-container",
-                children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-header-icon",
-                        src: star_namespaceObject,
+                        className: "homecontent-icon",
+                        src: tailwind_namespaceObject,
                         draggable: false
                     }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                        className: "homecontent-header-text",
-                        children: "Game Mods"
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: csharp_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: net_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: java_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: kotlin_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: swift_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: objc_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: ruby_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: php_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: c_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: rust_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
+                        src: go_namespaceObject,
+                        draggable: false
                     })
                 ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "homecontent-text-container",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                    className: "homecontent-text",
-                    children: "C++, Objective-C"
-                })
             }),
             /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
                 className: "homecontent-text-container",
@@ -2278,7 +2604,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(742));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(5241));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
