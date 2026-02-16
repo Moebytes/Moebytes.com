@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-5241(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+169(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -1720,32 +1720,62 @@ const ArtPage = ()=>{
 };
 /* export default */ const pages_ArtPage = (ArtPage);
 
-;// CONCATENATED MODULE: ./assets/music/Agemasu.mp3
+;// CONCATENATED MODULE: ./assets/music/audio/Agemasu.mp3
 const Agemasu_namespaceObject = __webpack_require__.p + "static/media/Agemasu.mp3";
-;// CONCATENATED MODULE: ./assets/music/Arigatou.mp3
+;// CONCATENATED MODULE: ./assets/music/covers/Agemasu.png
+const covers_Agemasu_namespaceObject = __webpack_require__.p + "static/image/Agemasu.png";
+;// CONCATENATED MODULE: ./assets/music/audio/Arigatou.mp3
 const Arigatou_namespaceObject = __webpack_require__.p + "static/media/Arigatou.mp3";
-;// CONCATENATED MODULE: ./assets/music/DefineRemix.mp3
+;// CONCATENATED MODULE: ./assets/music/covers/Arigatou.png
+const covers_Arigatou_namespaceObject = __webpack_require__.p + "static/image/Arigatou.png";
+;// CONCATENATED MODULE: ./assets/music/audio/DefineRemix.mp3
 const DefineRemix_namespaceObject = __webpack_require__.p + "static/media/DefineRemix.mp3";
-;// CONCATENATED MODULE: ./assets/music/Hai.mp3
+;// CONCATENATED MODULE: ./assets/music/covers/Define.png
+const Define_namespaceObject = __webpack_require__.p + "static/image/Define.png";
+;// CONCATENATED MODULE: ./assets/music/audio/Hai.mp3
 const Hai_namespaceObject = __webpack_require__.p + "static/media/Hai.mp3";
-;// CONCATENATED MODULE: ./assets/music/Konnichiwa.mp3
+;// CONCATENATED MODULE: ./assets/music/covers/Hai.png
+const covers_Hai_namespaceObject = __webpack_require__.p + "static/image/Hai.png";
+;// CONCATENATED MODULE: ./assets/music/audio/Icicle.mp3
+const Icicle_namespaceObject = __webpack_require__.p + "static/media/Icicle.mp3";
+;// CONCATENATED MODULE: ./assets/music/covers/Icicle.png
+const covers_Icicle_namespaceObject = __webpack_require__.p + "static/image/Icicle.png";
+;// CONCATENATED MODULE: ./assets/music/audio/Konnichiwa.mp3
 const Konnichiwa_namespaceObject = __webpack_require__.p + "static/media/Konnichiwa.mp3";
-;// CONCATENATED MODULE: ./assets/music/Kudasai.mp3
+;// CONCATENATED MODULE: ./assets/music/covers/Konnichiwa.png
+const covers_Konnichiwa_namespaceObject = __webpack_require__.p + "static/image/Konnichiwa.png";
+;// CONCATENATED MODULE: ./assets/music/audio/Kudasai.mp3
 const Kudasai_namespaceObject = __webpack_require__.p + "static/media/Kudasai.mp3";
-;// CONCATENATED MODULE: ./assets/music/Moonlight.mp3
+;// CONCATENATED MODULE: ./assets/music/covers/Kudasai.png
+const covers_Kudasai_namespaceObject = __webpack_require__.p + "static/image/Kudasai.png";
+;// CONCATENATED MODULE: ./assets/music/audio/Moonlight.mp3
 const Moonlight_namespaceObject = __webpack_require__.p + "static/media/Moonlight.mp3";
-;// CONCATENATED MODULE: ./assets/music/Rainfall.mp3
+;// CONCATENATED MODULE: ./assets/music/covers/Moonlight.png
+const covers_Moonlight_namespaceObject = __webpack_require__.p + "static/image/Moonlight.png";
+;// CONCATENATED MODULE: ./assets/music/audio/Rainfall.mp3
 const Rainfall_namespaceObject = __webpack_require__.p + "static/media/Rainfall.mp3";
-;// CONCATENATED MODULE: ./assets/music/Snowflake.mp3
+;// CONCATENATED MODULE: ./assets/music/covers/Rainfall.png
+const covers_Rainfall_namespaceObject = __webpack_require__.p + "static/image/Rainfall.png";
+;// CONCATENATED MODULE: ./assets/music/audio/Snowflake.mp3
 const Snowflake_namespaceObject = __webpack_require__.p + "static/media/Snowflake.mp3";
-;// CONCATENATED MODULE: ./assets/music/SquareDreams.mp3
+;// CONCATENATED MODULE: ./assets/music/covers/Snowflake.png
+const covers_Snowflake_namespaceObject = __webpack_require__.p + "static/image/Snowflake.png";
+;// CONCATENATED MODULE: ./assets/music/audio/SquareDreams.mp3
 const SquareDreams_namespaceObject = __webpack_require__.p + "static/media/SquareDreams.mp3";
-;// CONCATENATED MODULE: ./assets/music/Starlight.mp3
+;// CONCATENATED MODULE: ./assets/music/covers/SquareDreams.png
+const covers_SquareDreams_namespaceObject = __webpack_require__.p + "static/image/SquareDreams.png";
+;// CONCATENATED MODULE: ./assets/music/audio/Starlight.mp3
 const Starlight_namespaceObject = __webpack_require__.p + "static/media/Starlight.mp3";
-;// CONCATENATED MODULE: ./assets/music/Starstruck.mp3
+;// CONCATENATED MODULE: ./assets/music/covers/Starlight.png
+const covers_Starlight_namespaceObject = __webpack_require__.p + "static/image/Starlight.png";
+;// CONCATENATED MODULE: ./assets/music/audio/Starstruck.mp3
 const Starstruck_namespaceObject = __webpack_require__.p + "static/media/Starstruck.mp3";
-;// CONCATENATED MODULE: ./assets/music/Xylophone.mp3
+;// CONCATENATED MODULE: ./assets/music/covers/Starstruck.png
+const covers_Starstruck_namespaceObject = __webpack_require__.p + "static/image/Starstruck.png";
+;// CONCATENATED MODULE: ./assets/music/audio/Xylophone.mp3
 const Xylophone_namespaceObject = __webpack_require__.p + "static/media/Xylophone.mp3";
+;// CONCATENATED MODULE: ./assets/music/covers/Xylophone.png
+const covers_Xylophone_namespaceObject = __webpack_require__.p + "static/image/Xylophone.png";
 // EXTERNAL MODULE: ./node_modules/react-slider/dist/es/prod/components/ReactSlider/ReactSlider.mjs + 2 modules
 var ReactSlider = __webpack_require__(508);
 ;// CONCATENATED MODULE: ./assets/svg/play.svg
@@ -1822,20 +1852,19 @@ const MusicGrid = (props)=>{
     (0,react.useEffect)(()=>{
         if (sliderRef.current) sliderRef.current.resize();
     });
-    const updateSongCover = async ()=>{
-        const songCover = await Functions.songCover(props.audio);
-        setImg(songCover);
-    };
-    const loadAudio = async ()=>{
+    /*
+    const updateSongCover = async () => {
+        const songCover = await functions.songCover(props.audio)
+        setImg(songCover)
+    }
+
+    useEffect(() => {
+        updateSongCover()
+    }, [props.audio])*/ const loadAudio = async ()=>{
         await AudioEngine.initialize();
         await AudioEngine.load(props.audio);
         setDuration(AudioEngine.duration);
     };
-    (0,react.useEffect)(()=>{
-        updateSongCover();
-    }, [
-        props.audio
-    ]);
     (0,react.useEffect)(()=>{
         if (currentAudio !== props.audio) {
             setPaused(true);
@@ -1905,13 +1934,12 @@ const MusicGrid = (props)=>{
         const secondsProgress = value / 100 * duration;
         setDragProgress(secondsProgress);
     };
-    if (!img) return null;
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
         className: "musicgrid",
         children: [
             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                 className: "musicgrid-img",
-                src: img,
+                src: props.cover,
                 draggable: false
             }),
             /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
@@ -1986,6 +2014,21 @@ const MusicGrid = (props)=>{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const MusicContent = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
         className: "musiccontent",
@@ -2001,43 +2044,60 @@ const MusicContent = ()=>{
                 className: "musiccontent-items-container",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Agemasu_namespaceObject
+                        audio: Hai_namespaceObject,
+                        cover: covers_Hai_namespaceObject
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Hai_namespaceObject
+                        audio: SquareDreams_namespaceObject,
+                        cover: covers_SquareDreams_namespaceObject
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: SquareDreams_namespaceObject
+                        audio: Xylophone_namespaceObject,
+                        cover: covers_Xylophone_namespaceObject
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Xylophone_namespaceObject
+                        audio: Arigatou_namespaceObject,
+                        cover: covers_Arigatou_namespaceObject
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Arigatou_namespaceObject
+                        audio: Starlight_namespaceObject,
+                        cover: covers_Starlight_namespaceObject
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Starlight_namespaceObject
+                        audio: Rainfall_namespaceObject,
+                        cover: covers_Rainfall_namespaceObject
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Rainfall_namespaceObject
+                        audio: DefineRemix_namespaceObject,
+                        cover: Define_namespaceObject
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: DefineRemix_namespaceObject
+                        audio: Konnichiwa_namespaceObject,
+                        cover: covers_Konnichiwa_namespaceObject
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Konnichiwa_namespaceObject
+                        audio: Icicle_namespaceObject,
+                        cover: covers_Icicle_namespaceObject
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Moonlight_namespaceObject
+                        audio: Moonlight_namespaceObject,
+                        cover: covers_Moonlight_namespaceObject
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Kudasai_namespaceObject
+                        audio: Kudasai_namespaceObject,
+                        cover: covers_Kudasai_namespaceObject
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Starstruck_namespaceObject
+                        audio: Starstruck_namespaceObject,
+                        cover: covers_Starstruck_namespaceObject
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Snowflake_namespaceObject
+                        audio: Snowflake_namespaceObject,
+                        cover: covers_Snowflake_namespaceObject
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                        audio: Agemasu_namespaceObject,
+                        cover: covers_Agemasu_namespaceObject
                     })
                 ]
             })
@@ -2604,7 +2664,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(5241));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(169));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
