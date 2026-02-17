@@ -7,7 +7,6 @@ import androidstudio from "../assets/icons/androidstudio.png"
 import angular from "../assets/icons/angular.png"
 import anki from "../assets/icons/anki.png"
 import blender from "../assets/icons/blender.png"
-import c from "../assets/icons/c.png"
 import clipstudio from "../assets/icons/clipstudio.png"
 import cpp from "../assets/icons/cpp.png"
 import csharp from "../assets/icons/csharp.png"
@@ -155,7 +154,6 @@ const HomeContent: React.FunctionComponent = () => {
                 <img className="homecontent-icon" src={objc} draggable={false}/>
                 <img className="homecontent-icon" src={ruby} draggable={false}/>
                 <img className="homecontent-icon" src={php} draggable={false}/>
-                <img className="homecontent-icon" src={c} draggable={false}/>
                 <img className="homecontent-icon" src={rust} draggable={false}/>
                 <img className="homecontent-icon" src={go} draggable={false}/>
             </div>
