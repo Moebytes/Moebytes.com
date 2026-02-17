@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-169(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+6513(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -361,8 +361,6 @@ const androidstudio_namespaceObject = __webpack_require__.p + "static/image/andr
 const angular_namespaceObject = __webpack_require__.p + "static/image/angular.png";
 ;// CONCATENATED MODULE: ./assets/icons/anki.png
 const anki_namespaceObject = __webpack_require__.p + "static/image/anki.png";
-;// CONCATENATED MODULE: ./assets/icons/c.png
-const c_namespaceObject = __webpack_require__.p + "static/image/c.png";
 ;// CONCATENATED MODULE: ./assets/icons/clipstudio.png
 const clipstudio_namespaceObject = __webpack_require__.p + "static/image/clipstudio.png";
 ;// CONCATENATED MODULE: ./assets/icons/cpp.png
@@ -469,7 +467,6 @@ const xcode_namespaceObject = __webpack_require__.p + "static/image/xcode.png";
 // extracted by css-extract-rspack-plugin
 
 ;// CONCATENATED MODULE: ./components/HomeContent.tsx
-
 
 
 
@@ -867,11 +864,6 @@ const HomeContent = ()=>{
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "homecontent-icon",
                         src: php_namespaceObject,
-                        draggable: false
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-icon",
-                        src: c_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
@@ -2664,7 +2656,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(169));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(6513));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
