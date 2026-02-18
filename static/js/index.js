@@ -242,6 +242,7 @@ class AudioEngine {
 (0,_define_property._)(AudioEngine, "load", async (url)=>{
     if (!AudioEngine.player) await AudioEngine.initialize();
     await AudioEngine.player.load(url);
+    AudioEngine.player.loop = true;
 });
 (0,_define_property._)(AudioEngine, "play", async function() {
     let offset = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : 0;
