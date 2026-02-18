@@ -1873,7 +1873,12 @@ const MusicGrid = (props)=>{
         const id = setInterval(()=>{
             if (paused || !duration) return;
             const elapsed = esm/* .now */.tB() - startTimeRef.current;
-            const current = offsetRef.current + elapsed;
+            let current = offsetRef.current + elapsed;
+            if (current >= duration) {
+                current = 0;
+                offsetRef.current = 0;
+                startTimeRef.current = esm/* .now */.tB();
+            }
             if (!dragging) {
                 setSecondsProgress(current);
                 setProgress(current / duration * 100);
