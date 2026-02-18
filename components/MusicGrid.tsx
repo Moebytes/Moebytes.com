@@ -61,7 +61,13 @@ const MusicGrid: React.FunctionComponent<Props> = (props) => {
         const id = setInterval(() => {
             if (paused || !duration) return
             const elapsed = Tone.now() - startTimeRef.current
-            const current = offsetRef.current + elapsed
+            let current = offsetRef.current + elapsed
+
+            if (current >= duration) {
+                current = 0
+                offsetRef.current = 0
+                startTimeRef.current = Tone.now()
+            }
 
             if (!dragging) {
                 setSecondsProgress(current)
