@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-6513(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+1936(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -1465,10 +1465,19 @@ const moepictures_namespaceObject = __webpack_require__.p + "static/image/moepic
 const moepictures_app_namespaceObject = __webpack_require__.p + "static/image/moepictures-app.png";
 ;// CONCATENATED MODULE: ./assets/design/kisaragi.png
 const kisaragi_namespaceObject = __webpack_require__.p + "static/image/kisaragi.png";
+;// CONCATENATED MODULE: ./assets/design/tune-player.png
+const tune_player_namespaceObject = __webpack_require__.p + "static/image/tune-player.png";
+;// CONCATENATED MODULE: ./assets/design/pic-viewer.png
+const pic_viewer_namespaceObject = __webpack_require__.p + "static/image/pic-viewer.png";
+;// CONCATENATED MODULE: ./assets/design/motion-player.png
+const motion_player_namespaceObject = __webpack_require__.p + "static/image/motion-player.png";
 ;// CONCATENATED MODULE: ./components/styles/designcontent.less
 // extracted by css-extract-rspack-plugin
 
 ;// CONCATENATED MODULE: ./components/DesignContent.tsx
+
+
+
 
 
 
@@ -1484,9 +1493,45 @@ const DesignContent = ()=>{
     const openMoepicturesApp = ()=>{
         window.open("https://www.figma.com/design/iB9H1DBk2qVhloD4nD1RGF/Moepictures-App", "_blank");
     };
+    const openTunePlayer = ()=>{
+        window.open("https://www.figma.com/design/CTEs64SQjKg7M1SXzGx0Kh/Tune-Player", "_blank");
+    };
+    const openPicViewer = ()=>{
+        window.open("https://www.figma.com/design/kqGaBzYxe93zSPxDPz6wRa/Pic-Viewer", "_blank");
+    };
+    const openMotionPlayer = ()=>{
+        window.open("https://www.figma.com/design/PpYPQAYojONPWedMbDRL8t/Motion-Player", "_blank");
+    };
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
         className: "design-content",
         children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                className: "design-content-img",
+                src: tune_player_namespaceObject,
+                draggable: false,
+                style: {
+                    cursor: "pointer"
+                },
+                onClick: openTunePlayer
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                className: "design-content-img",
+                src: pic_viewer_namespaceObject,
+                draggable: false,
+                style: {
+                    cursor: "pointer"
+                },
+                onClick: openPicViewer
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                className: "design-content-img",
+                src: motion_player_namespaceObject,
+                draggable: false,
+                style: {
+                    cursor: "pointer"
+                },
+                onClick: openMotionPlayer
+            }),
             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                 className: "design-content-img",
                 src: moepictures_namespaceObject,
@@ -2654,7 +2699,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(6513));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(1936));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
