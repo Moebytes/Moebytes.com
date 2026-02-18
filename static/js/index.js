@@ -1874,14 +1874,6 @@ const MusicGrid = (props)=>{
             if (paused || !duration) return;
             const elapsed = esm/* .now */.tB() - startTimeRef.current;
             const current = offsetRef.current + elapsed;
-            if (current >= duration) {
-                AudioEngine.stop();
-                setPaused(true);
-                setProgress(0);
-                setSecondsProgress(0);
-                offsetRef.current = 0;
-                return;
-            }
             if (!dragging) {
                 setSecondsProgress(current);
                 setProgress(current / duration * 100);
