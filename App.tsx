@@ -4,7 +4,7 @@ import {useLayoutActions} from "./store"
 import LocalStorage from "./LocalStorage"
 import AudioEngine from "./structures/AudioEngine"
 import HomePage from "./pages/HomePage"
-import SoftwarePage from "./pages/SoftwarePage"
+import CodePage from "./pages/CodePage"
 import DesignPage from "./pages/DesignPage"
 import ArtPage from "./pages/ArtPage"
 import MusicPage from "./pages/MusicPage"
@@ -48,7 +48,7 @@ const App: React.FunctionComponent = () => {
         <LocalStorage/>
         <Routes>
           <Route path="/" element={<HomePage/>}/>
-          <Route path="/software" element={<SoftwarePage/>}/>
+          <Route path="/code" element={<CodePage/>}/>
           <Route path="/design" element={<DesignPage/>}/>
           <Route path="/art" element={<ArtPage/>}/>
           <Route path="/music" element={<MusicPage/>}/>

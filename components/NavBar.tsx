@@ -18,7 +18,7 @@ const NavBar: React.FunctionComponent = () => {
         <div className="navbar">
             <div className="navbar-container">
                 <button className="navbar-button" onClick={() => navigate("/")}>Home</button>
-                <button className="navbar-button" onClick={() => navigate("/software")}>Software</button>
+                <button className="navbar-button" onClick={() => navigate("/code")}>Code</button>
                 <button className="navbar-button" onClick={() => navigate("/design")}>Design</button>
                 <button className="navbar-button" onClick={() => navigate("/art")}>Art</button>
                 <button className="navbar-button" onClick={() => navigate("/music")}>Music</button>
