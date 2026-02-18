@@ -26,6 +26,7 @@ export default class AudioEngine {
     public static load = async (url: string) => {
         if (!this.player) await this.initialize()
         await this.player!.load(url)
+        this.player.loop = true
     }
 
     public static play = async (offset = 0) => {
