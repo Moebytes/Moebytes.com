@@ -215,7 +215,7 @@
   }
 }
 
-.softwarecontent {
+.codecontent {
   flex-direction: column;
   align-items: flex-start;
   gap: 35px;
@@ -224,7 +224,7 @@
   display: flex;
 }
 
-.softwarecontent-icon-container {
+.codecontent-icon-container {
   flex-wrap: wrap;
   align-content: flex-start;
   align-items: flex-start;
@@ -232,7 +232,7 @@
   display: flex;
 }
 
-.softwarecontent-icon-box {
+.codecontent-icon-box {
   background-color: var(--navColor);
   cursor: pointer;
   border-radius: 27px;
@@ -242,23 +242,23 @@
   display: flex;
 }
 
-.softwarecontent-icon-text {
+.codecontent-icon-text {
   color: var(--headingColor);
   font-family: Tsunagi Gothic Black;
   font-size: 40px;
   line-height: 40px;
 }
 
-.softwarecontent-icon-text:hover {
+.codecontent-icon-text:hover {
   color: var(--textColor);
 }
 
-.softwarecontent-icon {
+.codecontent-icon {
   width: auto;
   height: 50px;
 }
 
-.softwarecontent-container {
+.codecontent-container {
   flex-direction: column;
   align-items: flex-start;
   gap: 50px;
@@ -267,23 +267,23 @@
   display: flex;
 }
 
-.softwarecontent-container > img {
+.codecontent-container > img {
   align-self: center;
 }
 
-.softwarecontent-image {
+.codecontent-image {
   width: auto;
   height: 220px;
 }
 
-.softwarecontent-text-container {
+.codecontent-text-container {
   flex-wrap: wrap;
   place-content: center;
   align-items: center;
   display: flex;
 }
 
-.softwarecontent-text {
+.codecontent-text {
   color: var(--textColor);
   word-break: break-word;
   font-family: Honoka Shin Antique-Kaku;
@@ -291,42 +291,42 @@
   line-height: 45px;
 }
 
-.softwarecontent-text-alt {
+.codecontent-text-alt {
   color: var(--headingColor);
 }
 
 @media screen and (max-width: 500px) {
-  .softwarecontent {
+  .codecontent {
     gap: 15px;
     padding: 20px;
   }
 
-  .softwarecontent-icon-container {
+  .codecontent-icon-container {
     gap: 20px;
   }
 
-  .softwarecontent-icon-box {
+  .codecontent-icon-box {
     padding: 5px 10px;
   }
 
-  .softwarecontent-icon-text {
+  .codecontent-icon-text {
     font-size: 25px;
   }
 
-  .softwarecontent-icon {
+  .codecontent-icon {
     height: 25px;
   }
 
-  .softwarecontent-container {
+  .codecontent-container {
     padding: 0;
   }
 
-  .softwarecontent-image {
+  .codecontent-image {
     width: auto;
     height: 65px;
   }
 
-  .softwarecontent-text {
+  .codecontent-text {
     font-size: 15px;
     line-height: 25px;
   }

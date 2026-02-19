@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-1936(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+509(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -315,8 +315,8 @@ const NavBar = ()=>{
                 }),
                 /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
                     className: "navbar-button",
-                    onClick: ()=>navigate("/software"),
-                    children: "Software"
+                    onClick: ()=>navigate("/code"),
+                    children: "Code"
                 }),
                 /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
                     className: "navbar-button",
@@ -1008,10 +1008,10 @@ const imagecompressor_logo_namespaceObject = __webpack_require__.p + "static/ima
 const gainbooster_logo_namespaceObject = __webpack_require__.p + "static/image/gainbooster-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/vocalchopper-logo.png
 const vocalchopper_logo_namespaceObject = __webpack_require__.p + "static/image/vocalchopper-logo.png";
-;// CONCATENATED MODULE: ./components/styles/softwarecontent.less
+;// CONCATENATED MODULE: ./components/styles/codecontent.less
 // extracted by css-extract-rspack-plugin
 
-;// CONCATENATED MODULE: ./components/SoftwareContent.tsx
+;// CONCATENATED MODULE: ./components/CodeContent.tsx
 
 
 
@@ -1030,15 +1030,15 @@ const vocalchopper_logo_namespaceObject = __webpack_require__.p + "static/image/
 
 
 
-const SoftwareContent = ()=>{
+const CodeContent = ()=>{
     const { mobile, tablet } = useLayoutSelector();
     const [activeTab, setActiveTab] = (0,react.useState)("moepictures");
     (0,react.useEffect)(()=>{
-        const savedTab = localStorage.getItem("softwareTab");
+        const savedTab = localStorage.getItem("codeTab");
         if (savedTab) setActiveTab(savedTab);
     }, []);
     (0,react.useEffect)(()=>{
-        localStorage.setItem("softwareTab", activeTab);
+        localStorage.setItem("codeTab", activeTab);
     }, [
         activeTab
     ]);
@@ -1047,7 +1047,7 @@ const SoftwareContent = ()=>{
             return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "softwarecontent-image",
+                        className: "codecontent-image",
                         src: moepictures_logo_namespaceObject,
                         draggable: false,
                         style: {
@@ -1055,9 +1055,9 @@ const SoftwareContent = ()=>{
                         }
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "softwarecontent-text-container",
+                        className: "codecontent-text-container",
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                            className: "softwarecontent-text",
+                            className: "codecontent-text",
                             children: [
                                 "Moepictures is a website for posting cute anime artworks.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
@@ -1086,7 +1086,7 @@ const SoftwareContent = ()=>{
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Mobile App: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                    className: "softwarecontent-text-alt",
+                                    className: "codecontent-text-alt",
                                     children: "In Development"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
@@ -1110,7 +1110,7 @@ const SoftwareContent = ()=>{
             return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "softwarecontent-image",
+                        className: "codecontent-image",
                         src: kisaragi_logo_namespaceObject,
                         draggable: false,
                         style: {
@@ -1118,9 +1118,9 @@ const SoftwareContent = ()=>{
                         }
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "softwarecontent-text-container",
+                        className: "codecontent-text-container",
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                            className: "softwarecontent-text",
+                            className: "codecontent-text",
                             children: [
                                 "Kisaragi is a discord bot with a lot of commands.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
@@ -1154,14 +1154,14 @@ const SoftwareContent = ()=>{
             return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "softwarecontent-image",
+                        className: "codecontent-image",
                         src: musicplayer_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "softwarecontent-text-container",
+                        className: "codecontent-text-container",
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                            className: "softwarecontent-text",
+                            className: "codecontent-text",
                             children: [
                                 "Music Player is an app for playing music and adding pitch effects.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
@@ -1176,14 +1176,14 @@ const SoftwareContent = ()=>{
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "softwarecontent-image",
+                        className: "codecontent-image",
                         src: photoviewer_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "softwarecontent-text-container",
+                        className: "codecontent-text-container",
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                            className: "softwarecontent-text",
+                            className: "codecontent-text",
                             children: [
                                 "Photo Viewer is an app for viewing images and adding adjustments.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
@@ -1198,14 +1198,14 @@ const SoftwareContent = ()=>{
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "softwarecontent-image",
+                        className: "codecontent-image",
                         src: videoplayer_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "softwarecontent-text-container",
+                        className: "codecontent-text-container",
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                            className: "softwarecontent-text",
+                            className: "codecontent-text",
                             children: [
                                 "Video Player is an app for playing videos and adding adjustments.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
@@ -1220,14 +1220,14 @@ const SoftwareContent = ()=>{
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "softwarecontent-image",
+                        className: "codecontent-image",
                         src: waifu2xgui_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "softwarecontent-text-container",
+                        className: "codecontent-text-container",
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                            className: "softwarecontent-text",
+                            className: "codecontent-text",
                             children: [
                                 "Waifu2x GUI is an app that upscales images using waifu2x and similar upscalers. The core logic was also released as a npm package.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
@@ -1248,14 +1248,14 @@ const SoftwareContent = ()=>{
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "softwarecontent-image",
+                        className: "codecontent-image",
                         src: imagecompressor_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "softwarecontent-text-container",
+                        className: "codecontent-text-container",
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                            className: "softwarecontent-text",
+                            className: "codecontent-text",
                             children: [
                                 "Image Compressor is an app for compressing images. It also has some miscellaneous features in the header bar.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
@@ -1275,14 +1275,14 @@ const SoftwareContent = ()=>{
             return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "softwarecontent-image",
+                        className: "codecontent-image",
                         src: gainbooster_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "softwarecontent-text-container",
+                        className: "codecontent-text-container",
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                            className: "softwarecontent-text",
+                            className: "codecontent-text",
                             children: [
                                 "Gain Booster is a plugin for simple gain adjustments.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
@@ -1297,14 +1297,14 @@ const SoftwareContent = ()=>{
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "softwarecontent-image",
+                        className: "codecontent-image",
                         src: vocalchopper_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "softwarecontent-text-container",
+                        className: "codecontent-text-container",
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                            className: "softwarecontent-text",
+                            className: "codecontent-text",
                             children: [
                                 "Vocal Chopper is a plugin that separates the vocals from an audio track and generates chopped samples.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
@@ -1323,9 +1323,9 @@ const SoftwareContent = ()=>{
         } else if (activeTab === "more") {
             return /*#__PURE__*/ (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
                 children: /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                    className: "softwarecontent-text-container",
+                    className: "codecontent-text-container",
                     children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
-                        className: "softwarecontent-text",
+                        className: "codecontent-text",
                         children: [
                             "To view all of my other smaller projects, check me out on Github.",
                             /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
@@ -1349,82 +1349,82 @@ const SoftwareContent = ()=>{
         }
     };
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-        className: "softwarecontent",
+        className: "codecontent",
         children: [
             /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "softwarecontent-icon-container",
+                className: "codecontent-icon-container",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                        className: "softwarecontent-icon-box",
+                        className: "codecontent-icon-box",
                         onClick: ()=>setActiveTab("moepictures"),
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                                className: "softwarecontent-icon",
+                                className: "codecontent-icon",
                                 src: moepictures_icon_namespaceObject,
                                 draggable: false
                             }),
                             /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                className: "softwarecontent-icon-text",
+                                className: "codecontent-icon-text",
                                 children: "Moepictures"
                             })
                         ]
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                        className: "softwarecontent-icon-box",
+                        className: "codecontent-icon-box",
                         onClick: ()=>setActiveTab("kisaragi"),
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                                className: "softwarecontent-icon",
+                                className: "codecontent-icon",
                                 src: kisaragi_icon_namespaceObject,
                                 draggable: false
                             }),
                             /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                className: "softwarecontent-icon-text",
+                                className: "codecontent-icon-text",
                                 children: "Kisaragi"
                             })
                         ]
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                        className: "softwarecontent-icon-box",
+                        className: "codecontent-icon-box",
                         onClick: ()=>setActiveTab("apps-&-utilities"),
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                                className: "softwarecontent-icon",
+                                className: "codecontent-icon",
                                 src: apps_namespaceObject,
                                 draggable: false
                             }),
                             /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                className: "softwarecontent-icon-text",
+                                className: "codecontent-icon-text",
                                 children: "Apps & Utilities"
                             })
                         ]
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                        className: "softwarecontent-icon-box",
+                        className: "codecontent-icon-box",
                         onClick: ()=>setActiveTab("audio-plugins"),
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                                className: "softwarecontent-icon",
+                                className: "codecontent-icon",
                                 src: music_namespaceObject,
                                 draggable: false
                             }),
                             /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                className: "softwarecontent-icon-text",
+                                className: "codecontent-icon-text",
                                 children: "Audio Plugins"
                             })
                         ]
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                        className: "softwarecontent-icon-box",
+                        className: "codecontent-icon-box",
                         onClick: ()=>setActiveTab("more"),
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                                className: "softwarecontent-icon",
+                                className: "codecontent-icon",
                                 src: code_namespaceObject,
                                 draggable: false
                             }),
                             /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                className: "softwarecontent-icon-text",
+                                className: "codecontent-icon-text",
                                 children: "More"
                             })
                         ]
@@ -1432,32 +1432,32 @@ const SoftwareContent = ()=>{
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "softwarecontent-container",
+                className: "codecontent-container",
                 children: generateTabJSX()
             })
         ]
     });
 };
-/* export default */ const components_SoftwareContent = (SoftwareContent);
+/* export default */ const components_CodeContent = (CodeContent);
 
-;// CONCATENATED MODULE: ./pages/SoftwarePage.tsx
-
-
+;// CONCATENATED MODULE: ./pages/CodePage.tsx
 
 
 
 
-const SoftwarePage = ()=>{
+
+
+const CodePage = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
         children: [
             /*#__PURE__*/ (0,jsx_runtime.jsx)(components_LogoBar, {}),
             /*#__PURE__*/ (0,jsx_runtime.jsx)(components_NavBar, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(components_SoftwareContent, {}),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(components_CodeContent, {}),
             /*#__PURE__*/ (0,jsx_runtime.jsx)(components_Footer, {})
         ]
     });
 };
-/* export default */ const pages_SoftwarePage = (SoftwarePage);
+/* export default */ const pages_CodePage = (CodePage);
 
 ;// CONCATENATED MODULE: ./assets/design/moepictures.png
 const moepictures_namespaceObject = __webpack_require__.p + "static/image/moepictures.png";
@@ -2333,8 +2333,8 @@ const App = ()=>{
                         element: /*#__PURE__*/ (0,jsx_runtime.jsx)(pages_HomePage, {})
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(chunk_JZWAC4HX/* .Route */.qh, {
-                        path: "/software",
-                        element: /*#__PURE__*/ (0,jsx_runtime.jsx)(pages_SoftwarePage, {})
+                        path: "/code",
+                        element: /*#__PURE__*/ (0,jsx_runtime.jsx)(pages_CodePage, {})
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(chunk_JZWAC4HX/* .Route */.qh, {
                         path: "/design",
@@ -2699,7 +2699,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(1936));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(509));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
