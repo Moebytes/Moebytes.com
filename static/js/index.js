@@ -2193,21 +2193,6 @@ const ContactContent = ()=>{
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
                             className: "homecontent-text-alt",
                             children: "moebytez@gmail.com"
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "For support specific to my projects:",
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "Moepictures: ",
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                            className: "homecontent-text-alt",
-                            children: "moepictures.moe@gmail.com"
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "Kisaragi: ",
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                            href: "https://discord.gg/sNhUu5JN6y",
-                            children: "https://discord.gg/sNhUu5JN6y"
                         })
                     ]
                 })
