@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-509(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+7539(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -994,16 +994,16 @@ const code_namespaceObject = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjI1IiBo
 const moepictures_logo_namespaceObject = __webpack_require__.p + "static/image/moepictures-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/kisaragi-logo.png
 const kisaragi_logo_namespaceObject = __webpack_require__.p + "static/image/kisaragi-logo.png";
-;// CONCATENATED MODULE: ./assets/images/musicplayer-logo.png
-const musicplayer_logo_namespaceObject = __webpack_require__.p + "static/image/musicplayer-logo.png";
-;// CONCATENATED MODULE: ./assets/images/photoviewer-logo.png
-const photoviewer_logo_namespaceObject = __webpack_require__.p + "static/image/photoviewer-logo.png";
-;// CONCATENATED MODULE: ./assets/images/videoplayer-logo.png
-const videoplayer_logo_namespaceObject = __webpack_require__.p + "static/image/videoplayer-logo.png";
-;// CONCATENATED MODULE: ./assets/images/waifu2xgui-logo.png
-const waifu2xgui_logo_namespaceObject = __webpack_require__.p + "static/image/waifu2xgui-logo.png";
-;// CONCATENATED MODULE: ./assets/images/imagecompressor-logo.png
-const imagecompressor_logo_namespaceObject = __webpack_require__.p + "static/image/imagecompressor-logo.png";
+;// CONCATENATED MODULE: ./assets/images/tuneplayer-logo.png
+const tuneplayer_logo_namespaceObject = __webpack_require__.p + "static/image/tuneplayer-logo.png";
+;// CONCATENATED MODULE: ./assets/images/picviewer-logo.png
+const picviewer_logo_namespaceObject = __webpack_require__.p + "static/image/picviewer-logo.png";
+;// CONCATENATED MODULE: ./assets/images/motionplayer-logo.png
+const motionplayer_logo_namespaceObject = __webpack_require__.p + "static/image/motionplayer-logo.png";
+;// CONCATENATED MODULE: ./assets/images/waifu2xupscaler-logo.png
+const waifu2xupscaler_logo_namespaceObject = __webpack_require__.p + "static/image/waifu2xupscaler-logo.png";
+;// CONCATENATED MODULE: ./assets/images/pixelcompressor-logo.png
+const pixelcompressor_logo_namespaceObject = __webpack_require__.p + "static/image/pixelcompressor-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/gainbooster-logo.png
 const gainbooster_logo_namespaceObject = __webpack_require__.p + "static/image/gainbooster-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/vocalchopper-logo.png
@@ -1155,7 +1155,7 @@ const CodeContent = ()=>{
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "codecontent-image",
-                        src: musicplayer_logo_namespaceObject,
+                        src: tuneplayer_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
@@ -1163,13 +1163,13 @@ const CodeContent = ()=>{
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                             className: "codecontent-text",
                             children: [
-                                "Music Player is an app for playing music and adding pitch effects.",
+                                "Tune Player is an app for playing music and adding pitch effects.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Music-Player",
-                                    children: "https://github.com/Moebytes/Music-Player"
+                                    href: "https://github.com/Moebytes/Tune-Player",
+                                    children: "https://github.com/Moebytes/Tune-Player"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1177,7 +1177,7 @@ const CodeContent = ()=>{
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "codecontent-image",
-                        src: photoviewer_logo_namespaceObject,
+                        src: picviewer_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
@@ -1185,13 +1185,13 @@ const CodeContent = ()=>{
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                             className: "codecontent-text",
                             children: [
-                                "Photo Viewer is an app for viewing images and adding adjustments.",
+                                "Pic Viewer is an app for viewing images and adding adjustments.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Photo-Viewer",
-                                    children: "https://github.com/Moebytes/Photo-Viewer"
+                                    href: "https://github.com/Moebytes/Pic-Viewer",
+                                    children: "https://github.com/Moebytes/Pic-Viewer"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1199,7 +1199,7 @@ const CodeContent = ()=>{
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "codecontent-image",
-                        src: videoplayer_logo_namespaceObject,
+                        src: motionplayer_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
@@ -1207,13 +1207,13 @@ const CodeContent = ()=>{
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                             className: "codecontent-text",
                             children: [
-                                "Video Player is an app for playing videos and adding adjustments.",
+                                "Motion Player is an app for playing videos and adding adjustments.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Video-Player",
-                                    children: "https://github.com/Moebytes/Video-Player"
+                                    href: "https://github.com/Moebytes/Motion-Player",
+                                    children: "https://github.com/Moebytes/Motion-Player"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1221,7 +1221,7 @@ const CodeContent = ()=>{
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "codecontent-image",
-                        src: waifu2xgui_logo_namespaceObject,
+                        src: waifu2xupscaler_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
@@ -1229,13 +1229,13 @@ const CodeContent = ()=>{
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                             className: "codecontent-text",
                             children: [
-                                "Waifu2x GUI is an app that upscales images using waifu2x and similar upscalers. The core logic was also released as a npm package.",
+                                "Waifu2x Upscaler is an app that upscales images using waifu2x and similar upscalers. The core logic was also released as a npm package.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Waifu2x-GUI",
-                                    children: "https://github.com/Moebytes/Waifu2x-GUI"
+                                    href: "https://github.com/Moebytes/Waifu2x-Upscaler",
+                                    children: "https://github.com/Moebytes/Waifu2x-Upscaler"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Package: ",
@@ -1249,7 +1249,7 @@ const CodeContent = ()=>{
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "codecontent-image",
-                        src: imagecompressor_logo_namespaceObject,
+                        src: pixelcompressor_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
@@ -1257,13 +1257,13 @@ const CodeContent = ()=>{
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                             className: "codecontent-text",
                             children: [
-                                "Image Compressor is an app for compressing images. It also has some miscellaneous features in the header bar.",
+                                "Pixel Compressor is an app for compressing and resizing images.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Image-Compressor",
-                                    children: "https://github.com/Moebytes/Image-Compressor"
+                                    href: "https://github.com/Moebytes/Pixel-Compressor",
+                                    children: "https://github.com/Moebytes/Pixel-Compressor"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -2684,7 +2684,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(509));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(7539));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
