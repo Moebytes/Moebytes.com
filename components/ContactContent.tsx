@@ -13,10 +13,6 @@ const ContactContent: React.FunctionComponent = () => {
                 <span className="homecontent-text">
                     If you need to contact me you can reach me by email:<br/>
                     <span className="homecontent-text-alt">moebytez@gmail.com</span>
-                    <br/><br/>
-                    For support specific to my projects:<br/>
-                    Moepictures: <span className="homecontent-text-alt">moepictures.moe@gmail.com</span><br/>
-                    Kisaragi: <a href="https://discord.gg/sNhUu5JN6y">https://discord.gg/sNhUu5JN6y</a>
                 </span>
             </div>
         </div>
