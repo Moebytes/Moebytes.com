@@ -7,11 +7,11 @@ import musicIcon from "../assets/svg/music.svg"
 import codeIcon from "../assets/svg/code.svg"
 import moepicturesLogo from "../assets/images/moepictures-logo.png"
 import kisaragiLogo from "../assets/images/kisaragi-logo.png"
-import musicPlayerLogo from "../assets/images/musicplayer-logo.png"
-import photoViewerLogo from "../assets/images/photoviewer-logo.png"
-import videoPlayerLogo from "../assets/images/videoplayer-logo.png"
-import waifu2xGUILogo from "../assets/images/waifu2xgui-logo.png"
-import imageCompressorLogo from "../assets/images/imagecompressor-logo.png"
+import tunePlayerLogo from "../assets/images/tuneplayer-logo.png"
+import picViewerLogo from "../assets/images/picviewer-logo.png"
+import motionPlayerLogo from "../assets/images/motionplayer-logo.png"
+import waifu2xUpscalerLogo from "../assets/images/waifu2xupscaler-logo.png"
+import pixelCompressorLogo from "../assets/images/pixelcompressor-logo.png"
 import gainBoosterLogo from "../assets/images/gainbooster-logo.png"
 import vocalChopperLogo from "../assets/images/vocalchopper-logo.png"
 import "./styles/codecontent.less"
@@ -73,46 +73,46 @@ const CodeContent: React.FunctionComponent = () => {
         } else if (activeTab === "apps-&-utilities") {
             return (
                 <>
-                <img className="codecontent-image" src={musicPlayerLogo} draggable={false}/>
+                <img className="codecontent-image" src={tunePlayerLogo} draggable={false}/>
                 <div className="codecontent-text-container">
                     <span className="codecontent-text">
-                        Music Player is an app for playing music and adding pitch effects. 
+                        Tune Player is an app for playing music and adding pitch effects. 
                         <br/><br/>
-                        Code: <a href="https://github.com/Moebytes/Music-Player">https://github.com/Moebytes/Music-Player</a><br/>
+                        Code: <a href="https://github.com/Moebytes/Tune-Player">https://github.com/Moebytes/Tune-Player</a><br/>
                     </span>
                 </div>
-                <img className="codecontent-image" src={photoViewerLogo} draggable={false}/>
+                <img className="codecontent-image" src={picViewerLogo} draggable={false}/>
                 <div className="codecontent-text-container">
                     <span className="codecontent-text">
-                        Photo Viewer is an app for viewing images and adding adjustments.
+                        Pic Viewer is an app for viewing images and adding adjustments.
                         <br/><br/>
-                        Code: <a href="https://github.com/Moebytes/Photo-Viewer">https://github.com/Moebytes/Photo-Viewer</a><br/>
+                        Code: <a href="https://github.com/Moebytes/Pic-Viewer">https://github.com/Moebytes/Pic-Viewer</a><br/>
                     </span>
                 </div>
-                <img className="codecontent-image" src={videoPlayerLogo} draggable={false}/>
+                <img className="codecontent-image" src={motionPlayerLogo} draggable={false}/>
                 <div className="codecontent-text-container">
                     <span className="codecontent-text">
-                        Video Player is an app for playing videos and adding adjustments.
+                        Motion Player is an app for playing videos and adding adjustments.
                         <br/><br/>
-                        Code: <a href="https://github.com/Moebytes/Video-Player">https://github.com/Moebytes/Video-Player</a><br/>
+                        Code: <a href="https://github.com/Moebytes/Motion-Player">https://github.com/Moebytes/Motion-Player</a><br/>
                     </span>
                 </div>
-                <img className="codecontent-image" src={waifu2xGUILogo} draggable={false}/>
+                <img className="codecontent-image" src={waifu2xUpscalerLogo} draggable={false}/>
                 <div className="codecontent-text-container">
                     <span className="codecontent-text">
-                        Waifu2x GUI is an app that upscales images using waifu2x and similar upscalers. The core logic was also 
+                        Waifu2x Upscaler is an app that upscales images using waifu2x and similar upscalers. The core logic was also 
                         released as a npm package. 
                         <br/><br/>
-                        Code: <a href="https://github.com/Moebytes/Waifu2x-GUI">https://github.com/Moebytes/Waifu2x-GUI</a><br/>
+                        Code: <a href="https://github.com/Moebytes/Waifu2x-Upscaler">https://github.com/Moebytes/Waifu2x-Upscaler</a><br/>
                         Package: <a href="https://github.com/Moebytes/waifu2x">https://github.com/Moebytes/waifu2x</a><br/>
                     </span>
                 </div>
-                <img className="codecontent-image" src={imageCompressorLogo} draggable={false}/>
+                <img className="codecontent-image" src={pixelCompressorLogo} draggable={false}/>
                 <div className="codecontent-text-container">
                     <span className="codecontent-text">
-                        Image Compressor is an app for compressing images. It also has some miscellaneous features in the header bar. 
+                        Pixel Compressor is an app for compressing and resizing images.
                         <br/><br/>
-                        Code: <a href="https://github.com/Moebytes/Image-Compressor">https://github.com/Moebytes/Image-Compressor</a><br/>
+                        Code: <a href="https://github.com/Moebytes/Pixel-Compressor">https://github.com/Moebytes/Pixel-Compressor</a><br/>
                     </span>
                 </div>
                 </>
