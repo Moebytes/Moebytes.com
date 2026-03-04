@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-7539(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+6029(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -322,16 +322,6 @@ const NavBar = ()=>{
                     className: "navbar-button",
                     onClick: ()=>navigate("/design"),
                     children: "Design"
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
-                    className: "navbar-button",
-                    onClick: ()=>navigate("/art"),
-                    children: "Art"
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
-                    className: "navbar-button",
-                    onClick: ()=>navigate("/music"),
-                    children: "Music"
                 }),
                 /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
                     className: "navbar-button",
@@ -996,8 +986,8 @@ const moepictures_logo_namespaceObject = __webpack_require__.p + "static/image/m
 const kisaragi_logo_namespaceObject = __webpack_require__.p + "static/image/kisaragi-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/tuneplayer-logo.png
 const tuneplayer_logo_namespaceObject = __webpack_require__.p + "static/image/tuneplayer-logo.png";
-;// CONCATENATED MODULE: ./assets/images/picviewer-logo.png
-const picviewer_logo_namespaceObject = __webpack_require__.p + "static/image/picviewer-logo.png";
+;// CONCATENATED MODULE: ./assets/images/picplayer-logo.png
+const picplayer_logo_namespaceObject = __webpack_require__.p + "static/image/picplayer-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/motionplayer-logo.png
 const motionplayer_logo_namespaceObject = __webpack_require__.p + "static/image/motionplayer-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/waifu2xupscaler-logo.png
@@ -1177,7 +1167,7 @@ const CodeContent = ()=>{
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "codecontent-image",
-                        src: picviewer_logo_namespaceObject,
+                        src: picplayer_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
@@ -1185,13 +1175,13 @@ const CodeContent = ()=>{
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                             className: "codecontent-text",
                             children: [
-                                "Pic Viewer is an app for viewing images and adding adjustments.",
+                                "Pic Player is an app for viewing images and adding adjustments.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Pic-Viewer",
-                                    children: "https://github.com/Moebytes/Pic-Viewer"
+                                    href: "https://github.com/Moebytes/Pic-Player",
+                                    children: "https://github.com/Moebytes/Pic-Player"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1467,8 +1457,8 @@ const moepictures_app_namespaceObject = __webpack_require__.p + "static/image/mo
 const kisaragi_namespaceObject = __webpack_require__.p + "static/image/kisaragi.png";
 ;// CONCATENATED MODULE: ./assets/design/tune-player.png
 const tune_player_namespaceObject = __webpack_require__.p + "static/image/tune-player.png";
-;// CONCATENATED MODULE: ./assets/design/pic-viewer.png
-const pic_viewer_namespaceObject = __webpack_require__.p + "static/image/pic-viewer.png";
+;// CONCATENATED MODULE: ./assets/design/pic-player.png
+const pic_player_namespaceObject = __webpack_require__.p + "static/image/pic-player.png";
 ;// CONCATENATED MODULE: ./assets/design/motion-player.png
 const motion_player_namespaceObject = __webpack_require__.p + "static/image/motion-player.png";
 ;// CONCATENATED MODULE: ./components/styles/designcontent.less
@@ -1496,8 +1486,8 @@ const DesignContent = ()=>{
     const openTunePlayer = ()=>{
         window.open("https://www.figma.com/design/CTEs64SQjKg7M1SXzGx0Kh/Tune-Player", "_blank");
     };
-    const openPicViewer = ()=>{
-        window.open("https://www.figma.com/design/kqGaBzYxe93zSPxDPz6wRa/Pic-Viewer", "_blank");
+    const openPicPlayer = ()=>{
+        window.open("https://www.figma.com/design/kqGaBzYxe93zSPxDPz6wRa/Pic-Player", "_blank");
     };
     const openMotionPlayer = ()=>{
         window.open("https://www.figma.com/design/PpYPQAYojONPWedMbDRL8t/Motion-Player", "_blank");
@@ -1516,12 +1506,12 @@ const DesignContent = ()=>{
             }),
             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                 className: "design-content-img",
-                src: pic_viewer_namespaceObject,
+                src: pic_player_namespaceObject,
                 draggable: false,
                 style: {
                     cursor: "pointer"
                 },
-                onClick: openPicViewer
+                onClick: openPicPlayer
             }),
             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                 className: "design-content-img",
@@ -2684,7 +2674,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(7539));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(6029));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
