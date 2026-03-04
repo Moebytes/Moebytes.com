@@ -8,7 +8,7 @@ import codeIcon from "../assets/svg/code.svg"
 import moepicturesLogo from "../assets/images/moepictures-logo.png"
 import kisaragiLogo from "../assets/images/kisaragi-logo.png"
 import tunePlayerLogo from "../assets/images/tuneplayer-logo.png"
-import picViewerLogo from "../assets/images/picviewer-logo.png"
+import picPlayerLogo from "../assets/images/picplayer-logo.png"
 import motionPlayerLogo from "../assets/images/motionplayer-logo.png"
 import waifu2xUpscalerLogo from "../assets/images/waifu2xupscaler-logo.png"
 import pixelCompressorLogo from "../assets/images/pixelcompressor-logo.png"
@@ -81,12 +81,12 @@ const CodeContent: React.FunctionComponent = () => {
                         Code: <a href="https://github.com/Moebytes/Tune-Player">https://github.com/Moebytes/Tune-Player</a><br/>
                     </span>
                 </div>
-                <img className="codecontent-image" src={picViewerLogo} draggable={false}/>
+                <img className="codecontent-image" src={picPlayerLogo} draggable={false}/>
                 <div className="codecontent-text-container">
                     <span className="codecontent-text">
-                        Pic Viewer is an app for viewing images and adding adjustments.
+                        Pic Player is an app for viewing images and adding adjustments.
                         <br/><br/>
-                        Code: <a href="https://github.com/Moebytes/Pic-Viewer">https://github.com/Moebytes/Pic-Viewer</a><br/>
+                        Code: <a href="https://github.com/Moebytes/Pic-Player">https://github.com/Moebytes/Pic-Player</a><br/>
                     </span>
                 </div>
                 <img className="codecontent-image" src={motionPlayerLogo} draggable={false}/>

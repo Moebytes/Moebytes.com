@@ -4,7 +4,7 @@ import moepictures from "../assets/design/moepictures.png"
 import moepicturesApp from "../assets/design/moepictures-app.png"
 import kisaragi from "../assets/design/kisaragi.png"
 import tunePlayer from "../assets/design/tune-player.png"
-import picViewer from "../assets/design/pic-viewer.png"
+import picPlayer from "../assets/design/pic-player.png"
 import motionPlayer from "../assets/design/motion-player.png"
 import "./styles/designcontent.less"
 
@@ -23,8 +23,8 @@ const DesignContent: React.FunctionComponent = () => {
         window.open("https://www.figma.com/design/CTEs64SQjKg7M1SXzGx0Kh/Tune-Player", "_blank")
     }
 
-    const openPicViewer = () => {
-        window.open("https://www.figma.com/design/kqGaBzYxe93zSPxDPz6wRa/Pic-Viewer", "_blank")
+    const openPicPlayer = () => {
+        window.open("https://www.figma.com/design/kqGaBzYxe93zSPxDPz6wRa/Pic-Player", "_blank")
     }
 
     const openMotionPlayer = () => {
@@ -34,7 +34,7 @@ const DesignContent: React.FunctionComponent = () => {
     return (
         <div className="design-content">
             <img className="design-content-img" src={tunePlayer} draggable={false} style={{cursor: "pointer"}} onClick={openTunePlayer}/>
-            <img className="design-content-img" src={picViewer} draggable={false} style={{cursor: "pointer"}} onClick={openPicViewer}/>
+            <img className="design-content-img" src={picPlayer} draggable={false} style={{cursor: "pointer"}} onClick={openPicPlayer}/>
             <img className="design-content-img" src={motionPlayer} draggable={false} style={{cursor: "pointer"}} onClick={openMotionPlayer}/>
             <img className="design-content-img" src={moepictures} draggable={false} style={{cursor: "pointer"}} onClick={openMoepictures}/>
             <img className="design-content-img" src={moepicturesApp} draggable={false} style={{cursor: "pointer", height: mobile ? "700px" : "1000px"}} onClick={openMoepicturesApp}/>

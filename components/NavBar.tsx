@@ -20,8 +20,8 @@ const NavBar: React.FunctionComponent = () => {
                 <button className="navbar-button" onClick={() => navigate("/")}>Home</button>
                 <button className="navbar-button" onClick={() => navigate("/code")}>Code</button>
                 <button className="navbar-button" onClick={() => navigate("/design")}>Design</button>
-                <button className="navbar-button" onClick={() => navigate("/art")}>Art</button>
-                <button className="navbar-button" onClick={() => navigate("/music")}>Music</button>
+                {/* <button className="navbar-button" onClick={() => navigate("/art")}>Art</button> */}
+                {/* <button className="navbar-button" onClick={() => navigate("/music")}>Music</button> */}
                 <button className="navbar-button" onClick={() => navigate("/contact")}>Contact</button>
                 <img className="navbar-icon" src={theme === "dark" ? light : dark} onClick={toggleTheme} draggable={false}/>
             </div>
