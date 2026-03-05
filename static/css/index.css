@@ -128,6 +128,7 @@
 
 .homecontent-text-alt {
   color: var(--headingColor);
+  font-family: irohamaru mikami;
 }
 
 .homecontent-icon-container {
@@ -182,7 +183,8 @@
 
 .footer-img {
   width: auto;
-  height: 100px;
+  height: 75px;
+  margin-left: -10px;
 }
 
 .footer-text-container {
@@ -208,6 +210,7 @@
 
   .footer-img {
     height: 50px;
+    margin-left: -5px;
   }
 
   .footer-text {
