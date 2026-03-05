@@ -9,6 +9,7 @@ import DesignPage from "./pages/DesignPage"
 import ArtPage from "./pages/ArtPage"
 import MusicPage from "./pages/MusicPage"
 import ContactPage from "./pages/ContactPage"
+import PrivacyPage from "./pages/PrivacyPage"
 import $404Page from "./pages/404Page"
 import "./index.less"
 
@@ -53,6 +54,7 @@ const App: React.FunctionComponent = () => {
           <Route path="/art" element={<ArtPage/>}/>
           <Route path="/music" element={<MusicPage/>}/>
           <Route path="/contact" element={<ContactPage/>}/>
+          <Route path="/privacy-policy" element={<PrivacyPage/>}/>
           <Route path="*" element={<$404Page/>}/>
         </Routes>
       </div>

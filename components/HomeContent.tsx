@@ -77,9 +77,8 @@ const HomeContent: React.FunctionComponent = () => {
             </div>
             <div className="homecontent-text-container">
                 <span className="homecontent-text">
-                    I’m a programmer from the United States. In my free time I create software to 
-                    enhance my daily life, as well as create things that I am passionate about. 
-                    I have a B.S. degree in Computer Science and 1 year of experience. 
+                    I’m a programmer from the United States that likes to make software to 
+                    enhance my daily life, as well as create things that I am passionate about.
                     <br/><br/>
                     What is "moe"? Basically it means that I love cute things. As a word of caution, 
                     you are going to see a lot of moe things here. Why would you come to my website 
@@ -125,15 +124,16 @@ const HomeContent: React.FunctionComponent = () => {
                 <img className="homecontent-icon" src={pr} draggable={false}/>
                 <img className="homecontent-icon" src={ae} draggable={false}/>
                 <img className="homecontent-icon" src={clipstudio} draggable={false}/>
-                <img className="homecontent-icon" src={live2d} draggable={false}/>
                 <img className="homecontent-icon" src={fl} draggable={false}/>
-                <img className="homecontent-icon" src={serum} draggable={false}/>
-                <img className="homecontent-icon" src={omni} draggable={false}/>
-                <img className="homecontent-icon" src={massive} draggable={false}/>
-                <img className="homecontent-icon" src={phaseplant} draggable={false}/>
-                <img className="homecontent-icon" src={effectrix} draggable={false}/>
-                <img className="homecontent-icon" src={vintageverb} draggable={false}/>
-                <img className="homecontent-icon" src={anki} draggable={false}/>
+                {/* <img className="homecontent-icon" src={live2d} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={fl} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={serum} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={omni} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={massive} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={phaseplant} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={effectrix} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={vintageverb} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={anki} draggable={false}/> */}
             </div>
             <div className="homecontent-header-container">
                 <img className="homecontent-header-icon" src={star} draggable={false}/>
