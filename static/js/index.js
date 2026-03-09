@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-194(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+7624(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -927,10 +927,10 @@ const moepictures_logo_namespaceObject = __webpack_require__.p + "static/image/m
 const kisaragi_logo_namespaceObject = __webpack_require__.p + "static/image/kisaragi-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/tuneplayer-logo.png
 const tuneplayer_logo_namespaceObject = __webpack_require__.p + "static/image/tuneplayer-logo.png";
-;// CONCATENATED MODULE: ./assets/images/picplayer-logo.png
-const picplayer_logo_namespaceObject = __webpack_require__.p + "static/image/picplayer-logo.png";
-;// CONCATENATED MODULE: ./assets/images/motionplayer-logo.png
-const motionplayer_logo_namespaceObject = __webpack_require__.p + "static/image/motionplayer-logo.png";
+;// CONCATENATED MODULE: ./assets/images/picdisplay-logo.png
+const picdisplay_logo_namespaceObject = __webpack_require__.p + "static/image/picdisplay-logo.png";
+;// CONCATENATED MODULE: ./assets/images/frameplayer-logo.png
+const frameplayer_logo_namespaceObject = __webpack_require__.p + "static/image/frameplayer-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/waifu2xupscaler-logo.png
 const waifu2xupscaler_logo_namespaceObject = __webpack_require__.p + "static/image/waifu2xupscaler-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/pixelcompressor-logo.png
@@ -1108,7 +1108,7 @@ const CodeContent = ()=>{
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "codecontent-image",
-                        src: picplayer_logo_namespaceObject,
+                        src: picdisplay_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
@@ -1116,13 +1116,13 @@ const CodeContent = ()=>{
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                             className: "codecontent-text",
                             children: [
-                                "Pic Player is an app for viewing images and adding adjustments.",
+                                "Pic Display is an app for viewing images and adding adjustments.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Pic-Player",
-                                    children: "https://github.com/Moebytes/Pic-Player"
+                                    href: "https://github.com/Moebytes/Pic-Display",
+                                    children: "https://github.com/Moebytes/Pic-Display"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1130,7 +1130,7 @@ const CodeContent = ()=>{
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "codecontent-image",
-                        src: motionplayer_logo_namespaceObject,
+                        src: frameplayer_logo_namespaceObject,
                         draggable: false
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
@@ -1138,13 +1138,13 @@ const CodeContent = ()=>{
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                             className: "codecontent-text",
                             children: [
-                                "Motion Player is an app for playing videos and adding adjustments.",
+                                "Frame Player is an app for playing videos and adding adjustments.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Motion-Player",
-                                    children: "https://github.com/Moebytes/Motion-Player"
+                                    href: "https://github.com/Moebytes/Frame-Player",
+                                    children: "https://github.com/Moebytes/Frame-Player"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -2180,7 +2180,7 @@ const PrivacyContent = ()=>{
                 children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                     className: "homecontent-text",
                     children: [
-                        "Last Updated: March 5, 2026",
+                        "Last Updated: March 9, 2026",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         'This privacy policy describes the information that Moebytes ("I", "me", "my") collects when you use my software and applications ("apps").',
@@ -2204,7 +2204,7 @@ const PrivacyContent = ()=>{
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
                             className: "homecontent-text-alt",
-                            children: "Pic Player"
+                            children: "Pic Display"
                         }),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         "This app doesn't collect user information. It may send HTTP requests to fetch a remote file on request. Any data exchanged with those websites is managed by that website's privacy policy.",
@@ -2212,7 +2212,7 @@ const PrivacyContent = ()=>{
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
                             className: "homecontent-text-alt",
-                            children: "Motion Player"
+                            children: "Frame Player"
                         }),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         "This app doesn't collect user information. It may send HTTP requests to fetch a remote file on request. Any data exchanged with those websites is managed by that website's privacy policy.",
@@ -2753,7 +2753,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(194));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(7624));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
