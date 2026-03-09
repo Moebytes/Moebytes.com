@@ -11,7 +11,7 @@ const PrivacyContent: React.FunctionComponent = () => {
             </div>
             <div className="homecontent-text-container">
                 <span className="homecontent-text">
-                    Last Updated: March 5, 2026<br/><br/>
+                    Last Updated: March 9, 2026<br/><br/>
 
                     This privacy policy describes the information that Moebytes ("I", "me", "my") collects when you use my software and applications ("apps").<br/><br/>
 
@@ -23,11 +23,11 @@ const PrivacyContent: React.FunctionComponent = () => {
                     This app doesn't collect user information. It may send HTTP requests to fetch a remote file on 
                     request. Any data exchanged with those websites is managed by that website's privacy policy.<br/><br/>
 
-                    <span className="homecontent-text-alt">Pic Player</span><br/>
+                    <span className="homecontent-text-alt">Pic Display</span><br/>
                     This app doesn't collect user information. It may send HTTP requests to fetch a remote file on 
                     request. Any data exchanged with those websites is managed by that website's privacy policy.<br/><br/>
 
-                    <span className="homecontent-text-alt">Motion Player</span><br/>
+                    <span className="homecontent-text-alt">Frame Player</span><br/>
                     This app doesn't collect user information. It may send HTTP requests to fetch a remote file on 
                     request. Any data exchanged with those websites is managed by that website's privacy policy.<br/><br/>
 

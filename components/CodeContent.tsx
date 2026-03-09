@@ -8,8 +8,8 @@ import codeIcon from "../assets/svg/code.svg"
 import moepicturesLogo from "../assets/images/moepictures-logo.png"
 import kisaragiLogo from "../assets/images/kisaragi-logo.png"
 import tunePlayerLogo from "../assets/images/tuneplayer-logo.png"
-import picPlayerLogo from "../assets/images/picplayer-logo.png"
-import motionPlayerLogo from "../assets/images/motionplayer-logo.png"
+import picDisplayLogo from "../assets/images/picdisplay-logo.png"
+import framePlayerLogo from "../assets/images/frameplayer-logo.png"
 import waifu2xUpscalerLogo from "../assets/images/waifu2xupscaler-logo.png"
 import pixelCompressorLogo from "../assets/images/pixelcompressor-logo.png"
 import gainBoosterLogo from "../assets/images/gainbooster-logo.png"
@@ -81,20 +81,20 @@ const CodeContent: React.FunctionComponent = () => {
                         Code: <a href="https://github.com/Moebytes/Tune-Player">https://github.com/Moebytes/Tune-Player</a><br/>
                     </span>
                 </div>
-                <img className="codecontent-image" src={picPlayerLogo} draggable={false}/>
+                <img className="codecontent-image" src={picDisplayLogo} draggable={false}/>
                 <div className="codecontent-text-container">
                     <span className="codecontent-text">
-                        Pic Player is an app for viewing images and adding adjustments.
+                        Pic Display is an app for viewing images and adding adjustments.
                         <br/><br/>
-                        Code: <a href="https://github.com/Moebytes/Pic-Player">https://github.com/Moebytes/Pic-Player</a><br/>
+                        Code: <a href="https://github.com/Moebytes/Pic-Display">https://github.com/Moebytes/Pic-Display</a><br/>
                     </span>
                 </div>
-                <img className="codecontent-image" src={motionPlayerLogo} draggable={false}/>
+                <img className="codecontent-image" src={framePlayerLogo} draggable={false}/>
                 <div className="codecontent-text-container">
                     <span className="codecontent-text">
-                        Motion Player is an app for playing videos and adding adjustments.
+                        Frame Player is an app for playing videos and adding adjustments.
                         <br/><br/>
-                        Code: <a href="https://github.com/Moebytes/Motion-Player">https://github.com/Moebytes/Motion-Player</a><br/>
+                        Code: <a href="https://github.com/Moebytes/Frame-Player">https://github.com/Moebytes/Frame-Player</a><br/>
                     </span>
                 </div>
                 <img className="codecontent-image" src={waifu2xUpscalerLogo} draggable={false}/>
