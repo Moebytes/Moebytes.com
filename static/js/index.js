@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-7624(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+4722(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -1398,10 +1398,10 @@ const moepictures_app_namespaceObject = __webpack_require__.p + "static/image/mo
 const kisaragi_namespaceObject = __webpack_require__.p + "static/image/kisaragi.png";
 ;// CONCATENATED MODULE: ./assets/design/tune-player.png
 const tune_player_namespaceObject = __webpack_require__.p + "static/image/tune-player.png";
-;// CONCATENATED MODULE: ./assets/design/pic-player.png
-const pic_player_namespaceObject = __webpack_require__.p + "static/image/pic-player.png";
-;// CONCATENATED MODULE: ./assets/design/motion-player.png
-const motion_player_namespaceObject = __webpack_require__.p + "static/image/motion-player.png";
+;// CONCATENATED MODULE: ./assets/design/pic-display.png
+const pic_display_namespaceObject = __webpack_require__.p + "static/image/pic-display.png";
+;// CONCATENATED MODULE: ./assets/design/frame-player.png
+const frame_player_namespaceObject = __webpack_require__.p + "static/image/frame-player.png";
 ;// CONCATENATED MODULE: ./components/styles/designcontent.less
 // extracted by css-extract-rspack-plugin
 
@@ -1427,11 +1427,11 @@ const DesignContent = ()=>{
     const openTunePlayer = ()=>{
         window.open("https://www.figma.com/design/CTEs64SQjKg7M1SXzGx0Kh/Tune-Player", "_blank");
     };
-    const openPicPlayer = ()=>{
-        window.open("https://www.figma.com/design/kqGaBzYxe93zSPxDPz6wRa/Pic-Player", "_blank");
+    const openPicDisplay = ()=>{
+        window.open("https://www.figma.com/design/kqGaBzYxe93zSPxDPz6wRa/Pic-Display", "_blank");
     };
-    const openMotionPlayer = ()=>{
-        window.open("https://www.figma.com/design/PpYPQAYojONPWedMbDRL8t/Motion-Player", "_blank");
+    const openFramePlayer = ()=>{
+        window.open("https://www.figma.com/design/PpYPQAYojONPWedMbDRL8t/Frame-Player", "_blank");
     };
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
         className: "design-content",
@@ -1447,21 +1447,21 @@ const DesignContent = ()=>{
             }),
             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                 className: "design-content-img",
-                src: pic_player_namespaceObject,
+                src: pic_display_namespaceObject,
                 draggable: false,
                 style: {
                     cursor: "pointer"
                 },
-                onClick: openPicPlayer
+                onClick: openPicDisplay
             }),
             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                 className: "design-content-img",
-                src: motion_player_namespaceObject,
+                src: frame_player_namespaceObject,
                 draggable: false,
                 style: {
                     cursor: "pointer"
                 },
-                onClick: openMotionPlayer
+                onClick: openFramePlayer
             }),
             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                 className: "design-content-img",
@@ -2753,7 +2753,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(7624));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(4722));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
