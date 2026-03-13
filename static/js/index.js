@@ -1433,6 +1433,9 @@ const DesignContent = ()=>{
     const openFramePlayer = ()=>{
         window.open("https://www.figma.com/design/PpYPQAYojONPWedMbDRL8t/Frame-Player", "_blank");
     };
+    const openKisaragi = ()=>{
+        window.open("https://www.figma.com/design/FOhUu52kqqjUObKzRoNcP9/Kisaragi-Site", "_blank");
+    };
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
         className: "design-content",
         children: [
@@ -1485,7 +1488,11 @@ const DesignContent = ()=>{
             /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                 className: "design-content-img",
                 src: kisaragi_namespaceObject,
-                draggable: false
+                draggable: false,
+                style: {
+                    cursor: "pointer"
+                },
+                onClick: openKisaragi
             })
         ]
     });
