@@ -841,18 +841,7 @@ const HomeContent = ()=>{
                             href: "https://github.com/Moebytes",
                             children: "https://github.com/Moebytes"
                         }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "Npm: ",
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                            href: "https://www.npmjs.com/~moebytes",
-                            children: "https://www.npmjs.com/~moebytes"
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "Figma: ",
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                            href: "https://www.figma.com/@moebytes",
-                            children: "https://www.figma.com/@moebytes"
-                        })
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                     ]
                 })
             })
