@@ -170,8 +170,6 @@ const HomeContent: React.FunctionComponent = () => {
             <div className="homecontent-text-container">
                 <span className="homecontent-text">
                     GitHub: <a href="https://github.com/Moebytes">https://github.com/Moebytes</a><br/>
-                    Npm: <a href="https://www.npmjs.com/~moebytes">https://www.npmjs.com/~moebytes</a><br/>
-                    Figma: <a href="https://www.figma.com/@moebytes">https://www.figma.com/@moebytes</a>
                 </span>
             </div>
         </div>
