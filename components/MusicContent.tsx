@@ -33,9 +33,6 @@ import "./styles/musiccontent.less"
 const MusicContent: React.FunctionComponent = () => {
     return (
         <div className="musiccontent">
-            <div className="musiccontent-notice-container">
-                <span className="musiccontent-notice-text">This is my old music. I plan to improve and make better music for you soon.</span>
-            </div>
             <div className="musiccontent-items-container">
                 <MusicGrid audio={Hai} cover={HaiCover}/>
                 <MusicGrid audio={SquareDreams} cover={SquareDreamsCover}/>

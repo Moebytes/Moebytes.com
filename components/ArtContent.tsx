@@ -13,9 +13,6 @@ import "./styles/artcontent.less"
 const ArtContent: React.FunctionComponent = () => {
     return (
         <div className="artcontent">
-            <div className="artcontent-notice-container">
-                <span className="artcontent-notice-text">This is my old art. I plan to improve and make better art for you soon.</span>
-            </div>
             <div className="artcontent-items-container">
                 <ArtGrid img={GabrielPicnic}/>
                 <ArtGrid img={GabrielPicnic2}/>

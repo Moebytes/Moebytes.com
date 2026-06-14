@@ -77,15 +77,18 @@ const HomeContent: React.FunctionComponent = () => {
             </div>
             <div className="homecontent-text-container">
                 <span className="homecontent-text">
-                    I’m a programmer from the United States that likes to make software to 
-                    enhance my daily life, as well as create things that I am passionate about.
+                    I’m a software developer from the United States usually focusing on web 
+                    and mobile development. I have mainly used Typescript, Python, and C++. I 
+                    have a bit less experience with Java and C#. 
                     <br/><br/>
-                    What is "moe"? Basically it means that I love cute things. As a word of caution, 
-                    you are going to see a lot of moe things here. Why would you come to my website 
-                    not expecting moe!?
+                    I am passionate about anime and moe content. What does "moe" mean? 
+                    Basically, it means that I love cute things. I also enjoy collecting anime merchandise 
+                    such as posters and figurines. 
                     <br/><br/>
-                    Below is a list of tools I am familiar with, but it is not an exhaustive list 
-                    of everything I have used.
+                    My hobbies are creating music occassionally. I mostly make kawaii future bass 
+                    and chiptune music. My other aspiration is to improve my anime drawings. 
+                    <br/><br/>
+                    Below is a list of tools/software that I can use at an acceptable level. 
                 </span>
             </div>
             <div className="homecontent-header-container">
@@ -157,18 +160,13 @@ const HomeContent: React.FunctionComponent = () => {
                 <img className="homecontent-icon" src={rust} draggable={false}/>
                 <img className="homecontent-icon" src={go} draggable={false}/>
             </div>
-            <div className="homecontent-text-container">
-                <span className="homecontent-text">
-                    Most of my work is done with TypeScript but I am adaptable to learning different languages, 
-                    including but not limited to Python and C++. 
-                </span>
-            </div>
             <div className="homecontent-header-container">
                 <img className="homecontent-header-icon" src={star} draggable={false}/>
                 <span className="homecontent-header-text">Social Accounts</span>
             </div>
             <div className="homecontent-text-container">
                 <span className="homecontent-text">
+                    Twitter (inactive): <a href="https://x.com/moebytez">https://twitter.com/moebytez</a><br/>
                     GitHub: <a href="https://github.com/Moebytes">https://github.com/Moebytes</a><br/>
                 </span>
             </div>

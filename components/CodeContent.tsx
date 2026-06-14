@@ -39,13 +39,12 @@ const CodeContent: React.FunctionComponent = () => {
                         Moepictures is a website for posting cute anime artworks. 
                         <br/><br/>
                         The project is primarily made with Node.js and React, and uses a PostgreSQL database.
-                        We also make use of Python scripts for a few things. 
+                        We make use of Python scripts for a few things. The mobile app is made in React Native.
                         <br/><br/>
                         Website: <a href="https://moepictures.net">https://moepictures.net</a><br/>
                         Website Code: <a href="https://github.com/Moebytes/Moepictures">https://github.com/Moebytes/Moepictures</a><br/>
                         Website Design: <a href="https://www.figma.com/design/f7fQmrcMwfKOGYUnHnXZ0B/Moepictures-Website">https://www.figma.com/design/f7fQmrcMwfKOGYUnHnXZ0B/Moepictures-Website</a>
                         <br/><br/>
-                        Mobile App: <span className="codecontent-text-alt">In Development</span><br/>
                         Mobile Code: <a href="https://github.com/Moebytes/Moepictures-App">https://github.com/Moebytes/Moepictures-App</a><br/>
                         Mobile Design: <a href="https://www.figma.com/design/iB9H1DBk2qVhloD4nD1RGF/Moepictures-App">https://www.figma.com/design/iB9H1DBk2qVhloD4nD1RGF/Moepictures-App</a>
                     </span>
@@ -100,11 +99,9 @@ const CodeContent: React.FunctionComponent = () => {
                 <img className="codecontent-image" src={waifu2xUpscalerLogo} draggable={false}/>
                 <div className="codecontent-text-container">
                     <span className="codecontent-text">
-                        Waifu2x Upscaler is an app that upscales images using waifu2x and similar upscalers. The core logic was also 
-                        released as a npm package. 
+                        Waifu2x Upscaler is an app that upscales images using waifu2x and similar upscalers.
                         <br/><br/>
                         Code: <a href="https://github.com/Moebytes/Waifu2x-Upscaler">https://github.com/Moebytes/Waifu2x-Upscaler</a><br/>
-                        Package: <a href="https://github.com/Moebytes/waifu2x">https://github.com/Moebytes/waifu2x</a><br/>
                     </span>
                 </div>
                 <img className="codecontent-image" src={pixelCompressorLogo} draggable={false}/>
@@ -123,7 +120,7 @@ const CodeContent: React.FunctionComponent = () => {
                 <img className="codecontent-image" src={gainBoosterLogo} draggable={false}/>
                 <div className="codecontent-text-container">
                     <span className="codecontent-text">
-                        Gain Booster is a plugin for simple gain adjustments.
+                        Gain Booster is a plugin for simple gain and panning adjustments.
                         <br/><br/>
                         Code: <a href="https://github.com/Moebytes/Gain-Booster">https://github.com/Moebytes/Gain-Booster</a><br/>
                     </span>
