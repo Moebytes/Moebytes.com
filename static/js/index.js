@@ -325,6 +325,11 @@ const NavBar = ()=>{
                 }),
                 /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
                     className: "navbar-button",
+                    onClick: ()=>navigate("/music"),
+                    children: "Music"
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
+                    className: "navbar-button",
                     onClick: ()=>navigate("/privacy-policy"),
                     children: "Privacy"
                 }),
@@ -522,13 +527,16 @@ const HomeContent = ()=>{
                 children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                     className: "homecontent-text",
                     children: [
-                        "I’m a programmer from the United States that likes to make software to enhance my daily life, as well as create things that I am passionate about.",
+                        "I’m a software developer from the United States usually focusing on web and mobile development. I have mainly used Typescript, Python, and C++. I have a bit less experience with Java and C#.",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        'What is "moe"? Basically it means that I love cute things. As a word of caution, you are going to see a lot of moe things here. Why would you come to my website not expecting moe!?',
+                        'I am passionate about anime and moe content. What does "moe" mean? Basically, it means that I love cute things. I also enjoy collecting anime merchandise such as posters and figurines.',
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "Below is a list of tools I am familiar with, but it is not an exhaustive list of everything I have used."
+                        "My hobbies are creating music occassionally. I mostly make kawaii future bass and chiptune music. My other aspiration is to improve my anime drawings.",
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                        "Below is a list of tools/software that I can use at an acceptable level."
                     ]
                 })
             }),
@@ -810,13 +818,6 @@ const HomeContent = ()=>{
                     })
                 ]
             }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "homecontent-text-container",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                    className: "homecontent-text",
-                    children: "Most of my work is done with TypeScript but I am adaptable to learning different languages, including but not limited to Python and C++."
-                })
-            }),
             /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                 className: "homecontent-header-container",
                 children: [
@@ -836,6 +837,12 @@ const HomeContent = ()=>{
                 children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                     className: "homecontent-text",
                     children: [
+                        "Twitter (inactive): ",
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                            href: "https://x.com/moebytez",
+                            children: "https://twitter.com/moebytez"
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         "GitHub: ",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                             href: "https://github.com/Moebytes",
@@ -982,7 +989,7 @@ const CodeContent = ()=>{
                                 "Moepictures is a website for posting cute anime artworks.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "The project is primarily made with Node.js and React, and uses a PostgreSQL database. We also make use of Python scripts for a few things.",
+                                "The project is primarily made with Node.js and React, and uses a PostgreSQL database. We make use of Python scripts for a few things. The mobile app is made in React Native.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Website: ",
@@ -1003,12 +1010,6 @@ const CodeContent = ()=>{
                                     children: "https://www.figma.com/design/f7fQmrcMwfKOGYUnHnXZ0B/Moepictures-Website"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Mobile App: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                    className: "codecontent-text-alt",
-                                    children: "In Development"
-                                }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Mobile Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
@@ -1149,19 +1150,13 @@ const CodeContent = ()=>{
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                             className: "codecontent-text",
                             children: [
-                                "Waifu2x Upscaler is an app that upscales images using waifu2x and similar upscalers. The core logic was also released as a npm package.",
+                                "Waifu2x Upscaler is an app that upscales images using waifu2x and similar upscalers.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Waifu2x-Upscaler",
                                     children: "https://github.com/Moebytes/Waifu2x-Upscaler"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Package: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/waifu2x",
-                                    children: "https://github.com/Moebytes/waifu2x"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1204,7 +1199,7 @@ const CodeContent = ()=>{
                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                             className: "codecontent-text",
                             children: [
-                                "Gain Booster is a plugin for simple gain adjustments.",
+                                "Gain Booster is a plugin for simple gain and panning adjustments.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
@@ -1584,46 +1579,37 @@ const ArtGrid = (props)=>{
 
 
 const ArtContent = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
         className: "artcontent",
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "artcontent-notice-container",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                    className: "artcontent-notice-text",
-                    children: "This is my old art. I plan to improve and make better art for you soon."
+        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+            className: "artcontent-items-container",
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
+                    img: GabrielPicnic_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
+                    img: GabrielPicnic2_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
+                    img: UmaruSoda_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
+                    img: KleeForest_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
+                    img: LlennAndFuka_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
+                    img: Kisaragi_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
+                    img: Roka_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
+                    img: KarenFrame_namespaceObject
                 })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "artcontent-items-container",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                        img: GabrielPicnic_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                        img: GabrielPicnic2_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                        img: UmaruSoda_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                        img: KleeForest_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                        img: LlennAndFuka_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                        img: Kisaragi_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                        img: Roka_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                        img: KarenFrame_namespaceObject
-                    })
-                ]
-            })
-        ]
+            ]
+        })
     });
 };
 /* export default */ const components_ArtContent = (ArtContent);
@@ -1992,78 +1978,69 @@ const MusicGrid = (props)=>{
 
 
 const MusicContent = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
         className: "musiccontent",
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                className: "musiccontent-notice-container",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                    className: "musiccontent-notice-text",
-                    children: "This is my old music. I plan to improve and make better music for you soon."
+        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+            className: "musiccontent-items-container",
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: Hai_namespaceObject,
+                    cover: covers_Hai_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: SquareDreams_namespaceObject,
+                    cover: covers_SquareDreams_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: Xylophone_namespaceObject,
+                    cover: covers_Xylophone_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: Arigatou_namespaceObject,
+                    cover: covers_Arigatou_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: Starlight_namespaceObject,
+                    cover: covers_Starlight_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: Rainfall_namespaceObject,
+                    cover: covers_Rainfall_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: DefineRemix_namespaceObject,
+                    cover: Define_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: Konnichiwa_namespaceObject,
+                    cover: covers_Konnichiwa_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: Icicle_namespaceObject,
+                    cover: covers_Icicle_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: Moonlight_namespaceObject,
+                    cover: covers_Moonlight_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: Kudasai_namespaceObject,
+                    cover: covers_Kudasai_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: Starstruck_namespaceObject,
+                    cover: covers_Starstruck_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: Snowflake_namespaceObject,
+                    cover: covers_Snowflake_namespaceObject
+                }),
+                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
+                    audio: Agemasu_namespaceObject,
+                    cover: covers_Agemasu_namespaceObject
                 })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "musiccontent-items-container",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Hai_namespaceObject,
-                        cover: covers_Hai_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: SquareDreams_namespaceObject,
-                        cover: covers_SquareDreams_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Xylophone_namespaceObject,
-                        cover: covers_Xylophone_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Arigatou_namespaceObject,
-                        cover: covers_Arigatou_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Starlight_namespaceObject,
-                        cover: covers_Starlight_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Rainfall_namespaceObject,
-                        cover: covers_Rainfall_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: DefineRemix_namespaceObject,
-                        cover: Define_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Konnichiwa_namespaceObject,
-                        cover: covers_Konnichiwa_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Icicle_namespaceObject,
-                        cover: covers_Icicle_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Moonlight_namespaceObject,
-                        cover: covers_Moonlight_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Kudasai_namespaceObject,
-                        cover: covers_Kudasai_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Starstruck_namespaceObject,
-                        cover: covers_Starstruck_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Snowflake_namespaceObject,
-                        cover: covers_Snowflake_namespaceObject
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                        audio: Agemasu_namespaceObject,
-                        cover: covers_Agemasu_namespaceObject
-                    })
-                ]
-            })
-        ]
+            ]
+        })
     });
 };
 /* export default */ const components_MusicContent = (MusicContent);
