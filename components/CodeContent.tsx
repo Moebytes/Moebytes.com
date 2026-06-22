@@ -12,7 +12,7 @@ import picDisplayLogo from "../assets/images/picdisplay-logo.png"
 import framePlayerLogo from "../assets/images/frameplayer-logo.png"
 import waifu2xUpscalerLogo from "../assets/images/waifu2xupscaler-logo.png"
 import pixelCompressorLogo from "../assets/images/pixelcompressor-logo.png"
-import gainBoosterLogo from "../assets/images/gainbooster-logo.png"
+import cuteGainLogo from "../assets/images/cutegain-logo.png"
 import vocalChopperLogo from "../assets/images/vocalchopper-logo.png"
 import "./styles/codecontent.less"
 
@@ -117,12 +117,12 @@ const CodeContent: React.FunctionComponent = () => {
         } else if (activeTab === "audio-plugins") {
             return (
                 <>
-                <img className="codecontent-image" src={gainBoosterLogo} draggable={false}/>
+                <img className="codecontent-image" src={cuteGainLogo} draggable={false}/>
                 <div className="codecontent-text-container">
                     <span className="codecontent-text">
-                        Gain Booster is a plugin for simple gain and panning adjustments.
+                        Cute Gain is a plugin for simple gain and panning adjustments.
                         <br/><br/>
-                        Code: <a href="https://github.com/Moebytes/Gain-Booster">https://github.com/Moebytes/Gain-Booster</a><br/>
+                        Code: <a href="https://github.com/Moebytes/Cute-Gain">https://github.com/Moebytes/Cute-Gain</a><br/>
                     </span>
                 </div>
                 <img className="codecontent-image" src={vocalChopperLogo} draggable={false}/>
