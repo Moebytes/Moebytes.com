@@ -13,6 +13,7 @@ import framePlayerLogo from "../assets/images/frameplayer-logo.png"
 import waifu2xUpscalerLogo from "../assets/images/waifu2xupscaler-logo.png"
 import pixelCompressorLogo from "../assets/images/pixelcompressor-logo.png"
 import cuteGainLogo from "../assets/images/cutegain-logo.png"
+import cutePitchLogo from "../assets/images/cutepitch-logo.png"
 import vocalChopperLogo from "../assets/images/vocalchopper-logo.png"
 import "./styles/codecontent.less"
 
@@ -123,6 +124,14 @@ const CodeContent: React.FunctionComponent = () => {
                         Cute Gain is a plugin for simple gain and panning adjustments.
                         <br/><br/>
                         Code: <a href="https://github.com/Moebytes/Cute-Gain">https://github.com/Moebytes/Cute-Gain</a><br/>
+                    </span>
+                </div>
+                <img className="codecontent-image" src={cutePitchLogo} draggable={false}/>
+                <div className="codecontent-text-container">
+                    <span className="codecontent-text">
+                        Cute Pitch is a plugin for pitch and formant shifting.
+                        <br/><br/>
+                        Code: <a href="https://github.com/Moebytes/Cute-Pitch">https://github.com/Moebytes/Cute-Pitch</a><br/>
                     </span>
                 </div>
                 <img className="codecontent-image" src={vocalChopperLogo} draggable={false}/>
