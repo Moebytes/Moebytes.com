@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-8803(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+1685(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -933,12 +933,15 @@ const waifu2xupscaler_logo_namespaceObject = __webpack_require__.p + "static/ima
 const pixelcompressor_logo_namespaceObject = __webpack_require__.p + "static/image/pixelcompressor-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/cutegain-logo.png
 const cutegain_logo_namespaceObject = __webpack_require__.p + "static/image/cutegain-logo.png";
+;// CONCATENATED MODULE: ./assets/images/cutepitch-logo.png
+const cutepitch_logo_namespaceObject = __webpack_require__.p + "static/image/cutepitch-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/vocalchopper-logo.png
 const vocalchopper_logo_namespaceObject = __webpack_require__.p + "static/image/vocalchopper-logo.png";
 ;// CONCATENATED MODULE: ./components/styles/codecontent.less
 // extracted by css-extract-rspack-plugin
 
 ;// CONCATENATED MODULE: ./components/CodeContent.tsx
+
 
 
 
@@ -1206,6 +1209,28 @@ const CodeContent = ()=>{
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Cute-Gain",
                                     children: "https://github.com/Moebytes/Cute-Gain"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "codecontent-image",
+                        src: cutepitch_logo_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "codecontent-text-container",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
+                            className: "codecontent-text",
+                            children: [
+                                "Cute Pitch is a plugin for pitch and formant shifting.",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Code: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://github.com/Moebytes/Cute-Pitch",
+                                    children: "https://github.com/Moebytes/Cute-Pitch"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -2726,7 +2751,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(8803));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(1685));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
