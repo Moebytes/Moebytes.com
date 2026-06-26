@@ -14,6 +14,7 @@ import waifu2xUpscalerLogo from "../assets/images/waifu2xupscaler-logo.png"
 import pixelCompressorLogo from "../assets/images/pixelcompressor-logo.png"
 import cuteGainLogo from "../assets/images/cutegain-logo.png"
 import cutePitchLogo from "../assets/images/cutepitch-logo.png"
+import cuteCrushLogo from "../assets/images/cutecrush-logo.png"
 import vocalChopperLogo from "../assets/images/vocalchopper-logo.png"
 import "./styles/codecontent.less"
 
@@ -132,6 +133,14 @@ const CodeContent: React.FunctionComponent = () => {
                         Cute Pitch is a plugin for pitch and formant shifting.
                         <br/><br/>
                         Code: <a href="https://github.com/Moebytes/Cute-Pitch">https://github.com/Moebytes/Cute-Pitch</a><br/>
+                    </span>
+                </div>
+                <img className="codecontent-image" src={cuteCrushLogo} draggable={false}/>
+                <div className="codecontent-text-container">
+                    <span className="codecontent-text">
+                        Cute Crush is a plugin for sample rate reduction and bitcrushing.
+                        <br/><br/>
+                        Code: <a href="https://github.com/Moebytes/Cute-Crush">https://github.com/Moebytes/Cute-Crush</a><br/>
                     </span>
                 </div>
                 <img className="codecontent-image" src={vocalChopperLogo} draggable={false}/>
