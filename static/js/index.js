@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-5794(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+4881(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -937,12 +937,15 @@ const cutegain_logo_namespaceObject = __webpack_require__.p + "static/image/cute
 const cutepitch_logo_namespaceObject = __webpack_require__.p + "static/image/cutepitch-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/cutecrush-logo.png
 const cutecrush_logo_namespaceObject = __webpack_require__.p + "static/image/cutecrush-logo.png";
+;// CONCATENATED MODULE: ./assets/images/cutefilter-logo.png
+const cutefilter_logo_namespaceObject = __webpack_require__.p + "static/image/cutefilter-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/vocalchopper-logo.png
 const vocalchopper_logo_namespaceObject = __webpack_require__.p + "static/image/vocalchopper-logo.png";
 ;// CONCATENATED MODULE: ./components/styles/codecontent.less
 // extracted by css-extract-rspack-plugin
 
 ;// CONCATENATED MODULE: ./components/CodeContent.tsx
+
 
 
 
@@ -1256,6 +1259,28 @@ const CodeContent = ()=>{
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Cute-Crush",
                                     children: "https://github.com/Moebytes/Cute-Crush"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "codecontent-image",
+                        src: cutefilter_logo_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "codecontent-text-container",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
+                            className: "codecontent-text",
+                            children: [
+                                "Cute Filter is a plugin for filtering high and low frequencies.",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Code: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://github.com/Moebytes/Cute-Filter",
+                                    children: "https://github.com/Moebytes/Cute-Filter"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -2776,7 +2801,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(5794));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(4881));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
