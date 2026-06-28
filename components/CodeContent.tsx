@@ -16,6 +16,7 @@ import cuteGainLogo from "../assets/images/cutegain-logo.png"
 import cutePitchLogo from "../assets/images/cutepitch-logo.png"
 import cuteCrushLogo from "../assets/images/cutecrush-logo.png"
 import cuteFilterLogo from "../assets/images/cutefilter-logo.png"
+import cuteStopLogo from "../assets/images/cutestop-logo.png"
 import vocalChopperLogo from "../assets/images/vocalchopper-logo.png"
 import "./styles/codecontent.less"
 
@@ -150,6 +151,14 @@ const CodeContent: React.FunctionComponent = () => {
                         Cute Filter is a plugin for filtering high and low frequencies.
                         <br/><br/>
                         Code: <a href="https://github.com/Moebytes/Cute-Filter">https://github.com/Moebytes/Cute-Filter</a><br/>
+                    </span>
+                </div>
+                <img className="codecontent-image" src={cuteStopLogo} draggable={false}/>
+                <div className="codecontent-text-container">
+                    <span className="codecontent-text">
+                        Cute Stop is a plugin for tape stop effects.
+                        <br/><br/>
+                        Code: <a href="https://github.com/Moebytes/Cute-Stop">https://github.com/Moebytes/Cute-Stop</a><br/>
                     </span>
                 </div>
                 <img className="codecontent-image" src={vocalChopperLogo} draggable={false}/>
