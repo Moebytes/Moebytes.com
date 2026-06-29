@@ -17,6 +17,7 @@ import cutePitchLogo from "../assets/images/cutepitch-logo.png"
 import cuteCrushLogo from "../assets/images/cutecrush-logo.png"
 import cuteFilterLogo from "../assets/images/cutefilter-logo.png"
 import cuteStopLogo from "../assets/images/cutestop-logo.png"
+import cuteReverseLogo from "../assets/images/cutestop-reverse.png"
 import vocalChopperLogo from "../assets/images/vocalchopper-logo.png"
 import "./styles/codecontent.less"
 
@@ -159,6 +160,14 @@ const CodeContent: React.FunctionComponent = () => {
                         Cute Stop is a plugin for tape stop effects.
                         <br/><br/>
                         Code: <a href="https://github.com/Moebytes/Cute-Stop">https://github.com/Moebytes/Cute-Stop</a><br/>
+                    </span>
+                </div>
+                <img className="codecontent-image" src={cuteReverseLogo} draggable={false}/>
+                <div className="codecontent-text-container">
+                    <span className="codecontent-text">
+                        Cute Reverse is a plugin for reversing effects.
+                        <br/><br/>
+                        Code: <a href="https://github.com/Moebytes/Cute-Reverse">https://github.com/Moebytes/Cute-Reverse</a><br/>
                     </span>
                 </div>
                 <img className="codecontent-image" src={vocalChopperLogo} draggable={false}/>
