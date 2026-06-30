@@ -527,13 +527,13 @@ const HomeContent = ()=>{
                 children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                     className: "homecontent-text",
                     children: [
-                        "I’m a software developer from the United States usually focusing on web and mobile development. I have mainly used Typescript, Python, and C++. I have a bit less experience with Java and C#.",
+                        "I’m a software developer and designer mostly making anime and moe-inspired projects. I specialize in web and mobile development. I have also done audio software development. I have mainly used Typescript, C++, and Python. I have less experience with Java and C#.",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        'I am passionate about anime and moe content. What does "moe" mean? Basically, it means that I love cute things. I also enjoy collecting anime merchandise such as posters and figurines.',
+                        'I am passionate about anime and moe content. What does "moe" mean? It means that I love cute things. I also enjoy collecting anime merchandise such as posters and figurines.',
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "My hobbies are creating music occassionally. I mostly make kawaii future bass and chiptune music. My other aspiration is to improve my anime drawings.",
+                        "My hobbies are creating music occassionally. I make kawaii future bass and chiptune music. My other aspiration is to improve my anime drawings. I may also want to learn 3D stuff at some point.",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         "Below is a list of tools/software that I can use at an acceptable level."
@@ -1086,6 +1086,11 @@ const CodeContent = ()=>{
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Kisaragi.moe",
                                     children: "https://github.com/Moebytes/Kisaragi.moe"
+                                }),
+                                "Website Design: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://www.figma.com/design/FOhUu52kqqjUObKzRoNcP9/Kisaragi-Site",
+                                    children: "https://www.figma.com/design/FOhUu52kqqjUObKzRoNcP9/Kisaragi-Site"
                                 })
                             ]
                         })
