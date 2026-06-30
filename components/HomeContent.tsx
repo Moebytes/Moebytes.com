@@ -77,16 +77,18 @@ const HomeContent: React.FunctionComponent = () => {
             </div>
             <div className="homecontent-text-container">
                 <span className="homecontent-text">
-                    I’m a software developer from the United States usually focusing on web 
-                    and mobile development. I have mainly used Typescript, Python, and C++. I 
-                    have a bit less experience with Java and C#. 
+                    I’m a software developer and designer mostly making anime and moe-inspired 
+                    projects. I specialize in web and mobile development. I have also done 
+                    audio software development. I have mainly used Typescript, C++, and Python. I 
+                    have less experience with Java and C#. 
                     <br/><br/>
                     I am passionate about anime and moe content. What does "moe" mean? 
-                    Basically, it means that I love cute things. I also enjoy collecting anime merchandise 
+                    It means that I love cute things. I also enjoy collecting anime merchandise 
                     such as posters and figurines. 
                     <br/><br/>
-                    My hobbies are creating music occassionally. I mostly make kawaii future bass 
+                    My hobbies are creating music occassionally. I make kawaii future bass 
                     and chiptune music. My other aspiration is to improve my anime drawings. 
+                    I may also want to learn 3D stuff at some point. 
                     <br/><br/>
                     Below is a list of tools/software that I can use at an acceptable level. 
                 </span>

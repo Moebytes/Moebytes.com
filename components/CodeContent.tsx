@@ -71,6 +71,7 @@ const CodeContent: React.FunctionComponent = () => {
                         Website: <a href="https://kisaragi.moe/">https://kisaragi.moe</a><br/>
                         Bot Code: <a href="https://github.com/Moebytes/Kisaragi">https://github.com/Moebytes/Kisaragi</a><br/>
                         Website Code: <a href="https://github.com/Moebytes/Kisaragi.moe">https://github.com/Moebytes/Kisaragi.moe</a>
+                        Website Design: <a href="https://www.figma.com/design/FOhUu52kqqjUObKzRoNcP9/Kisaragi-Site">https://www.figma.com/design/FOhUu52kqqjUObKzRoNcP9/Kisaragi-Site</a>
                     </span>
                 </div>
                 </>
