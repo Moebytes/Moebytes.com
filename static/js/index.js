@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-4853(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+8239(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -941,12 +941,15 @@ const cutecrush_logo_namespaceObject = __webpack_require__.p + "static/image/cut
 const cutefilter_logo_namespaceObject = __webpack_require__.p + "static/image/cutefilter-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/cutestop-logo.png
 const cutestop_logo_namespaceObject = __webpack_require__.p + "static/image/cutestop-logo.png";
+;// CONCATENATED MODULE: ./assets/images/cutereverse-logo.png
+const cutereverse_logo_namespaceObject = __webpack_require__.p + "static/image/cutereverse-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/vocalchopper-logo.png
 const vocalchopper_logo_namespaceObject = __webpack_require__.p + "static/image/vocalchopper-logo.png";
 ;// CONCATENATED MODULE: ./components/styles/codecontent.less
 // extracted by css-extract-rspack-plugin
 
 ;// CONCATENATED MODULE: ./components/CodeContent.tsx
+
 
 
 
@@ -1001,7 +1004,7 @@ const CodeContent = ()=>{
                                 "Moepictures is a website for posting cute anime artworks.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "The project is primarily made with Node.js and React, and uses a PostgreSQL database. We make use of Python scripts for a few things. The mobile app is made in React Native.",
+                                "The project is made with Node.js and React, and uses a PostgreSQL database. We also make use of Python scripts for a few things. The mobile app is made in React Native.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Website: ",
@@ -1022,6 +1025,12 @@ const CodeContent = ()=>{
                                     children: "https://www.figma.com/design/f7fQmrcMwfKOGYUnHnXZ0B/Moepictures-Website"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Mobile App: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://moepictures.net/mobile",
+                                    children: "https://moepictures.net/mobile"
+                                }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Mobile Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
@@ -1058,7 +1067,7 @@ const CodeContent = ()=>{
                                 "Kisaragi is a discord bot with a lot of commands.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "The project was made with Node.js and the Discord.js library, and it uses a PostgreSQL database. The website was created using React.",
+                                "The project is made with Node.js and the Discord.js library, and it uses a PostgreSQL database. The website was created using React.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Website: ",
@@ -1099,10 +1108,28 @@ const CodeContent = ()=>{
                                 "Tune Player is an app for playing music and adding pitch effects.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Mac: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://apps.apple.com/us/app/tune-player/id6760257927",
+                                    children: "https://apps.apple.com/us/app/tune-player/id6760257927"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Windows: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://apps.microsoft.com/detail/9pf51md96mgl",
+                                    children: "https://apps.microsoft.com/detail/9pf51md96mgl"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Tune-Player",
                                     children: "https://github.com/Moebytes/Tune-Player"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Design: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://www.figma.com/design/CTEs64SQjKg7M1SXzGx0Kh/Tune-Player",
+                                    children: "https://www.figma.com/design/CTEs64SQjKg7M1SXzGx0Kh/Tune-Player"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1121,10 +1148,28 @@ const CodeContent = ()=>{
                                 "Pic Display is an app for viewing images and adding adjustments.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Mac: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://apps.apple.com/us/app/pic-display/id6760277745",
+                                    children: "https://apps.apple.com/us/app/pic-display/id6760277745"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Windows: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://apps.microsoft.com/detail/9p0pv1767t83",
+                                    children: "https://apps.microsoft.com/detail/9p0pv1767t83"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Pic-Display",
                                     children: "https://github.com/Moebytes/Pic-Display"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Design: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://www.figma.com/design/kqGaBzYxe93zSPxDPz6wRa/Pic-Display",
+                                    children: "https://www.figma.com/design/kqGaBzYxe93zSPxDPz6wRa/Pic-Display"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1143,10 +1188,28 @@ const CodeContent = ()=>{
                                 "Frame Player is an app for playing videos and adding adjustments.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Mac: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://apps.apple.com/us/app/frame-player/id6760277892",
+                                    children: "https://apps.apple.com/us/app/frame-player/id6760277892"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Windows: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://apps.microsoft.com/store/detail/9NF7NHT63XVQ",
+                                    children: "https://apps.microsoft.com/store/detail/9NF7NHT63XVQ"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Frame-Player",
                                     children: "https://github.com/Moebytes/Frame-Player"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Design: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://www.figma.com/design/PpYPQAYojONPWedMbDRL8t/Frame-Player",
+                                    children: "https://www.figma.com/design/PpYPQAYojONPWedMbDRL8t/Frame-Player"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1165,10 +1228,28 @@ const CodeContent = ()=>{
                                 "Waifu2x Upscaler is an app that upscales images using waifu2x and similar upscalers.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Mac: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://apps.apple.com/us/app/waifu2x-upscaler/id6760260194",
+                                    children: "https://apps.apple.com/us/app/waifu2x-upscaler/id6760260194"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Windows: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://apps.microsoft.com/detail/9p877b2q79cc",
+                                    children: "https://apps.microsoft.com/detail/9p877b2q79cc"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Waifu2x-Upscaler",
                                     children: "https://github.com/Moebytes/Waifu2x-Upscaler"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Design: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://www.figma.com/design/KXFlnNiiqjK18WgVIqxaVu/Waifu2x-Upscaler",
+                                    children: "https://www.figma.com/design/KXFlnNiiqjK18WgVIqxaVu/Waifu2x-Upscaler"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1187,10 +1268,28 @@ const CodeContent = ()=>{
                                 "Pixel Compressor is an app for compressing and resizing images.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Mac: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://apps.apple.com/us/app/pixel-compressor/id6760260651",
+                                    children: "https://apps.apple.com/us/app/pixel-compressor/id6760260651"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Windows: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://apps.microsoft.com/detail/9p751mm4cn08",
+                                    children: "https://apps.microsoft.com/detail/9p751mm4cn08"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Pixel-Compressor",
                                     children: "https://github.com/Moebytes/Pixel-Compressor"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Design: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://www.figma.com/design/lTUtTd5bAHSxvg3uTzNWIA/Pixel-Compressor",
+                                    children: "https://www.figma.com/design/lTUtTd5bAHSxvg3uTzNWIA/Pixel-Compressor"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1214,10 +1313,22 @@ const CodeContent = ()=>{
                                 "Cute Gain is a plugin for simple gain and panning adjustments.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Gumroad: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://moebytes.gumroad.com/l/cute-gain",
+                                    children: "https://moebytes.gumroad.com/l/cute-gain"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Cute-Gain",
                                     children: "https://github.com/Moebytes/Cute-Gain"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Design: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://www.figma.com/design/B2ZkSdjkJbhSAynBWiNesK/Cute-Gain",
+                                    children: "https://www.figma.com/design/B2ZkSdjkJbhSAynBWiNesK/Cute-Gain"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1236,10 +1347,22 @@ const CodeContent = ()=>{
                                 "Cute Pitch is a plugin for pitch and formant shifting.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Gumroad: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://moebytes.gumroad.com/l/cute-pitch",
+                                    children: "https://moebytes.gumroad.com/l/cute-pitch"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Cute-Pitch",
                                     children: "https://github.com/Moebytes/Cute-Pitch"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Design: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://www.figma.com/design/WuLkZAoYlmBKa1sHAjo7Iq/Cute-Pitch",
+                                    children: "https://www.figma.com/design/WuLkZAoYlmBKa1sHAjo7Iq/Cute-Pitch"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1258,10 +1381,22 @@ const CodeContent = ()=>{
                                 "Cute Crush is a plugin for sample rate reduction and bitcrushing.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Gumroad: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://moebytes.gumroad.com/l/cute-crush",
+                                    children: "https://moebytes.gumroad.com/l/cute-crush"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Cute-Crush",
                                     children: "https://github.com/Moebytes/Cute-Crush"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Design: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://www.figma.com/design/6nkScNIeA7713z3nRbFWUF/Cute-Crush",
+                                    children: "https://www.figma.com/design/6nkScNIeA7713z3nRbFWUF/Cute-Crush"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1280,10 +1415,22 @@ const CodeContent = ()=>{
                                 "Cute Filter is a plugin for filtering high and low frequencies.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Gumroad: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://moebytes.gumroad.com/l/cute-filter",
+                                    children: "https://moebytes.gumroad.com/l/cute-filter"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Cute-Filter",
                                     children: "https://github.com/Moebytes/Cute-Filter"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Design: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://www.figma.com/design/bDssWO2ixIN2Owd5liCKIl/Cute-Filter",
+                                    children: "https://www.figma.com/design/bDssWO2ixIN2Owd5liCKIl/Cute-Filter"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1302,10 +1449,56 @@ const CodeContent = ()=>{
                                 "Cute Stop is a plugin for tape stop effects.",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Gumroad: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://moebytes.gumroad.com/l/cute-stop",
+                                    children: "https://moebytes.gumroad.com/l/cute-stop"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Code: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://github.com/Moebytes/Cute-Stop",
                                     children: "https://github.com/Moebytes/Cute-Stop"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Design: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://www.figma.com/design/jOlYQw7VuwKc2q57O1ALn6/Cute-Stop",
+                                    children: "https://www.figma.com/design/jOlYQw7VuwKc2q57O1ALn6/Cute-Stop"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "codecontent-image",
+                        src: cutereverse_logo_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "codecontent-text-container",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
+                            className: "codecontent-text",
+                            children: [
+                                "Cute Reverse is a plugin for reversing effects.",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Gumroad: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://moebytes.gumroad.com/l/cute-reverse",
+                                    children: "https://moebytes.gumroad.com/l/cute-reverse"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Code: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://github.com/Moebytes/Cute-Reverse",
+                                    children: "https://github.com/Moebytes/Cute-Reverse"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Design: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://www.figma.com/design/OcWsDiYm55Hmlzvfr0JizV/Cute-Reverse",
+                                    children: "https://www.figma.com/design/OcWsDiYm55Hmlzvfr0JizV/Cute-Reverse"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -2826,7 +3019,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(4853));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(8239));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
