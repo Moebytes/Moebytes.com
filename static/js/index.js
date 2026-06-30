@@ -533,7 +533,7 @@ const HomeContent = ()=>{
                         'I am passionate about anime and moe content. What does "moe" mean? It means that I love cute things. I also enjoy collecting anime merchandise such as posters and figurines.',
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "My hobbies are creating music occassionally. I make kawaii future bass and chiptune music. My other aspiration is to improve my anime drawings. I may also want to learn 3D stuff at some point.",
+                        "My hobbies are creating music occassionally. I make kawaii future bass and chiptune music. My other aspiration is to improve my anime drawings.",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         "Below is a list of tools/software that I can use at an acceptable level."
@@ -1013,23 +1013,16 @@ const CodeContent = ()=>{
                                     children: "https://moepictures.net"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Website Code: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Moepictures",
-                                    children: "https://github.com/Moebytes/Moepictures"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Website Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/f7fQmrcMwfKOGYUnHnXZ0B/Moepictures-Website",
-                                    children: "https://www.figma.com/design/f7fQmrcMwfKOGYUnHnXZ0B/Moepictures-Website"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Mobile App: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://moepictures.net/mobile",
                                     children: "https://moepictures.net/mobile"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Website Code: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://github.com/Moebytes/Moepictures",
+                                    children: "https://github.com/Moebytes/Moepictures"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Mobile Code: ",
@@ -1037,12 +1030,7 @@ const CodeContent = ()=>{
                                     href: "https://github.com/Moebytes/Moepictures-App",
                                     children: "https://github.com/Moebytes/Moepictures-App"
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Mobile Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/iB9H1DBk2qVhloD4nD1RGF/Moepictures-App",
-                                    children: "https://www.figma.com/design/iB9H1DBk2qVhloD4nD1RGF/Moepictures-App"
-                                })
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
                         })
                     })
@@ -1087,11 +1075,7 @@ const CodeContent = ()=>{
                                     href: "https://github.com/Moebytes/Kisaragi.moe",
                                     children: "https://github.com/Moebytes/Kisaragi.moe"
                                 }),
-                                "Website Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/FOhUu52kqqjUObKzRoNcP9/Kisaragi-Site",
-                                    children: "https://www.figma.com/design/FOhUu52kqqjUObKzRoNcP9/Kisaragi-Site"
-                                })
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
                         })
                     })
@@ -1124,18 +1108,6 @@ const CodeContent = ()=>{
                                     href: "https://apps.microsoft.com/detail/9pf51md96mgl",
                                     children: "https://apps.microsoft.com/detail/9pf51md96mgl"
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Code: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Tune-Player",
-                                    children: "https://github.com/Moebytes/Tune-Player"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/CTEs64SQjKg7M1SXzGx0Kh/Tune-Player",
-                                    children: "https://www.figma.com/design/CTEs64SQjKg7M1SXzGx0Kh/Tune-Player"
-                                }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
                         })
@@ -1163,18 +1135,6 @@ const CodeContent = ()=>{
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://apps.microsoft.com/detail/9p0pv1767t83",
                                     children: "https://apps.microsoft.com/detail/9p0pv1767t83"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Code: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Pic-Display",
-                                    children: "https://github.com/Moebytes/Pic-Display"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/kqGaBzYxe93zSPxDPz6wRa/Pic-Display",
-                                    children: "https://www.figma.com/design/kqGaBzYxe93zSPxDPz6wRa/Pic-Display"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1204,18 +1164,6 @@ const CodeContent = ()=>{
                                     href: "https://apps.microsoft.com/store/detail/9NF7NHT63XVQ",
                                     children: "https://apps.microsoft.com/store/detail/9NF7NHT63XVQ"
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Code: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Frame-Player",
-                                    children: "https://github.com/Moebytes/Frame-Player"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/PpYPQAYojONPWedMbDRL8t/Frame-Player",
-                                    children: "https://www.figma.com/design/PpYPQAYojONPWedMbDRL8t/Frame-Player"
-                                }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
                         })
@@ -1243,18 +1191,6 @@ const CodeContent = ()=>{
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://apps.microsoft.com/detail/9p877b2q79cc",
                                     children: "https://apps.microsoft.com/detail/9p877b2q79cc"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Code: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Waifu2x-Upscaler",
-                                    children: "https://github.com/Moebytes/Waifu2x-Upscaler"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/KXFlnNiiqjK18WgVIqxaVu/Waifu2x-Upscaler",
-                                    children: "https://www.figma.com/design/KXFlnNiiqjK18WgVIqxaVu/Waifu2x-Upscaler"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1284,18 +1220,6 @@ const CodeContent = ()=>{
                                     href: "https://apps.microsoft.com/detail/9p751mm4cn08",
                                     children: "https://apps.microsoft.com/detail/9p751mm4cn08"
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Code: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Pixel-Compressor",
-                                    children: "https://github.com/Moebytes/Pixel-Compressor"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/lTUtTd5bAHSxvg3uTzNWIA/Pixel-Compressor",
-                                    children: "https://www.figma.com/design/lTUtTd5bAHSxvg3uTzNWIA/Pixel-Compressor"
-                                }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
                         })
@@ -1323,18 +1247,6 @@ const CodeContent = ()=>{
                                     href: "https://moebytes.gumroad.com/l/cute-gain",
                                     children: "https://moebytes.gumroad.com/l/cute-gain"
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Code: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Cute-Gain",
-                                    children: "https://github.com/Moebytes/Cute-Gain"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/B2ZkSdjkJbhSAynBWiNesK/Cute-Gain",
-                                    children: "https://www.figma.com/design/B2ZkSdjkJbhSAynBWiNesK/Cute-Gain"
-                                }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
                         })
@@ -1356,18 +1268,6 @@ const CodeContent = ()=>{
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://moebytes.gumroad.com/l/cute-pitch",
                                     children: "https://moebytes.gumroad.com/l/cute-pitch"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Code: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Cute-Pitch",
-                                    children: "https://github.com/Moebytes/Cute-Pitch"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/WuLkZAoYlmBKa1sHAjo7Iq/Cute-Pitch",
-                                    children: "https://www.figma.com/design/WuLkZAoYlmBKa1sHAjo7Iq/Cute-Pitch"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1391,18 +1291,6 @@ const CodeContent = ()=>{
                                     href: "https://moebytes.gumroad.com/l/cute-crush",
                                     children: "https://moebytes.gumroad.com/l/cute-crush"
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Code: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Cute-Crush",
-                                    children: "https://github.com/Moebytes/Cute-Crush"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/6nkScNIeA7713z3nRbFWUF/Cute-Crush",
-                                    children: "https://www.figma.com/design/6nkScNIeA7713z3nRbFWUF/Cute-Crush"
-                                }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
                         })
@@ -1424,18 +1312,6 @@ const CodeContent = ()=>{
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://moebytes.gumroad.com/l/cute-filter",
                                     children: "https://moebytes.gumroad.com/l/cute-filter"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Code: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Cute-Filter",
-                                    children: "https://github.com/Moebytes/Cute-Filter"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/bDssWO2ixIN2Owd5liCKIl/Cute-Filter",
-                                    children: "https://www.figma.com/design/bDssWO2ixIN2Owd5liCKIl/Cute-Filter"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -1459,18 +1335,6 @@ const CodeContent = ()=>{
                                     href: "https://moebytes.gumroad.com/l/cute-stop",
                                     children: "https://moebytes.gumroad.com/l/cute-stop"
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Code: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Cute-Stop",
-                                    children: "https://github.com/Moebytes/Cute-Stop"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/jOlYQw7VuwKc2q57O1ALn6/Cute-Stop",
-                                    children: "https://www.figma.com/design/jOlYQw7VuwKc2q57O1ALn6/Cute-Stop"
-                                }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
                         })
@@ -1492,18 +1356,6 @@ const CodeContent = ()=>{
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://moebytes.gumroad.com/l/cute-reverse",
                                     children: "https://moebytes.gumroad.com/l/cute-reverse"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Code: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://github.com/Moebytes/Cute-Reverse",
-                                    children: "https://github.com/Moebytes/Cute-Reverse"
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                                "Design: ",
-                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://www.figma.com/design/OcWsDiYm55Hmlzvfr0JizV/Cute-Reverse",
-                                    children: "https://www.figma.com/design/OcWsDiYm55Hmlzvfr0JizV/Cute-Reverse"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
