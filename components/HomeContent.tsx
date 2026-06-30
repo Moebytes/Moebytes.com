@@ -88,7 +88,6 @@ const HomeContent: React.FunctionComponent = () => {
                     <br/><br/>
                     My hobbies are creating music occassionally. I make kawaii future bass 
                     and chiptune music. My other aspiration is to improve my anime drawings. 
-                    I may also want to learn 3D stuff at some point. 
                     <br/><br/>
                     Below is a list of tools/software that I can use at an acceptable level. 
                 </span>
