@@ -18,6 +18,7 @@ import cuteCrushLogo from "../assets/images/cutecrush-logo.png"
 import cuteFilterLogo from "../assets/images/cutefilter-logo.png"
 import cuteStopLogo from "../assets/images/cutestop-logo.png"
 import cuteReverseLogo from "../assets/images/cutereverse-logo.png"
+import cuteStutterLogo from "../assets/images/cutestutter-logo.png"
 import vocalChopperLogo from "../assets/images/vocalchopper-logo.png"
 import "./styles/codecontent.less"
 
@@ -171,6 +172,14 @@ const CodeContent: React.FunctionComponent = () => {
                         Cute Reverse is a plugin for reversing effects.
                         <br/><br/>
                         Gumroad: <a href="https://moebytes.gumroad.com/l/cute-reverse">https://moebytes.gumroad.com/l/cute-reverse</a><br/>
+                    </span>
+                </div>
+                <img className="codecontent-image" src={cuteStutterLogo} draggable={false}/>
+                <div className="codecontent-text-container">
+                    <span className="codecontent-text">
+                        Cute Stutter is a plugin for repeating stutter effects.
+                        <br/><br/>
+                        Gumroad: <a href="https://moebytes.gumroad.com/l/cute-stutter">https://moebytes.gumroad.com/l/cute-stutter</a><br/>
                     </span>
                 </div>
                 <img className="codecontent-image" src={vocalChopperLogo} draggable={false}/>
