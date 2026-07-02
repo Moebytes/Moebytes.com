@@ -19,6 +19,7 @@ import cuteFilterLogo from "../assets/images/cutefilter-logo.png"
 import cuteStopLogo from "../assets/images/cutestop-logo.png"
 import cuteReverseLogo from "../assets/images/cutereverse-logo.png"
 import cuteStutterLogo from "../assets/images/cutestutter-logo.png"
+import cuteDelayLogo from "../assets/images/cutedelay-logo.png"
 import vocalChopperLogo from "../assets/images/vocalchopper-logo.png"
 import "./styles/codecontent.less"
 
@@ -180,6 +181,14 @@ const CodeContent: React.FunctionComponent = () => {
                         Cute Stutter is a plugin for repeating stutter effects.
                         <br/><br/>
                         Gumroad: <a href="https://moebytes.gumroad.com/l/cute-stutter">https://moebytes.gumroad.com/l/cute-stutter</a><br/>
+                    </span>
+                </div>
+                <img className="codecontent-image" src={cuteDelayLogo} draggable={false}/>
+                <div className="codecontent-text-container">
+                    <span className="codecontent-text">
+                        Cute Delay is a plugin for delay (repeating echo) effects.
+                        <br/><br/>
+                        Gumroad: <a href="https://moebytes.gumroad.com/l/cute-delay">https://moebytes.gumroad.com/l/cute-delay</a><br/>
                     </span>
                 </div>
                 <img className="codecontent-image" src={vocalChopperLogo} draggable={false}/>
