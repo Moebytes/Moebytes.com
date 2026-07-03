@@ -20,6 +20,7 @@ import cuteStopLogo from "../assets/images/cutestop-logo.png"
 import cuteReverseLogo from "../assets/images/cutereverse-logo.png"
 import cuteStutterLogo from "../assets/images/cutestutter-logo.png"
 import cuteDelayLogo from "../assets/images/cutedelay-logo.png"
+import cuteVerbLogo from "../assets/images/cuteverb-logo.png"
 import vocalChopperLogo from "../assets/images/vocalchopper-logo.png"
 import "./styles/codecontent.less"
 
@@ -189,6 +190,14 @@ const CodeContent: React.FunctionComponent = () => {
                         Cute Delay is a plugin for delay (repeating echo) effects.
                         <br/><br/>
                         Gumroad: <a href="https://moebytes.gumroad.com/l/cute-delay">https://moebytes.gumroad.com/l/cute-delay</a><br/>
+                    </span>
+                </div>
+                <img className="codecontent-image" src={cuteVerbLogo} draggable={false}/>
+                <div className="codecontent-text-container">
+                    <span className="codecontent-text">
+                        Cute Verb is a plugin for reverberation effects.
+                        <br/><br/>
+                        Gumroad: <a href="https://moebytes.gumroad.com/l/cute-verb">https://moebytes.gumroad.com/l/cute-verb</a><br/>
                     </span>
                 </div>
                 <img className="codecontent-image" src={vocalChopperLogo} draggable={false}/>
