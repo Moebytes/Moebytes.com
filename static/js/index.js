@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-8565(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+9054(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -947,12 +947,15 @@ const cutereverse_logo_namespaceObject = __webpack_require__.p + "static/image/c
 const cutestutter_logo_namespaceObject = __webpack_require__.p + "static/image/cutestutter-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/cutedelay-logo.png
 const cutedelay_logo_namespaceObject = __webpack_require__.p + "static/image/cutedelay-logo.png";
+;// CONCATENATED MODULE: ./assets/images/cuteverb-logo.png
+const cuteverb_logo_namespaceObject = __webpack_require__.p + "static/image/cuteverb-logo.png";
 ;// CONCATENATED MODULE: ./assets/images/vocalchopper-logo.png
 const vocalchopper_logo_namespaceObject = __webpack_require__.p + "static/image/vocalchopper-logo.png";
 ;// CONCATENATED MODULE: ./components/styles/codecontent.less
 // extracted by css-extract-rspack-plugin
 
 ;// CONCATENATED MODULE: ./components/CodeContent.tsx
+
 
 
 
@@ -1406,6 +1409,28 @@ const CodeContent = ()=>{
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                                     href: "https://moebytes.gumroad.com/l/cute-delay",
                                     children: "https://moebytes.gumroad.com/l/cute-delay"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "codecontent-image",
+                        src: cuteverb_logo_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
+                        className: "codecontent-text-container",
+                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
+                            className: "codecontent-text",
+                            children: [
+                                "Cute Verb is a plugin for reverberation effects.",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
+                                "Gumroad: ",
+                                /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
+                                    href: "https://moebytes.gumroad.com/l/cute-verb",
+                                    children: "https://moebytes.gumroad.com/l/cute-verb"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {})
                             ]
@@ -2926,7 +2951,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(8565));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(9054));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
