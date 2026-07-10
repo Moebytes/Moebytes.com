@@ -837,12 +837,6 @@ const HomeContent = ()=>{
                 children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                     className: "homecontent-text",
                     children: [
-                        "Twitter (inactive): ",
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                            href: "https://x.com/moebytez",
-                            children: "https://twitter.com/moebytez"
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         "GitHub: ",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
                             href: "https://github.com/Moebytes",
