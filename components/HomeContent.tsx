@@ -167,7 +167,6 @@ const HomeContent: React.FunctionComponent = () => {
             </div>
             <div className="homecontent-text-container">
                 <span className="homecontent-text">
-                    Twitter (inactive): <a href="https://x.com/moebytez">https://twitter.com/moebytez</a><br/>
                     GitHub: <a href="https://github.com/Moebytes">https://github.com/Moebytes</a><br/>
                 </span>
             </div>
