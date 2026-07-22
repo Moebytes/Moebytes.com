@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-9054(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+1306(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -392,6 +392,8 @@ const juce_namespaceObject = __webpack_require__.p + "static/image/juce.png";
 const kotlin_namespaceObject = __webpack_require__.p + "static/image/kotlin.png";
 ;// CONCATENATED MODULE: ./assets/icons/less.png
 const less_namespaceObject = __webpack_require__.p + "static/image/less.png";
+;// CONCATENATED MODULE: ./assets/icons/live2d.png
+const live2d_namespaceObject = __webpack_require__.p + "static/image/live2d.png";
 ;// CONCATENATED MODULE: ./assets/icons/net.png
 const net_namespaceObject = __webpack_require__.p + "static/image/net.png";
 ;// CONCATENATED MODULE: ./assets/icons/next.png
@@ -418,8 +420,6 @@ const icons_react_namespaceObject = __webpack_require__.p + "static/image/react.
 const redis_namespaceObject = __webpack_require__.p + "static/image/redis.png";
 ;// CONCATENATED MODULE: ./assets/icons/redux.png
 const redux_namespaceObject = __webpack_require__.p + "static/image/redux.png";
-;// CONCATENATED MODULE: ./assets/icons/rsbuild.png
-const rsbuild_namespaceObject = __webpack_require__.p + "static/image/rsbuild.png";
 ;// CONCATENATED MODULE: ./assets/icons/ruby.png
 const ruby_namespaceObject = __webpack_require__.p + "static/image/ruby.png";
 ;// CONCATENATED MODULE: ./assets/icons/rust.png
@@ -527,16 +527,16 @@ const HomeContent = ()=>{
                 children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                     className: "homecontent-text",
                     children: [
-                        "I’m a software developer and designer mostly making anime and moe-inspired projects. I specialize in web and mobile development. I have also done audio software development. I have mainly used Typescript, C++, and Python. I have less experience with Java and C#.",
+                        "I'm a software developer mostly making anime and moe-inspired projects. I specialize in web and mobile development, but have also done audio software development. I have mostly used Typescript, C++, and Python, but am also familiar with C#, Java, and Swift (mostly from school).",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        'I am passionate about anime and moe content. What does "moe" mean? It means that I love cute things. I also enjoy collecting anime merchandise such as posters and figurines.',
+                        "I love anime because it is very cute, and enjoy collecting merchandise such as posters and figurines.",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "My hobbies are creating music occassionally. I make kawaii future bass and chiptune music. My other aspiration is to improve my anime drawings.",
+                        "As a hobby, I'm a music producer that likes making kawaii future bass and chiptune music and am a beginning anime artist.",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "Below is a list of tools/software that I can use at an acceptable level."
+                        "Below is a list of tools that I know how to use at an acceptable level."
                     ]
                 })
             }),
@@ -659,11 +659,6 @@ const HomeContent = ()=>{
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "homecontent-icon",
-                        src: rsbuild_namespaceObject,
-                        draggable: false
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-icon",
                         src: vscode_namespaceObject,
                         draggable: false
                     }),
@@ -714,6 +709,11 @@ const HomeContent = ()=>{
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "homecontent-icon",
+                        src: live2d_namespaceObject,
+                        draggable: false
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
+                        className: "homecontent-icon",
                         src: fl_namespaceObject,
                         draggable: false
                     })
@@ -729,7 +729,7 @@ const HomeContent = ()=>{
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
                         className: "homecontent-header-text",
-                        children: "I Might Survive If Forced To Use"
+                        children: "I Might Be Ok"
                     })
                 ]
             }),
@@ -2945,7 +2945,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(9054));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(1306));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
