@@ -77,19 +77,18 @@ const HomeContent: React.FunctionComponent = () => {
             </div>
             <div className="homecontent-text-container">
                 <span className="homecontent-text">
-                    I’m a software developer and designer mostly making anime and moe-inspired 
-                    projects. I specialize in web and mobile development. I have also done 
-                    audio software development. I have mainly used Typescript, C++, and Python. I 
-                    have less experience with Java and C#. 
+                    I'm a software developer mostly making anime and moe-inspired 
+                    projects. I specialize in web and mobile development, but have also done 
+                    audio software development. I have mostly used Typescript, C++, and Python, 
+                    but am also familiar with C#, Java, and Swift (mostly from school). 
                     <br/><br/>
-                    I am passionate about anime and moe content. What does "moe" mean? 
-                    It means that I love cute things. I also enjoy collecting anime merchandise 
-                    such as posters and figurines. 
+                    I love anime because it is very cute, and enjoy collecting merchandise such 
+                    as posters and figurines. 
                     <br/><br/>
-                    My hobbies are creating music occassionally. I make kawaii future bass 
-                    and chiptune music. My other aspiration is to improve my anime drawings. 
+                    As a hobby, I'm a music producer that likes making kawaii future bass 
+                    and chiptune music and am a beginning anime artist. 
                     <br/><br/>
-                    Below is a list of tools/software that I can use at an acceptable level. 
+                    Below is a list of tools that I know how to use at an acceptable level. 
                 </span>
             </div>
             <div className="homecontent-header-container">
@@ -117,7 +116,6 @@ const HomeContent: React.FunctionComponent = () => {
                 <img className="homecontent-icon" src={pg} draggable={false}/>
                 <img className="homecontent-icon" src={redis} draggable={false}/>
                 <img className="homecontent-icon" src={webpack} draggable={false}/>
-                <img className="homecontent-icon" src={rsbuild} draggable={false}/>
                 <img className="homecontent-icon" src={vscode} draggable={false}/>
                 <img className="homecontent-icon" src={tableplus} draggable={false}/>
                 <img className="homecontent-icon" src={androidstudio} draggable={false}/>
@@ -128,9 +126,8 @@ const HomeContent: React.FunctionComponent = () => {
                 <img className="homecontent-icon" src={pr} draggable={false}/>
                 <img className="homecontent-icon" src={ae} draggable={false}/>
                 <img className="homecontent-icon" src={clipstudio} draggable={false}/>
+                <img className="homecontent-icon" src={live2d} draggable={false}/>
                 <img className="homecontent-icon" src={fl} draggable={false}/>
-                {/* <img className="homecontent-icon" src={live2d} draggable={false}/> */}
-                {/* <img className="homecontent-icon" src={fl} draggable={false}/> */}
                 {/* <img className="homecontent-icon" src={serum} draggable={false}/> */}
                 {/* <img className="homecontent-icon" src={omni} draggable={false}/> */}
                 {/* <img className="homecontent-icon" src={massive} draggable={false}/> */}
@@ -141,7 +138,7 @@ const HomeContent: React.FunctionComponent = () => {
             </div>
             <div className="homecontent-header-container">
                 <img className="homecontent-header-icon" src={star} draggable={false}/>
-                <span className="homecontent-header-text">I Might Survive If Forced To Use</span>
+                <span className="homecontent-header-text">I Might Be Ok</span>
             </div>
             <div className="homecontent-icon-container">
                 <img className="homecontent-icon" src={angular} draggable={false}/>
