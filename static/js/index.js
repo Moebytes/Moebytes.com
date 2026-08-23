@@ -1012,14 +1012,14 @@ const CodeContent = ()=>{
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Website: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://moepictures.net",
-                                    children: "https://moepictures.net"
+                                    href: "https://moepictures.com",
+                                    children: "https://moepictures.com"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Mobile App: ",
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("a", {
-                                    href: "https://moepictures.net/mobile",
-                                    children: "https://moepictures.net/mobile"
+                                    href: "https://moepictures.com/mobile",
+                                    children: "https://moepictures.com/mobile"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                                 "Website Code: ",
