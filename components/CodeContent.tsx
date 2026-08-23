@@ -49,8 +49,8 @@ const CodeContent: React.FunctionComponent = () => {
                         The project is made with Node.js and React, and uses a PostgreSQL database.
                         We also make use of Python scripts for a few things. The mobile app is made in React Native.
                         <br/><br/>
-                        Website: <a href="https://moepictures.net">https://moepictures.net</a><br/>
-                        Mobile App: <a href="https://moepictures.net/mobile">https://moepictures.net/mobile</a><br/>
+                        Website: <a href="https://moepictures.com">https://moepictures.com</a><br/>
+                        Mobile App: <a href="https://moepictures.com/mobile">https://moepictures.com/mobile</a><br/>
                         Website Code: <a href="https://github.com/Moebytes/Moepictures">https://github.com/Moebytes/Moepictures</a><br/>
                         Mobile Code: <a href="https://github.com/Moebytes/Moepictures-App">https://github.com/Moebytes/Moepictures-App</a><br/>
                     </span>
