@@ -325,11 +325,6 @@ const NavBar = ()=>{
                 }),
                 /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
                     className: "navbar-button",
-                    onClick: ()=>navigate("/music"),
-                    children: "Music"
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)("button", {
-                    className: "navbar-button",
                     onClick: ()=>navigate("/privacy-policy"),
                     children: "Privacy"
                 }),
