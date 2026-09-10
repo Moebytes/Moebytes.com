@@ -498,10 +498,10 @@ const HomeContent = ()=>{
                 children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                     className: "homecontent-text",
                     children: [
-                        "I'm a software developer making anime and moe projects. I mostly know Typescript, C++, and Python.",
+                        "I'm a software developer usually making anime and moe projects. I mostly specialize in web and mobile development. I know Typescript, C++, C#, and Python the best, although I could become familiar with any language in a short period.",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "I love anime because it's cute, and I enjoy collecting merchandise such as posters and figurines.",
+                        "I love anime because it's super cute, and I enjoy collecting merchandise such as posters and figurines.",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         "Below is a list of tools that I know how to use at an acceptable level."
