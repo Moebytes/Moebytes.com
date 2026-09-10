@@ -1,7 +1,7 @@
 (() => {
 "use strict";
 var __webpack_modules__ = ({
-1306(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
+8798(__unused_rspack_module, __unused_rspack___webpack_exports__, __webpack_require__) {
 
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(4848);
@@ -91,17 +91,17 @@ const artSlice = (0,redux_toolkit_modern/* .createSlice */.Z0)({
         }
     }
 });
-const { setPreviewImg: artReducer_setPreviewImg } = artSlice.actions;
+const { setPreviewImg } = artSlice.actions;
 const useArtSelector = ()=>{
-    const selector = react_redux/* .useSelector.withTypes */.d4.withTypes();
+    const selector = useSelector.withTypes();
     return {
         previewImg: selector((state)=>state.art.previewImg)
     };
 };
 const useArtActions = ()=>{
-    const dispatch = react_redux/* .useDispatch.withTypes */.wA.withTypes()();
+    const dispatch = useDispatch.withTypes()();
     return {
-        setPreviewImg: (state)=>dispatch(artReducer_setPreviewImg(state))
+        setPreviewImg: (state)=>dispatch(setPreviewImg(state))
     };
 };
 /* export default */ const artReducer = (artSlice.reducer);
@@ -120,17 +120,17 @@ const musicSlice = (0,redux_toolkit_modern/* .createSlice */.Z0)({
         }
     }
 });
-const { setCurrentAudio: musicReducer_setCurrentAudio } = musicSlice.actions;
+const { setCurrentAudio } = musicSlice.actions;
 const useMusicSelector = ()=>{
-    const selector = react_redux/* .useSelector.withTypes */.d4.withTypes();
+    const selector = useSelector.withTypes();
     return {
         currentAudio: selector((state)=>state.music.currentAudio)
     };
 };
 const useMusicActions = ()=>{
-    const dispatch = react_redux/* .useDispatch.withTypes */.wA.withTypes()();
+    const dispatch = useDispatch.withTypes()();
     return {
-        setCurrentAudio: (state)=>dispatch(musicReducer_setCurrentAudio(state))
+        setCurrentAudio: (state)=>dispatch(setCurrentAudio(state))
     };
 };
 /* export default */ const musicReducer = (musicSlice.reducer);
@@ -347,16 +347,10 @@ const NavBar = ()=>{
 
 ;// CONCATENATED MODULE: ./assets/svg/star.svg
 const star_namespaceObject = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDYiIGhlaWdodD0iNDQiIHZpZXdCb3g9IjAgMCA0NiA0NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIyLjg5OCAwTDI5Ljk3MzggMTQuMzM3M0w0NS43OTYgMTYuNjM2NEwzNC4zNDcgMjcuNzk2NEwzNy4wNDk3IDQzLjU1NDZMMjIuODk4IDM2LjExNDVMOC43NDYyNSA0My41NTQ2TDExLjQ0OSAyNy43OTY0TC0xLjQzODk0ZS0wNiAxNi42MzY0TDE1LjgyMjEgMTQuMzM3M0wyMi44OTggMFoiIGZpbGw9IiNmZjNiOWQiLz4KPC9zdmc+Cg==";
-;// CONCATENATED MODULE: ./assets/icons/ae.png
-const ae_namespaceObject = __webpack_require__.p + "static/image/ae.png";
-;// CONCATENATED MODULE: ./assets/icons/ai.png
-const ai_namespaceObject = __webpack_require__.p + "static/image/ai.png";
 ;// CONCATENATED MODULE: ./assets/icons/androidstudio.png
 const androidstudio_namespaceObject = __webpack_require__.p + "static/image/androidstudio.png";
 ;// CONCATENATED MODULE: ./assets/icons/angular.png
 const angular_namespaceObject = __webpack_require__.p + "static/image/angular.png";
-;// CONCATENATED MODULE: ./assets/icons/clipstudio.png
-const clipstudio_namespaceObject = __webpack_require__.p + "static/image/clipstudio.png";
 ;// CONCATENATED MODULE: ./assets/icons/cpp.png
 const cpp_namespaceObject = __webpack_require__.p + "static/image/cpp.png";
 ;// CONCATENATED MODULE: ./assets/icons/csharp.png
@@ -369,10 +363,6 @@ const djs_namespaceObject = __webpack_require__.p + "static/image/djs.png";
 const electron_namespaceObject = __webpack_require__.p + "static/image/electron.png";
 ;// CONCATENATED MODULE: ./assets/icons/expo.png
 const expo_namespaceObject = __webpack_require__.p + "static/image/expo.png";
-;// CONCATENATED MODULE: ./assets/icons/figma.png
-const figma_namespaceObject = __webpack_require__.p + "static/image/figma.png";
-;// CONCATENATED MODULE: ./assets/icons/fl.png
-const fl_namespaceObject = __webpack_require__.p + "static/image/fl.png";
 ;// CONCATENATED MODULE: ./assets/icons/go.png
 const go_namespaceObject = __webpack_require__.p + "static/image/go.png";
 ;// CONCATENATED MODULE: ./assets/icons/html.png
@@ -387,8 +377,6 @@ const juce_namespaceObject = __webpack_require__.p + "static/image/juce.png";
 const kotlin_namespaceObject = __webpack_require__.p + "static/image/kotlin.png";
 ;// CONCATENATED MODULE: ./assets/icons/less.png
 const less_namespaceObject = __webpack_require__.p + "static/image/less.png";
-;// CONCATENATED MODULE: ./assets/icons/live2d.png
-const live2d_namespaceObject = __webpack_require__.p + "static/image/live2d.png";
 ;// CONCATENATED MODULE: ./assets/icons/net.png
 const net_namespaceObject = __webpack_require__.p + "static/image/net.png";
 ;// CONCATENATED MODULE: ./assets/icons/next.png
@@ -403,10 +391,6 @@ const objc_namespaceObject = __webpack_require__.p + "static/image/objc.png";
 const pg_namespaceObject = __webpack_require__.p + "static/image/pg.png";
 ;// CONCATENATED MODULE: ./assets/icons/php.png
 const php_namespaceObject = __webpack_require__.p + "static/image/php.png";
-;// CONCATENATED MODULE: ./assets/icons/pr.png
-const pr_namespaceObject = __webpack_require__.p + "static/image/pr.png";
-;// CONCATENATED MODULE: ./assets/icons/ps.png
-const ps_namespaceObject = __webpack_require__.p + "static/image/ps.png";
 ;// CONCATENATED MODULE: ./assets/icons/python.png
 const python_namespaceObject = __webpack_require__.p + "static/image/python.png";
 ;// CONCATENATED MODULE: ./assets/icons/react.png
@@ -491,14 +475,6 @@ const xcode_namespaceObject = __webpack_require__.p + "static/image/xcode.png";
 
 
 
-
-
-
-
-
-
-
-
 const HomeContent = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
         className: "homecontent",
@@ -522,13 +498,10 @@ const HomeContent = ()=>{
                 children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
                     className: "homecontent-text",
                     children: [
-                        "I'm a software developer mostly making anime and moe-inspired projects. I specialize in web and mobile development, but have also done audio software development. I have mostly used Typescript, C++, and Python, but am also familiar with C#, Java, and Swift (mostly from school).",
+                        "I'm a software developer making anime and moe projects. I mostly know Typescript, C++, and Python.",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "I love anime because it is very cute, and enjoy collecting merchandise such as posters and figurines.",
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
-                        "As a hobby, I'm a music producer that likes making kawaii future bass and chiptune music and am a beginning anime artist.",
+                        "I love anime because it's cute, and I enjoy collecting merchandise such as posters and figurines.",
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         /*#__PURE__*/ (0,jsx_runtime.jsx)("br", {}),
                         "Below is a list of tools that I know how to use at an acceptable level."
@@ -670,46 +643,6 @@ const HomeContent = ()=>{
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
                         className: "homecontent-icon",
                         src: xcode_namespaceObject,
-                        draggable: false
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-icon",
-                        src: figma_namespaceObject,
-                        draggable: false
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-icon",
-                        src: ps_namespaceObject,
-                        draggable: false
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-icon",
-                        src: ai_namespaceObject,
-                        draggable: false
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-icon",
-                        src: pr_namespaceObject,
-                        draggable: false
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-icon",
-                        src: ae_namespaceObject,
-                        draggable: false
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-icon",
-                        src: clipstudio_namespaceObject,
-                        draggable: false
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-icon",
-                        src: live2d_namespaceObject,
-                        draggable: false
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        className: "homecontent-icon",
-                        src: fl_namespaceObject,
                         draggable: false
                     })
                 ]
@@ -1716,568 +1649,6 @@ const DesignPage = ()=>{
 };
 /* export default */ const pages_DesignPage = (DesignPage);
 
-;// CONCATENATED MODULE: ./assets/art/GabrielPicnic.jpg
-const GabrielPicnic_namespaceObject = __webpack_require__.p + "static/image/GabrielPicnic.jpg";
-;// CONCATENATED MODULE: ./assets/art/GabrielPicnic2.jpg
-const GabrielPicnic2_namespaceObject = __webpack_require__.p + "static/image/GabrielPicnic2.jpg";
-;// CONCATENATED MODULE: ./assets/art/KarenFrame.jpg
-const KarenFrame_namespaceObject = __webpack_require__.p + "static/image/KarenFrame.jpg";
-;// CONCATENATED MODULE: ./assets/art/Kisaragi.jpg
-const Kisaragi_namespaceObject = __webpack_require__.p + "static/image/Kisaragi.jpg";
-;// CONCATENATED MODULE: ./assets/art/KleeForest.jpg
-const KleeForest_namespaceObject = __webpack_require__.p + "static/image/KleeForest.jpg";
-;// CONCATENATED MODULE: ./assets/art/LlennAndFuka.jpg
-const LlennAndFuka_namespaceObject = __webpack_require__.p + "static/image/LlennAndFuka.jpg";
-;// CONCATENATED MODULE: ./assets/art/Roka.jpg
-const Roka_namespaceObject = __webpack_require__.p + "static/image/Roka.jpg";
-;// CONCATENATED MODULE: ./assets/art/UmaruSoda.jpg
-const UmaruSoda_namespaceObject = __webpack_require__.p + "static/image/UmaruSoda.jpg";
-;// CONCATENATED MODULE: ./components/styles/artgrid.less
-// extracted by css-extract-rspack-plugin
-
-;// CONCATENATED MODULE: ./components/ArtGrid.tsx
-
-
-
-
-const ArtGrid = (props)=>{
-    const { setPreviewImg } = useArtActions();
-    const ref = (0,react.useRef)(null);
-    const imageAnimation = (event)=>{
-        if (!ref.current) return;
-        const rect = ref.current.getBoundingClientRect();
-        const width = rect === null || rect === void 0 ? void 0 : rect.width;
-        const height = rect === null || rect === void 0 ? void 0 : rect.height;
-        const x = event.clientX - rect.x;
-        const y = event.clientY - rect.y;
-        const translateX = (x / width - 0.5) * 3;
-        const translateY = (y / height - 0.5) * 3;
-        ref.current.style.transform = `translateX(${translateX}px) translateY(${translateY}px) scale(1.02)`;
-    };
-    const cancelImageAnimation = ()=>{
-        if (!ref.current) return;
-        ref.current.style.transform = "scale(1)";
-    };
-    const openPreview = ()=>{
-        setPreviewImg(props.img);
-    };
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-        className: "artgrid",
-        onMouseMove: (event)=>imageAnimation(event),
-        onMouseLeave: ()=>cancelImageAnimation(),
-        onClick: openPreview,
-        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-            ref: ref,
-            className: "artgrid-img",
-            src: props.img,
-            draggable: false
-        })
-    });
-};
-/* export default */ const components_ArtGrid = (ArtGrid);
-
-;// CONCATENATED MODULE: ./components/styles/artcontent.less
-// extracted by css-extract-rspack-plugin
-
-;// CONCATENATED MODULE: ./components/ArtContent.tsx
-
-
-
-
-
-
-
-
-
-
-
-
-const ArtContent = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-        className: "artcontent",
-        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-            className: "artcontent-items-container",
-            children: [
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                    img: GabrielPicnic_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                    img: GabrielPicnic2_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                    img: UmaruSoda_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                    img: KleeForest_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                    img: LlennAndFuka_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                    img: Kisaragi_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                    img: Roka_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtGrid, {
-                    img: KarenFrame_namespaceObject
-                })
-            ]
-        })
-    });
-};
-/* export default */ const components_ArtContent = (ArtContent);
-
-;// CONCATENATED MODULE: ./components/styles/artpreview.less
-// extracted by css-extract-rspack-plugin
-
-;// CONCATENATED MODULE: ./components/ArtPreview.tsx
-
-
-
-
-const ArtPreview = ()=>{
-    const { previewImg } = useArtSelector();
-    const { setPreviewImg } = useArtActions();
-    const close = ()=>{
-        setPreviewImg("");
-    };
-    if (!previewImg) return null;
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-        className: "artpreview",
-        onClick: close,
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("svg", {
-                viewBox: "0 0 180 180",
-                className: "artpreview-close",
-                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("path", {
-                    d: "M5 5 L175 175 M175 5 L5 175"
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                className: "artpreview-img",
-                src: previewImg,
-                draggable: false
-            })
-        ]
-    });
-};
-/* export default */ const components_ArtPreview = (ArtPreview);
-
-;// CONCATENATED MODULE: ./pages/ArtPage.tsx
-
-
-
-
-
-
-
-const ArtPage = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(components_LogoBar, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(components_NavBar, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtPreview, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ArtContent, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(components_Footer, {})
-        ]
-    });
-};
-/* export default */ const pages_ArtPage = (ArtPage);
-
-;// CONCATENATED MODULE: ./assets/music/audio/Agemasu.mp3
-const Agemasu_namespaceObject = __webpack_require__.p + "static/media/Agemasu.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Agemasu.png
-const covers_Agemasu_namespaceObject = __webpack_require__.p + "static/image/Agemasu.png";
-;// CONCATENATED MODULE: ./assets/music/audio/Arigatou.mp3
-const Arigatou_namespaceObject = __webpack_require__.p + "static/media/Arigatou.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Arigatou.png
-const covers_Arigatou_namespaceObject = __webpack_require__.p + "static/image/Arigatou.png";
-;// CONCATENATED MODULE: ./assets/music/audio/DefineRemix.mp3
-const DefineRemix_namespaceObject = __webpack_require__.p + "static/media/DefineRemix.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Define.png
-const Define_namespaceObject = __webpack_require__.p + "static/image/Define.png";
-;// CONCATENATED MODULE: ./assets/music/audio/Hai.mp3
-const Hai_namespaceObject = __webpack_require__.p + "static/media/Hai.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Hai.png
-const covers_Hai_namespaceObject = __webpack_require__.p + "static/image/Hai.png";
-;// CONCATENATED MODULE: ./assets/music/audio/Icicle.mp3
-const Icicle_namespaceObject = __webpack_require__.p + "static/media/Icicle.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Icicle.png
-const covers_Icicle_namespaceObject = __webpack_require__.p + "static/image/Icicle.png";
-;// CONCATENATED MODULE: ./assets/music/audio/Konnichiwa.mp3
-const Konnichiwa_namespaceObject = __webpack_require__.p + "static/media/Konnichiwa.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Konnichiwa.png
-const covers_Konnichiwa_namespaceObject = __webpack_require__.p + "static/image/Konnichiwa.png";
-;// CONCATENATED MODULE: ./assets/music/audio/Kudasai.mp3
-const Kudasai_namespaceObject = __webpack_require__.p + "static/media/Kudasai.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Kudasai.png
-const covers_Kudasai_namespaceObject = __webpack_require__.p + "static/image/Kudasai.png";
-;// CONCATENATED MODULE: ./assets/music/audio/Moonlight.mp3
-const Moonlight_namespaceObject = __webpack_require__.p + "static/media/Moonlight.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Moonlight.png
-const covers_Moonlight_namespaceObject = __webpack_require__.p + "static/image/Moonlight.png";
-;// CONCATENATED MODULE: ./assets/music/audio/Rainfall.mp3
-const Rainfall_namespaceObject = __webpack_require__.p + "static/media/Rainfall.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Rainfall.png
-const covers_Rainfall_namespaceObject = __webpack_require__.p + "static/image/Rainfall.png";
-;// CONCATENATED MODULE: ./assets/music/audio/Snowflake.mp3
-const Snowflake_namespaceObject = __webpack_require__.p + "static/media/Snowflake.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Snowflake.png
-const covers_Snowflake_namespaceObject = __webpack_require__.p + "static/image/Snowflake.png";
-;// CONCATENATED MODULE: ./assets/music/audio/SquareDreams.mp3
-const SquareDreams_namespaceObject = __webpack_require__.p + "static/media/SquareDreams.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/SquareDreams.png
-const covers_SquareDreams_namespaceObject = __webpack_require__.p + "static/image/SquareDreams.png";
-;// CONCATENATED MODULE: ./assets/music/audio/Starlight.mp3
-const Starlight_namespaceObject = __webpack_require__.p + "static/media/Starlight.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Starlight.png
-const covers_Starlight_namespaceObject = __webpack_require__.p + "static/image/Starlight.png";
-;// CONCATENATED MODULE: ./assets/music/audio/Starstruck.mp3
-const Starstruck_namespaceObject = __webpack_require__.p + "static/media/Starstruck.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Starstruck.png
-const covers_Starstruck_namespaceObject = __webpack_require__.p + "static/image/Starstruck.png";
-;// CONCATENATED MODULE: ./assets/music/audio/Xylophone.mp3
-const Xylophone_namespaceObject = __webpack_require__.p + "static/media/Xylophone.mp3";
-;// CONCATENATED MODULE: ./assets/music/covers/Xylophone.png
-const covers_Xylophone_namespaceObject = __webpack_require__.p + "static/image/Xylophone.png";
-// EXTERNAL MODULE: ./node_modules/react-slider/dist/es/prod/components/ReactSlider/ReactSlider.mjs + 2 modules
-var ReactSlider = __webpack_require__(508);
-;// CONCATENATED MODULE: ./assets/svg/play.svg
-const play_namespaceObject = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA0NyA0NyI+CiAgPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDIuMS4wIEJ1aWxkIDE0MikgIC0tPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuc3QwIHsKICAgICAgICBmaWxsOiAjZmYzYjlkOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNDIuMywyNC4xTDEwLjIsNDEuOWMtLjUuMy0xLjIsMC0xLjItLjdWNS4xYzAtLjYuNy0xLDEuMi0uN2wzMi4xLDE4LjJjLjYuMy42LDEuMSwwLDEuNFoiLz4KPC9zdmc+";
-;// CONCATENATED MODULE: ./assets/svg/pause.svg
-const pause_namespaceObject = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDciIGhlaWdodD0iNDciIHZpZXdCb3g9IjAgMCA0NyA0NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTM3LjkyMyA1Ljc1NDY0SDI3LjY1MDlWNDEuMTM2MkgzNy45MjNWNS43NTQ2NFoiIGZpbGw9IiNmZjNiOWQiIHN0cm9rZT0iI2ZmM2I5ZCIgc3Ryb2tlLXdpZHRoPSIwLjg1NzA3NyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIi8+CjxwYXRoIGQ9Ik03LjY3Mjg1IDUuODAyNTlMMTcuOTQ0OSA1Ljc1NDY0VjQxLjE0NThINy42NzI4NVY1LjgwMjU5WiIgZmlsbD0iI2ZmM2I5ZCIgc3Ryb2tlPSIjZmYzYjlkIiBzdHJva2Utd2lkdGg9IjAuODU3MDc3IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiLz4KPC9zdmc+Cg==";
-// EXTERNAL MODULE: ./node_modules/music-metadata/lib/core.js + 38 modules
-var core = __webpack_require__(8031);
-;// CONCATENATED MODULE: ./structures/Functions.ts
-/* provided dependency */ var Buffer = __webpack_require__(8287)["Buffer"];
-
-
-class Functions {
-}
-(0,_define_property._)(Functions, "formatSeconds", (duration)=>{
-    let seconds = Math.floor(duration % 60);
-    let minutes = Math.floor(duration / 60 % 60);
-    let hours = Math.floor(duration / (60 * 60) % 24);
-    if (Number.isNaN(seconds) || seconds < 0) seconds = 0;
-    if (Number.isNaN(minutes) || minutes < 0) minutes = 0;
-    if (Number.isNaN(hours) || hours < 0) hours = 0;
-    const hoursStr = hours === 0 ? "" : hours < 10 ? "0" + hours + ":" : hours + ":";
-    const minutesStr = hours && minutes < 10 ? "0" + minutes : minutes;
-    const secondsStr = seconds < 10 ? "0" + seconds : seconds;
-    return `${hoursStr}${minutesStr}:${secondsStr}`;
-});
-(0,_define_property._)(Functions, "songCover", async (audio)=>{
-    let buffer = await fetch(audio).then((r)=>r.arrayBuffer());
-    const tagInfo = await core/* .parseBuffer */.ix(new Uint8Array(buffer));
-    const picture = tagInfo.common.picture;
-    if (picture) {
-        let buffer = new Uint8Array();
-        for(let i = 0; i < picture.length; i++){
-            buffer = new Uint8Array(Buffer.concat([
-                buffer,
-                new Uint8Array(picture[i].data)
-            ]));
-        }
-        return `data:${picture[0].format};base64,${Buffer.from(buffer).toString("base64")}`;
-    } else {
-        return "";
-    }
-});
-
-
-;// CONCATENATED MODULE: ./components/styles/musicgrid.less
-// extracted by css-extract-rspack-plugin
-
-;// CONCATENATED MODULE: ./components/MusicGrid.tsx
-
-
-
-
-
-
-
-
-
-
-const MusicGrid = (props)=>{
-    const { currentAudio } = useMusicSelector();
-    const { setCurrentAudio } = useMusicActions();
-    const [paused, setPaused] = (0,react.useState)(true);
-    const [duration, setDuration] = (0,react.useState)(0);
-    const [progress, setProgress] = (0,react.useState)(0);
-    const [secondsProgress, setSecondsProgress] = (0,react.useState)(0);
-    const [dragProgress, setDragProgress] = (0,react.useState)(null);
-    const [dragging, setDragging] = (0,react.useState)(false);
-    const [initialized, setInitialized] = (0,react.useState)(false);
-    const [img, setImg] = (0,react.useState)("");
-    const sliderRef = (0,react.useRef)(null);
-    const startTimeRef = (0,react.useRef)(0);
-    const offsetRef = (0,react.useRef)(0);
-    (0,react.useEffect)(()=>{
-        if (sliderRef.current) sliderRef.current.resize();
-    });
-    /*
-    const updateSongCover = async () => {
-        const songCover = await functions.songCover(props.audio)
-        setImg(songCover)
-    }
-
-    useEffect(() => {
-        updateSongCover()
-    }, [props.audio])*/ const loadAudio = async ()=>{
-        await AudioEngine.initialize();
-        await AudioEngine.load(props.audio);
-        setDuration(AudioEngine.duration);
-    };
-    (0,react.useEffect)(()=>{
-        if (currentAudio !== props.audio) {
-            setPaused(true);
-            setProgress(0);
-            setSecondsProgress(0);
-            offsetRef.current = 0;
-        }
-    }, [
-        currentAudio,
-        props.audio
-    ]);
-    (0,react.useEffect)(()=>{
-        const id = setInterval(()=>{
-            if (paused || !duration) return;
-            const elapsed = esm/* .now */.tB() - startTimeRef.current;
-            let current = offsetRef.current + elapsed;
-            if (current >= duration) {
-                current = 0;
-                offsetRef.current = 0;
-                startTimeRef.current = esm/* .now */.tB();
-            }
-            if (!dragging) {
-                setSecondsProgress(current);
-                setProgress(current / duration * 100);
-            }
-        }, 1000);
-        return ()=>clearInterval(id);
-    }, [
-        paused,
-        duration,
-        dragging
-    ]);
-    const togglePlaying = async (force)=>{
-        await esm/* .start */.ni();
-        if (!initialized) await loadAudio();
-        if (currentAudio !== props.audio) {
-            await loadAudio();
-            setCurrentAudio(props.audio);
-            offsetRef.current = 0;
-        }
-        if (paused || force) {
-            startTimeRef.current = esm/* .now */.tB();
-            await AudioEngine.play(offsetRef.current);
-            setPaused(false);
-        } else {
-            offsetRef.current += esm/* .now */.tB() - startTimeRef.current;
-            AudioEngine.stop();
-            setPaused(true);
-        }
-    };
-    const seek = async (position)=>{
-        let secondsProgress = position / 100 * duration;
-        offsetRef.current = secondsProgress;
-        startTimeRef.current = esm/* .now */.tB();
-        AudioEngine.stop();
-        if (!paused) {
-            await AudioEngine.play(secondsProgress);
-        }
-        setSecondsProgress(secondsProgress);
-        setProgress(position);
-        setDragging(false);
-    };
-    const updateProgressText = (value)=>{
-        const secondsProgress = value / 100 * duration;
-        setDragProgress(secondsProgress);
-    };
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-        className: "musicgrid",
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                className: "musicgrid-img",
-                src: props.cover,
-                draggable: false
-            }),
-            /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                className: "miniplayer",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "miniplayer-play-container",
-                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                            className: "miniplayer-play-button",
-                            src: paused ? play_namespaceObject : pause_namespaceObject,
-                            draggable: "false",
-                            onClick: ()=>togglePlaying()
-                        })
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-                        className: "miniplayer-progress-container",
-                        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(ReactSlider/* ["default"] */.A, {
-                            className: "miniplayer-slider",
-                            trackClassName: "miniplayer-slider-track",
-                            thumbClassName: "miniplayer-slider-thumb",
-                            min: 0,
-                            max: 100,
-                            ref: sliderRef,
-                            value: dragging ? (dragProgress ?? 0) / duration * 100 : progress,
-                            onBeforeChange: ()=>setDragging(true),
-                            onChange: (value)=>updateProgressText(value),
-                            onAfterChange: (value)=>seek(value)
-                        })
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                        className: "miniplayer-time-container",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                className: "miniplayer-time-text",
-                                children: dragging ? Functions.formatSeconds(dragProgress ?? 0) : Functions.formatSeconds(secondsProgress)
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                className: "miniplayer-time-text",
-                                children: "/"
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
-                                className: "miniplayer-time-text",
-                                children: Functions.formatSeconds(duration)
-                            })
-                        ]
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* export default */ const components_MusicGrid = (MusicGrid);
-
-;// CONCATENATED MODULE: ./components/styles/musiccontent.less
-// extracted by css-extract-rspack-plugin
-
-;// CONCATENATED MODULE: ./components/MusicContent.tsx
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const MusicContent = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
-        className: "musiccontent",
-        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-            className: "musiccontent-items-container",
-            children: [
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: Hai_namespaceObject,
-                    cover: covers_Hai_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: SquareDreams_namespaceObject,
-                    cover: covers_SquareDreams_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: Xylophone_namespaceObject,
-                    cover: covers_Xylophone_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: Arigatou_namespaceObject,
-                    cover: covers_Arigatou_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: Starlight_namespaceObject,
-                    cover: covers_Starlight_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: Rainfall_namespaceObject,
-                    cover: covers_Rainfall_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: DefineRemix_namespaceObject,
-                    cover: Define_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: Konnichiwa_namespaceObject,
-                    cover: covers_Konnichiwa_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: Icicle_namespaceObject,
-                    cover: covers_Icicle_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: Moonlight_namespaceObject,
-                    cover: covers_Moonlight_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: Kudasai_namespaceObject,
-                    cover: covers_Kudasai_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: Starstruck_namespaceObject,
-                    cover: covers_Starstruck_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: Snowflake_namespaceObject,
-                    cover: covers_Snowflake_namespaceObject
-                }),
-                /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicGrid, {
-                    audio: Agemasu_namespaceObject,
-                    cover: covers_Agemasu_namespaceObject
-                })
-            ]
-        })
-    });
-};
-/* export default */ const components_MusicContent = (MusicContent);
-
-;// CONCATENATED MODULE: ./pages/MusicPage.tsx
-
-
-
-
-
-
-const MusicPage = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(components_LogoBar, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(components_NavBar, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(components_MusicContent, {}),
-            /*#__PURE__*/ (0,jsx_runtime.jsx)(components_Footer, {})
-        ]
-    });
-};
-/* export default */ const pages_MusicPage = (MusicPage);
-
 ;// CONCATENATED MODULE: ./components/ContactContent.tsx
 
 
@@ -2530,8 +1901,6 @@ const $404Page = ()=>{
 
 
 
-
-
 const App = ()=>{
     const { setMobile, setTablet } = useLayoutActions();
     (0,react.useEffect)(()=>{
@@ -2576,14 +1945,6 @@ const App = ()=>{
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(chunk_JZWAC4HX/* .Route */.qh, {
                         path: "/design",
                         element: /*#__PURE__*/ (0,jsx_runtime.jsx)(pages_DesignPage, {})
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(chunk_JZWAC4HX/* .Route */.qh, {
-                        path: "/art",
-                        element: /*#__PURE__*/ (0,jsx_runtime.jsx)(pages_ArtPage, {})
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)(chunk_JZWAC4HX/* .Route */.qh, {
-                        path: "/music",
-                        element: /*#__PURE__*/ (0,jsx_runtime.jsx)(pages_MusicPage, {})
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)(chunk_JZWAC4HX/* .Route */.qh, {
                         path: "/contact",
@@ -2689,109 +2050,9 @@ __webpack_require__.d = (exports, definition) => {
     }
 };
 })();
-// webpack/runtime/ensure_chunk
-(() => {
-__webpack_require__.f = {};
-// This file contains only the entry chunk.
-// The chunk loading function for additional chunks
-__webpack_require__.e = (chunkId) => {
-	return Promise.all(
-		Object.keys(__webpack_require__.f).reduce((promises, key) => {
-			__webpack_require__.f[key](chunkId, promises);
-			return promises;
-		}, [])
-	);
-};
-})();
-// webpack/runtime/get javascript chunk filename
-(() => {
-// This function allow to reference chunks
-__webpack_require__.u = (chunkId) => {
-  // return url for filenames not based on template
-  
-  // return url for filenames based on template
-  return "static/js/async/" + chunkId + ".js"
-}
-})();
-// webpack/runtime/get mini-css chunk filename
-(() => {
-// This function allow to reference chunks
-__webpack_require__.miniCssF = (chunkId) => {
-  // return url for filenames not based on template
-  
-  // return url for filenames based on template
-  return "" + chunkId + ".css"
-}
-})();
 // webpack/runtime/has_own_property
 (() => {
 __webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-})();
-// webpack/runtime/load_script
-(() => {
-var inProgress = {};
-
-var uniqueName = "moebytes-site:";
-// loadScript function to load a script via script tag
-__webpack_require__.l = function (url, done, key, chunkId) {
-	if (inProgress[url]) {
-		inProgress[url].push(done);
-		return;
-	}
-	var script, needAttach;
-	if (key !== undefined) {
-		var scripts = document.getElementsByTagName("script");
-		for (var i = 0; i < scripts.length; i++) {
-			var s = scripts[i];
-			if (s.getAttribute("src") == url || s.getAttribute("data-rspack") == uniqueName + key) {
-				script = s;
-				break;
-			}
-		}
-	}
-	if (!script) {
-		needAttach = true;
-		script = document.createElement('script');
-
-
-script.timeout = 120;
-if (__webpack_require__.nc) {
-  script.setAttribute("nonce", __webpack_require__.nc);
-}
-
-script.setAttribute("data-rspack", uniqueName + key);
-
-
-
-script.src = url;
-
-
-	}
-	inProgress[url] = [done];
-	var onScriptComplete = function (prev, event) {
-		script.onerror = script.onload = null;
-		clearTimeout(timeout);
-		var doneFns = inProgress[url];
-		delete inProgress[url];
-		script.parentNode && script.parentNode.removeChild(script);
-		doneFns &&
-			doneFns.forEach(function (fn) {
-				return fn(event);
-			});
-		if (prev) return prev(event);
-	};
-	var timeout = setTimeout(
-		onScriptComplete.bind(null, undefined, {
-			type: 'timeout',
-			target: script
-		}),
-		120000
-	);
-	script.onerror = onScriptComplete.bind(null, script.onerror);
-	script.onload = onScriptComplete.bind(null, script.onload);
-	needAttach && document.head.appendChild(script);
-};
-
 })();
 // webpack/runtime/make_namespace_object
 (() => {
@@ -2850,58 +2111,7 @@ __webpack_require__.p = "/";
       // undefined = chunk not loaded, null = chunk preloaded/prefetched
       // [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
       var installedChunks = {"410": 0,};
-      
-        __webpack_require__.f.j = function (chunkId, promises) {
-          // JSONP chunk loading for javascript
-var installedChunkData = __webpack_require__.o(installedChunks, chunkId)
-	? installedChunks[chunkId]
-	: undefined;
-if (installedChunkData !== 0) {
-	// 0 means "already installed".
-
-	// a Promise means "currently loading".
-	if (installedChunkData) {
-		promises.push(installedChunkData[2]);
-	} else {
-		if (true) {
-			// setup Promise in chunk cache
-			var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
-			promises.push((installedChunkData[2] = promise));
-
-			// start chunk loading
-			var url = __webpack_require__.p + __webpack_require__.u(chunkId);
-			// create error before stack unwound to get useful stacktrace later
-			var error = new Error();
-			var loadingEnded = function (event) {
-				if (__webpack_require__.o(installedChunks, chunkId)) {
-					installedChunkData = installedChunks[chunkId];
-					if (installedChunkData !== 0) installedChunks[chunkId] = undefined;
-					if (installedChunkData) {
-						var errorType =
-							event && (event.type === 'load' ? 'missing' : event.type);
-						var realSrc = event && event.target && event.target.src;
-						error.message =
-							'Loading chunk ' +
-							chunkId +
-							' failed.\n(' +
-							errorType +
-							': ' +
-							realSrc +
-							')';
-						error.name = 'ChunkLoadError';
-						error.type = errorType;
-						error.request = realSrc;
-						installedChunkData[1](error);
-					}
-				}
-			};
-			__webpack_require__.l(url, loadingEnded, "chunk-" + chunkId, chunkId);
-		} 
-	}
-}
-
-        }
-        __webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
+      __webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
 // install a JSONP callback for chunk loading
 var __rspack_jsonp = (parentChunkLoadingFunction, data) => {
 	var [chunkIds, moreModules, runtime] = data;
@@ -2940,7 +2150,7 @@ chunkLoadingGlobal.push = __rspack_jsonp.bind(null, chunkLoadingGlobal.push.bind
 // startup
 // Load entry module and return exports
 // This entry module depends on other loaded chunks and execution need to be delayed
-var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "205"], () => __webpack_require__(1306));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["783", "535", "218"], () => __webpack_require__(8798));
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
 ;
