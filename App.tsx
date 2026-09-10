@@ -51,8 +51,8 @@ const App: React.FunctionComponent = () => {
           <Route path="/" element={<HomePage/>}/>
           <Route path="/code" element={<CodePage/>}/>
           <Route path="/design" element={<DesignPage/>}/>
-          <Route path="/art" element={<ArtPage/>}/>
-          <Route path="/music" element={<MusicPage/>}/>
+          {/* <Route path="/art" element={<ArtPage/>}/> */}
+          {/* <Route path="/music" element={<MusicPage/>}/> */}
           <Route path="/contact" element={<ContactPage/>}/>
           <Route path="/privacy-policy" element={<PrivacyPage/>}/>
           <Route path="*" element={<$404Page/>}/>

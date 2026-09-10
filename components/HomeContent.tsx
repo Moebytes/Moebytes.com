@@ -77,16 +77,11 @@ const HomeContent: React.FunctionComponent = () => {
             </div>
             <div className="homecontent-text-container">
                 <span className="homecontent-text">
-                    I'm a software developer mostly making anime and moe-inspired 
-                    projects. I specialize in web and mobile development, but have also done 
-                    audio software development. I have mostly used Typescript, C++, and Python, 
-                    but am also familiar with C#, Java, and Swift (mostly from school). 
+                    I'm a software developer making anime and moe projects. I mostly 
+                    know Typescript, C++, and Python. 
                     <br/><br/>
-                    I love anime because it is very cute, and enjoy collecting merchandise such 
+                    I love anime because it's cute, and I enjoy collecting merchandise such 
                     as posters and figurines. 
-                    <br/><br/>
-                    As a hobby, I'm a music producer that likes making kawaii future bass 
-                    and chiptune music and am a beginning anime artist. 
                     <br/><br/>
                     Below is a list of tools that I know how to use at an acceptable level. 
                 </span>
@@ -120,14 +115,14 @@ const HomeContent: React.FunctionComponent = () => {
                 <img className="homecontent-icon" src={tableplus} draggable={false}/>
                 <img className="homecontent-icon" src={androidstudio} draggable={false}/>
                 <img className="homecontent-icon" src={xcode} draggable={false}/>
-                <img className="homecontent-icon" src={figma} draggable={false}/>
-                <img className="homecontent-icon" src={ps} draggable={false}/>
-                <img className="homecontent-icon" src={ai} draggable={false}/>
-                <img className="homecontent-icon" src={pr} draggable={false}/>
-                <img className="homecontent-icon" src={ae} draggable={false}/>
-                <img className="homecontent-icon" src={clipstudio} draggable={false}/>
-                <img className="homecontent-icon" src={live2d} draggable={false}/>
-                <img className="homecontent-icon" src={fl} draggable={false}/>
+                {/* <img className="homecontent-icon" src={figma} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={ps} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={ai} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={pr} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={ae} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={clipstudio} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={live2d} draggable={false}/> */}
+                {/* <img className="homecontent-icon" src={fl} draggable={false}/> */}
                 {/* <img className="homecontent-icon" src={serum} draggable={false}/> */}
                 {/* <img className="homecontent-icon" src={omni} draggable={false}/> */}
                 {/* <img className="homecontent-icon" src={massive} draggable={false}/> */}
